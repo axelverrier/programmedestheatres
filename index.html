@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programme des Théâtres de Paris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>Programme des Théâtres de Paris</h1>
+        <p class="subtitle">Chronologie des spectacles · Saison 2025–2026</p>
+      </div>
+      <button class="today-btn" id="todayBtn">Aujourd'hui</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <span class="filter-label">Type :</span>
+    <div class="filters" id="filters"></div>
+    <div class="control-sep"></div>
+    <span class="filter-label">Zone :</span>
+    <div class="filters" id="regionFilters"></div>
+  </div>
+
+  <div class="timeline-scroll-container" id="scrollContainer">
+    <div class="timeline-wrapper" id="timeline"></div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <div class="scroll-mirror" id="scrollMirror">
+    <div id="scrollMirrorInner"></div>
+  </div>
+
+  <footer>
+    <p>Données simulées à titre de démonstration · Programme des Théâtres de Paris</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

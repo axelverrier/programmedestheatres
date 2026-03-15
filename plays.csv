@@ -1,0 +1,59 @@
+theatre_id;title;author;director;type;start_date;end_date;free;salle;url
+comedie-francaise;Le Misanthrope;Molière;Clément Hervieu-Léger;Classique;12/09/2025;21/12/2025;false;Salle Richelieu;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/seek-bromance-25-26
+comedie-francaise;Phèdre;Jean Racine;Ivo van Hove;Classique;10/10/2025;14/02/2026;false;Salle Richelieu
+comedie-francaise;Cyrano de Bergerac;Edmond Rostand;Denis Podalydès;Classique;21/11/2025;03/05/2026;false;Théâtre du Vieux-Colombier
+comedie-francaise;Dom Juan;Molière;Anne Kessler;Classique|Comédie;15/01/2026;28/06/2026;false;Studio-Théâtre
+comedie-francaise;Les Fourberies de Scapin;Molière;Hervé Pierre;Classique|Comédie;06/03/2026;19/07/2026;false;Salle Richelieu
+odeon;La Mouette;Tchekhov;Stéphane Braunschweig;Classique;17/09/2025;19/10/2025;false;Grand Odéon
+odeon;Iphigénie;Racine;Chloé Dabert;Classique;29/10/2025;30/11/2025;false;Ateliers Berthier
+odeon;Les Géants de la Montagne;Pirandello;Stéphane Braunschweig;Contemporain;05/12/2025;11/01/2026;false;Grand Odéon
+odeon;Un ennemi du peuple;Ibsen;Thomas Ostermeier;Contemporain;22/01/2026;01/03/2026;false;Grand Odéon
+odeon;Le Canard Sauvage;Ibsen;Julie Deliquet;Contemporain;12/03/2026;19/04/2026;false;Ateliers Berthier
+odeon;Mesure pour Mesure;Shakespeare;Maëlle Poésy;Classique;30/04/2026;14/06/2026;false;Grand Odéon
+colline;Mère Courage;Brecht;Jean-Pierre Vincent;Contemporain;10/09/2025;12/10/2025;false;Grande Salle
+colline;Pièces de guerre;Edward Bond;Séverine Chavrier;Contemporain;22/10/2025;23/11/2025;false;Petit Théâtre
+colline;Salle des fêtes;Pauline Peyrade;Sébastien Derrey;Contemporain;26/11/2025;21/12/2025;false;Grande Salle
+colline;Les Bouchers;Falk Richter;Falk Richter;Contemporain;07/01/2026;08/02/2026;false;Petit Théâtre
+colline;Conte d'hiver;Shakespeare;Benjamin Lazar;Classique;18/02/2026;22/03/2026;false;Grande Salle
+colline;Les Possédés;Dostoïevski;Éric Lacascade;Contemporain;01/04/2026;10/05/2026;false;Grande Salle
+theatre-de-la-ville;Peeping Tom – Triptych;Peeping Tom;Gabriela Carrizo;Danse;24/09/2025;05/10/2025;false;Théâtre de la Ville
+theatre-de-la-ville;Akram Khan – Gigenis;Akram Khan;Akram Khan;Danse;15/10/2025;26/10/2025;false;Les Abbesses
+theatre-de-la-ville;Maguy Marin – Turba;Maguy Marin;Maguy Marin;Danse;05/11/2025;23/11/2025;false;Théâtre de la Ville
+theatre-de-la-ville;Compagnie XY – Möbius;Compagnie XY;Rachid Ouramdane;Danse;10/12/2025;21/12/2025;false;Les Abbesses
+theatre-de-la-ville;Anne Teresa De Keersmaeker;De Keersmaeker;Anne Teresa De Keersmaeker;Danse;21/01/2026;08/02/2026;false;Théâtre de la Ville
+theatre-de-la-ville;Alvin Ailey American Dance Theater;Ailey;Robert Battle;Danse;18/02/2026;01/03/2026;false;Théâtre de la Ville
+theatre-de-la-ville;Hofesh Shechter – Uprising;H. Shechter;Hofesh Shechter;Danse;18/03/2026;05/04/2026;false;Les Abbesses
+theatre-de-la-ville;Batsheva Dance Company;Batsheva;Ohad Naharin;Danse;22/04/2026;10/05/2026;false;Théâtre de la Ville
+opera-bastille;La Traviata;Verdi;Simon Stone;Opéra;15/09/2025;20/10/2025;false;Grande Salle
+opera-bastille;Don Giovanni;Mozart;Ivo van Hove;Opéra;28/10/2025;07/12/2025;false;Grande Salle
+opera-bastille;Tosca;Puccini;Pierre Audi;Opéra;12/12/2025;18/01/2026;false;Grande Salle
+opera-bastille;Les Noces de Figaro;Mozart;Christoph Marthaler;Opéra;24/01/2026;22/02/2026;false;Amphithéâtre
+opera-bastille;Pelléas et Mélisande;Debussy;Willy Decker;Opéra;28/02/2026;29/03/2026;false;Grande Salle
+opera-bastille;Roméo et Juliette;Gounod;Thomas Jolly;Opéra;04/04/2026;10/05/2026;false;Grande Salle
+opera-bastille;Aida;Verdi;Luc Bondy;Opéra;19/05/2026;28/06/2026;false;Grande Salle
+chatelet;West Side Story;Bernstein / Sondheim;Sébastien Castro;Comédie musicale|Danse;20/09/2025;09/11/2025;false;
+chatelet;Chicago;Kander / Ebb;Walter Bobbie;Comédie musicale|Comédie;22/11/2025;11/01/2026;false;
+chatelet;Cabaret;Kander / Ebb;Rebecca Frecknall;Comédie musicale;24/01/2026;15/03/2026;false;
+chatelet;My Fair Lady;Loewe / Lerner;Bartlett Sher;Comédie musicale;28/03/2026;17/05/2026;false;
+chatelet;Sweeney Todd;Sondheim;Thomas Jolly;Comédie musicale;30/05/2026;12/07/2026;false;
+bouffes-du-nord;L'Éveil du printemps;Wedekind;Maëlle Poésy;Contemporain;11/09/2025;05/10/2025;false;
+bouffes-du-nord;Une vie ordinaire;Charles Lewinsky;Arthur Nauzyciel;Contemporain;16/10/2025;09/11/2025;false;
+bouffes-du-nord;Hamlet;Shakespeare;Thomas Ostermeier;Classique;20/11/2025;14/12/2025;false;
+bouffes-du-nord;La Peur;Stefan Zweig;Éric Lacascade;Contemporain;08/01/2026;01/02/2026;false;
+bouffes-du-nord;Orlando;Virginia Woolf;Emma Dante;Contemporain;12/02/2026;08/03/2026;false;
+bouffes-du-nord;Le Songe d'une nuit d'été;Shakespeare;Chloé Dabert;Classique|Comédie;19/03/2026;19/04/2026;false;
+bouffes-du-nord;En attendant Godot;Beckett;Jean-Pierre Vincent;Contemporain;30/04/2026;31/05/2026;false;
+rond-point;Mon Isménie;Pauline Bayle;Pauline Bayle;Comédie;05/09/2025;05/10/2025;false;Salle Jean-Marie Serreau
+rond-point;L'Explication;Fabrice Luchini;Fabrice Luchini;Comédie;10/10/2025;09/11/2025;false;Grande Salle
+rond-point;La Véridique Histoire;Simon Feil;Simon Feil;Contemporain;14/11/2025;14/12/2025;false;Salle Jean-Marie Serreau
+rond-point;Adieu M. Haffmann;J.-P. Daguerre;Jean-Philippe Daguerre;Comédie;19/12/2025;25/01/2026;false;Grande Salle
+rond-point;Le Prénom;M. Delaporte;Bernard Murat;Comédie;05/02/2026;15/03/2026;false;Grande Salle
+rond-point;La Ménagerie de verre;T. Williams;Éric Ruf;Classique;26/03/2026;03/05/2026;false;Salle Jean-Marie Serreau
+rond-point;En thérapie;Hagai Levi;Jacques Vincey;Contemporain;14/05/2026;21/06/2026;false;Grande Salle
+cartoucherie;Une chambre en Inde;Hélène Cixous;Ariane Mnouchkine;Contemporain;20/09/2025;21/12/2025;false;Théâtre du Soleil
+cartoucherie;Kanata;Robert Lepage;Robert Lepage;Contemporain;10/01/2026;12/04/2026;false;Théâtre de la Tempête
+cartoucherie;Norodom Sihanouk;Hélène Cixous;Ariane Mnouchkine;Classique|Contemporain;25/04/2026;19/07/2026;false;Théâtre du Soleil
+theatre-antoine;Boeing Boeing;Marc Camoletti;Stéphane Hillel;Comédie;05/09/2025;30/11/2025;false;
+theatre-antoine;Coup de foudre;Florence Foresti;Florence Foresti;Comédie;06/12/2025;25/01/2026;false;
+theatre-antoine;Le Bourgeois Gentilhomme;Molière;Christian Hecq;Classique;07/02/2026;26/04/2026;false;
+theatre-antoine;Arsène Lupin;Maurice Leblanc;Benoît Solès;Contemporain;09/05/2026;12/07/2026;false;
