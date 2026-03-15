@@ -1,0 +1,11 @@
+theatre_id;name;arrondissement;url;youth_discount;region
+comedie-francaise;Comédie-Française;1;https://www.comedie-francaise.fr;true;Paris
+odeon;Odéon – Théâtre de l'Europe;6;https://www.theatre-odeon.eu;true;Paris
+colline;Théâtre National de la Colline;20;https://www.colline.fr;true;Paris
+theatre-de-la-ville;Théâtre de la Ville;4;https://www.theatredelaville-paris.com;true;Paris
+opera-bastille;Opéra Bastille;12;https://www.operadeparis.fr;true;Paris
+chatelet;Théâtre du Châtelet;1;https://www.chatelet.com;true;Paris
+bouffes-du-nord;Théâtre des Bouffes du Nord;10;https://www.bouffesdunord.com;true;Paris
+rond-point;Théâtre du Rond-Point;8;https://www.theatredurondpoint.fr;false;Paris
+cartoucherie;La Cartoucherie (Vincennes);12;https://www.theatre-du-soleil.fr;true;Ile-de-France
+theatre-antoine;Théâtre Antoine;10;https://www.theatre-antoine.com;false;Paris
