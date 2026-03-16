@@ -314,8 +314,12 @@ function syncMirrorWidth() {
 }
 
 let syncingFromSc = false, syncingFromMirror = false;
+let labelRafPending = false;
 sc.addEventListener("scroll", () => {
-  updateLabels();
+  if (!labelRafPending) {
+    labelRafPending = true;
+    requestAnimationFrame(() => { updateLabels(); labelRafPending = false; });
+  }
   if (syncingFromMirror) return;
   syncingFromSc = true;
   mirror.scrollLeft = sc.scrollLeft;
