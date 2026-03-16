@@ -245,13 +245,6 @@ footer {
   border-top: 1px solid var(--border); margin-top: 16px;
 }
 
-.github-link {
-  display: inline-flex; align-items: center; margin-top: 12px;
-  color: var(--muted); opacity: 0.6; transition: opacity 0.2s;
-}
-.github-link:hover { opacity: 1; }
-.github-icon { width: 20px; height: 20px; fill: currentColor; }
-
 @media (max-width: 640px) {
   :root { --name-w: 110px; }
 
