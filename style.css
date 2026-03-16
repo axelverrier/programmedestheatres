@@ -221,12 +221,6 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 .tt-row { display: flex; gap: 4px; }
 .tt-row .lbl { color: #aaa; flex-shrink: 0; }
 .tt-dates { color: #bbb; margin-top: 3px; font-size: .74rem; }
-.tt-badge {
-  display: inline-block; margin-top: 5px;
-  padding: 1px 8px; border-radius: 10px;
-  font-size: .68rem; font-weight: 700;
-}
-.badge-free { background: #27ae60; }
 
 /* Fixed mirror scrollbar */
 .scroll-mirror {

@@ -1,0 +1,145 @@
+﻿theatre_id;title;author;director;choregraphe;url;type;genre;classic;start_date;end_date;salle
+comedie-francaise;Les Fourberies de Scapin;Molière;Denis Podalydès;;https://www.comedie-francaise.fr/fr/evenements/les-fourberies-de-scapin-25-26;theatre;comique;classique;11/09/2025;15/01/2026;Richelieu
+comedie-francaise;Le Mariage forcé;Molière;Louis Arene;;https://www.comedie-francaise.fr/fr/evenements/le-mariage-force-25-26;theatre;comique;classique;17/09/2025;02/11/2025;Vieux-Colombier
+comedie-francaise;Étincelles;Jon Fosse;Gabriel Dufay;;https://www.comedie-francaise.fr/fr/evenements/etincelles-pieces-courtes;theatre;drame;contemporain;18/09/2025;02/11/2025;Studio
+comedie-francaise;Une mouette;Anton Tchekhov;Elsa Granat;;https://www.comedie-francaise.fr/fr/evenements/une-mouette-25-26;theatre;drame;classique;19/09/2025;11/01/2026;Richelieu
+comedie-francaise;Le Misanthrope;Molière;Clément Hervieu-Léger;;https://www.comedie-francaise.fr/fr/evenements/le-misanthrope-25-26;theatre;comique;classique;03/10/2025;03/01/2026;Richelieu
+comedie-francaise;L'École de danse;Carlo Goldoni;Clément Hervieu-Léger;;https://www.comedie-francaise.fr/fr/evenements/l-ecole-de-danse;theatre;comique;classique;14/11/2025;03/01/2026;Richelieu
+comedie-francaise;Pinocchio créature;Carlo Collodi;Sophie Bricaire;;https://www.comedie-francaise.fr/fr/evenements/pinocchio-creature-25-26;theatre;;contemporain;19/11/2025;04/01/2026;Studio
+comedie-francaise;Casse-Noisette ou le Royaume de la nuit;E.T.A. Hoffmann;Johanna Boyé;;https://www.comedie-francaise.fr/fr/evenements/casse-noisette-ou-le-royaume-de-la-nuit;theatre;;classique;26/11/2025;04/01/2026;Vieux-Colombier
+comedie-francaise;Singulis – Pour en finir avec le football;Clément Bresson;Clément Bresson;;https://www.comedie-francaise.fr/fr/evenements/singulis-pour-en-finir-avec-le-football;theatre;;contemporain;26/11/2025;14/12/2025;Studio
+comedie-francaise;Les Femmes savantes;Molière;Emma Dante;;https://www.comedie-francaise.fr/fr/evenements/les-femmes-savantes-25-26;theatre;comique;classique;14/01/2026;01/03/2026;Théâtre du Rond-Point
+comedie-francaise;Six personnages en quête d'auteur;Luigi Pirandello;Marina Hands;;https://www.comedie-francaise.fr/fr/evenements/six-personnages-en-quete-dauteur-25-26;theatre;drame;classique;20/01/2026;01/03/2026;Vieux-Colombier
+comedie-francaise;Hamlet;William Shakespeare;Ivo Van Hove;;https://www.comedie-francaise.fr/fr/evenements/hamlet-25-26;theatre;drame;classique;21/01/2026;14/03/2026;Odéon – Théâtre de l'Europe
+comedie-francaise;Bestioles;Lachlan Philpott;Séphora Pondi;;https://www.comedie-francaise.fr/fr/evenements/bestioles;theatre;;contemporain;22/01/2026;01/03/2026;Studio
+comedie-francaise;Contre;Constance Meyer / Sébastien Pouderoux;Constance Meyer / Sébastien Pouderoux;;https://www.comedie-francaise.fr/fr/evenements/contre-25-26;theatre;drame;contemporain;29/01/2026;08/03/2026;Petit Saint-Martin
+comedie-francaise;Le Bourgeois gentilhomme;Molière;Valérie Lesort / Christian Hecq;;https://www.comedie-francaise.fr/fr/evenements/le-bourgeois-gentilhomme-25-26;theatre;comique;classique;31/01/2026;08/03/2026;Porte Saint-Martin
+comedie-francaise;La Ballade de Souchon;;Françoise Gillard;;https://www.comedie-francaise.fr/fr/evenements/la-ballade-de-souchon;theatre;;contemporain;19/03/2026;05/04/2026;Théâtre Montparnasse
+comedie-francaise;Art majeur;Pauline Delabroy-Allard / Emmanuelle Fournier-Lorentz / Simon Johannin / Gilles Leroy;Guillaume Barbot;;https://www.comedie-francaise.fr/fr/evenements/art-majeur-25-26;theatre;;contemporain;19/03/2026;03/05/2026;Studio
+comedie-francaise;Les héros ne dorment jamais;Edith Proust;Edith Proust;;https://www.comedie-francaise.fr/fr/evenements/les-heros-ne-dorment-jamais;theatre;drame;classique;20/03/2026;10/05/2026;Petit Saint-Martin
+comedie-francaise;La Puce à l'oreille;Georges Feydeau;Lilo Baur;;https://www.comedie-francaise.fr/fr/evenements/la-puce-a-loreille-25-26;theatre;comique;classique;25/03/2026;10/05/2026;Nanterre-Amandiers
+comedie-francaise;L'Ordre du jour;Éric Vuillard;Jean Bellorini;;https://www.comedie-francaise.fr/fr/evenements/lordre-du-jour;theatre;drame;contemporain;25/03/2026;03/05/2026;Vieux-Colombier
+comedie-francaise;Le Cid;Pierre Corneille;Denis Podalydès;;https://www.comedie-francaise.fr/fr/evenements/le-cid-25-26;theatre;drame;classique;26/03/2026;17/05/2026;Porte Saint-Martin
+comedie-francaise;Hécube pas Hécube;Tiago Rodrigues;Tiago Rodrigues;;https://www.comedie-francaise.fr/fr/evenements/hecube-pas-hecube-25-26;theatre;drame;contemporain;30/03/2026;17/04/2026;13E Art
+comedie-francaise;Lumières lumières lumières;Evelyne de la Chenelière;Florent Siaud;;https://www.comedie-francaise.fr/fr/evenements/lumieres-lumieres-lumieres;theatre;;contemporain;13/05/2026;28/06/2026;Studio
+comedie-francaise;Le Tartuffe ou l'hypocrite;Molière;Ivo Van Hove;;https://www.comedie-francaise.fr/fr/evenements/le-tartuffe-ou-lhypocrite-25-26;theatre;comique;classique;21/05/2026;11/07/2026;La Villette
+comedie-francaise;Séisme;Duncan Macmillan;Robin Ormond;;https://www.comedie-francaise.fr/fr/evenements/seisme;theatre;drame;contemporain;21/05/2026;05/07/2026;Petit Saint-Martin
+comedie-francaise;Penthésilée;Heinrich von Kleist;Michael Thalheimer;;https://www.comedie-francaise.fr/fr/evenements/penthesilee-25-26;theatre;drame;classique;27/05/2026;12/07/2026;Vieux-Colombier
+comedie-francaise;Le Malade imaginaire;Molière;Claude Stratz;;https://www.comedie-francaise.fr/fr/evenements/le-malade-imaginaire-25-26;theatre;comique;classique;27/05/2026;12/07/2026;Porte Saint-Martin
+comedie-francaise;La Vie parisienne;Jacques Offenbach;Valérie Lesort;;https://www.comedie-francaise.fr/fr/evenements/la-vie-parisienne-25-26;opéra;comique;;12/06/2026;11/07/2026;Théâtre du Châtelet
+opera-comique;Nuit sans aube;;Matthias Pintscher / Daniel Arkadij Gerzenberg;;https://www.opera-comique.com/fr/spectacles/nuit-sans-aube;opéra;;contemporain;11/03/2026;17/03/2026;
+opera-comique;La valse rêvée d'Offenbach;Jacques Offenbach;Barthélémy Fortier;;https://www.opera-comique.com/fr/spectacles/la-valse-revee-d-offenbach-2026;opéra;comique;;20/03/2026;22/03/2026;
+opera-comique;Lucie de Lammermoor;Gaetano Donizetti;Evgeny Titov;;https://www.opera-comique.com/fr/spectacles/lucie-de-lammermoor;opéra;drame;;30/04/2026;10/05/2026;
+opera-comique;Brundibár;Hans Krása;Muriel Mayette-Holtz, Jean-Claude Berutti;;https://www.opera-comique.com/fr/spectacles/brundibar;opéra;;;03/06/2026;08/06/2026;
+odeon;Seek Bromance;;Samira Elagoz;;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/seek-bromance-25-26;theatre;;contemporain;18/03/2026;22/03/2026;Berthier Paris 17
+odeon;Vudú (3318) Blixen;Angélica Liddell;Angélica Liddell;;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/vudu-25-26;theatre;drame;contemporain;27/03/2026;12/04/2026;Odéon Paris 6
+odeon;Goodbye Lindita;Mario Banushi;Mario Banushi;;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/goodbye-lindita-25-26;theatre;;contemporain;28/03/2026;05/04/2026;Berthier Paris 17
+odeon;Mami;Mario Banushi;Mario Banushi;;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/mami-25-26;theatre;;contemporain;09/04/2026;16/04/2026;Berthier Paris 17
+odeon;Scenes from a Marriage;Ingmar Bergman;Markus Öhrn;;https://www.theatre-odeon.eu/fr/saison-2025-2026/spectacles-2025-2026/scenes-from-a-marriage-25-26;theatre;drame;contemporain;20/05/2026;07/06/2026;Odéon Paris 6
+colline;À notre place;Arne Lygre;Stéphane Braunschweig;;https://www.colline.fr/spectacles/notre-place;theatre;drame;contemporain;18/03/2026;17/04/2026;Petit théâtre
+colline;Entre parenthèses;Pauline Bureau;Pauline Bureau;;https://www.colline.fr/spectacles/entre-parentheses;theatre;drame;contemporain;27/03/2026;19/04/2026;Grand théâtre
+colline;L'Avenir des reflets;Lazare;Lazare;;https://www.colline.fr/spectacles/lavenir-des-reflets;theatre;;contemporain;19/05/2026;20/06/2026;Grand théâtre
+colline;Aux singuliers.;;Frédéric Fisbach;;https://www.colline.fr/spectacles/aux-singuliers-0;theatre;;contemporain;26/05/2026;13/06/2026;Petit théâtre
+chatelet;Top Hat;Irving Berlin;Kathleen Marshall;;https://www.chatelet.com/programmation/25-26/top-hat/;comédie musicale;comique;;15/04/2026;03/05/2026;Grande Salle
+chatelet;La Bal(l)ade de Nijinski;Vaslav Nijinski;Olivier Py;;https://www.chatelet.com/programmation/25-26/la-ballade-de-nijinski/;theatre;drame;contemporain;29/05/2026;05/06/2026;Grand Foyer
+chatelet;La Vie parisienne;Jacques Offenbach;Valérie Lesort;;https://www.chatelet.com/programmation/25-26/la-vie-parisienne/;opéra;comique;;12/06/2026;11/07/2026;Grande Salle
+chatelet;HEVA;Labelle;Florient Jousse;;https://www.chatelet.com/programmation/25-26/heva/;opéra;;;18/03/2026;18/03/2026;Grande Salle
+chatelet;Afanador – Ballet Nacional de España;;Marcos Morau;Marcos Morau;https://www.chatelet.com/programmation/25-26/ballet-nacional-de-espana/;danse;;;27/03/2026;02/04/2026;Grande Salle
+theatre-de-la-ville;Un homme sans titre;Xavier Le Clerc / Jean-Louis Martinelli;Xavier Le Clerc / Jean-Louis Martinelli;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/un-homme-sans-titre;theatre;;contemporain;16/03/2026;29/03/2026;Sarah Bernhardt – Coupole
+theatre-de-la-ville;Bovary Madame;Gustave Flaubert;Christophe Honoré;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/bovary-madame-dapres-gustave-flaubert;theatre;;classique;20/03/2026;16/04/2026;Sarah Bernhardt
+theatre-de-la-ville;Personne;Gwenaëlle Aubry;Sarah Karbasnikoff / Elisabeth Chailloux;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/personne-2;theatre;;contemporain;14/04/2026;21/04/2026;Sarah Bernhardt – Coupole
+theatre-de-la-ville;GUIAO PARA UM PAIS POSSÍVEL;Sara Barros Leitão;Sara Barros Leitão;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/guiao-para-um-pais-possivel;theatre;;contemporain;04/05/2026;05/05/2026;Les Abbesses
+theatre-de-la-ville;KS6 : SMALL FORWARD;Belarus Free Theatre;Belarus Free Theatre;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/ks6-small-forward;theatre;;contemporain;11/05/2026;13/05/2026;Les Abbesses
+theatre-de-la-ville;Les jours de mon abandon;Elena Ferrante;Gaia Saitta;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/les-jours-de-mon-abandon;theatre;;contemporain;27/05/2026;31/05/2026;Les Abbesses
+theatre-de-la-ville;Prendre soin;Alexander Zeldin;Alexander Zeldin;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/prendre-soin;theatre;;contemporain;04/06/2026;12/06/2026;Les Abbesses
+theatre-de-la-ville;PESSOA – Since I've been me;Fernando Pessoa;Robert Wilson;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/pessoa-since-ive-been-me-1;theatre;;contemporain;13/06/2026;21/06/2026;Sarah Bernhardt
+theatre-de-la-ville;CASTING LEAR;William Shakespeare;Andrea Jiménez;;https://www.theatredelaville-paris.com/fr/spectacles/saison-25-26/theatre/casting-lear;theatre;;classique;27/06/2026;30/06/2026;Sarah Bernhardt – Coupole
+le-mouffetard;2050, entre intelligence artificielle et bêtise humaine;Sara Moisan / Dany Lefrançois;;;https://lemouffetard.com/saison-2025-26/spectacles/2050;theatre;;contemporain;28/09/2025;28/09/2025;Place Georges-Moustaki (hors les murs)
+le-mouffetard;L'Autre dans la cité;;Dany Lefrançois;;https://lemouffetard.com/saison-2025-26/spectacles/l-autre-dans-la-cite;theatre;;contemporain;29/09/2025;29/09/2025;Hors les murs
+le-mouffetard;Insomniaques;Karima El Kharraze / Lou Simon;Lou Simon;;https://lemouffetard.com/saison-2025-26/spectacles/insomniaques;theatre;;contemporain;15/10/2025;16/10/2025;Théâtre du Fil de l'eau
+le-mouffetard;Mytho Perso;Myriam Gautier;;;https://lemouffetard.com/saison-2025-26/spectacles/mytho-perso;theatre;;contemporain;10/12/2025;10/12/2025;La Moquette
+le-mouffetard;Déraciné;Myriam Gautier / Annaïg Le Naou;Aurélien Georgeault-Loch / Fleur Bigouret;;https://lemouffetard.com/saison-2025-26/spectacles/deracine;theatre;;contemporain;16/12/2025;19/12/2025;IVT
+le-mouffetard;Sillages;Faustine Noguès;Guillaume Lecamus;;https://lemouffetard.com/saison-2025-26/spectacles/sillages;theatre;;contemporain;21/01/2025;31/01/2025;Le Mouffetard – CNMa
+le-mouffetard;Hector, l'homme extraordinairement fort;Magali Le Huche;Mathilde Henry;;https://lemouffetard.com/saison-2025-26/spectacles/hector;theatre;;contemporain;11/02/2025;14/02/2025;IVT
+le-mouffetard;COFFRE;Laurent Fraunié / Valérian Guillaume / Nicolas Mathieu;Laurent Fraunié;;https://lemouffetard.com/saison-2025-26/spectacles/coffre;theatre;;contemporain;12/02/2025;19/02/2025;Le Mouffetard – CNMa
+le-mouffetard;Dans mon foutu zoo;Louis Sergejev;;;https://lemouffetard.com/saison-2025-26/spectacles/dans-mon-foutu-zoo;theatre;;contemporain;12/02/2025;21/02/2025;Théâtre Silvia Monfort
+le-mouffetard;Pro Bono Publico;;Dominique Habouzit;;https://lemouffetard.com/saison-2025-26/spectacles/pro-bono-publico;theatre;;contemporain;10/03/2026;19/03/2026;Le Mouffetard – CNMa
+le-mouffetard;L'Homme-Orchestre;;Santiago Moreno;;https://lemouffetard.com/saison-2025-26/spectacles/l-homme-orchestre;theatre;;contemporain;25/03/2026;25/03/2026;La Moquette
+le-mouffetard;Soledad;Santiago Moreno;Delphine Bardot / Santiago Moreno / Benoît Dattez;;https://lemouffetard.com/saison-2025-26/spectacles/soledad;theatre;;contemporain;26/03/2026;04/04/2026;Le Mouffetard – CNMa
+le-mouffetard;Une Histoire autrichienne;Marion Solange-Malenfant;Benjamin Ducasse;;https://lemouffetard.com/saison-2025-26/spectacles/une-histoire-autrichienne;theatre;;contemporain;10/04/2026;18/04/2026;Le Mouffetard – CNMa
+rond-point;Scènes d'intérieur;Mélanie Leray / Édouard Delelis;Mélanie Leray;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/scenes-dinterieur;theatre;;contemporain;10/03/2026;21/03/2026;Salle Jean Tardieu
+rond-point;Et vous, qui êtes-vous ?;Paloma Pradal ;Paloma Pradal / Florent Mateo;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/et-vous-qui-etes-vous;theatre;;contemporain;10/03/2026;21/03/2026;Salle Roland Topor
+rond-point;Foutue Bergerie;Pierre Guillois;Pierre Guillois;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/foutue-bergerie;theatre;comique;contemporain;11/03/2026;22/03/2026;Salle Renaud-Barrault
+rond-point;Ne pas finir comme Roméo et Juliette;Métilde Weyergans / Samuel Hercule;Métilde Weyergans / Samuel Hercule;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/en-famille/ne-pas-finir-comme-romeo-et-juliette;autre;;;24/03/2026;29/03/2026;Salle Jean Tardieu
+rond-point;Koko le clown;;;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/en-famille/koko-le-clown;autre;;;27/03/2026;29/03/2026;Salle Roland Topor
+rond-point;Le Cabaret gourmand;François-Régis Gaudry;Simon Delétang / Charles Patin O'Coohoon;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/cabaret/le-cabaret-gourmand;autre;;;02/04/2026;03/04/2026;Salle Renaud-Barrault
+rond-point;La Vie secrète des vieux;;Mohamed El Khatib;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/la-vie-secrete-des-vieux;theatre;;contemporain;09/04/2026;18/04/2026;Salle Renaud-Barrault
+rond-point;Short Message Service;Suzanne de Baecque / Joaquim Fossi;Suzanne de Baecque / Joaquim Fossi;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/performance/short-message-service;theatre;;contemporain;11/04/2026;17/04/2026;Salle Roland Topor
+rond-point;L'Apocalypse d'Adam et Aimée;Aimé Césaire;Adama Diop;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/lapocalypse-dadam-et-aimee;autre;;;15/04/2026;18/04/2026;Salle Jean Tardieu
+rond-point;Le Syndrome de Cassandre;Yann Frisch;Yann Frisch;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/clown/le-syndrome-de-cassandre-1;theatre;;contemporain;05/05/2026;17/05/2026;Salle Jean Tardieu
+rond-point;Maldonne;;;Leïla Ka;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/danse/maldonne;danse;;;11/05/2026;13/05/2026;Salle Renaud-Barrault
+rond-point;Edith Beale au Reno Sweeney;;Pierre Maillet;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/edith-beale-au-reno-sweeney;autre;;;19/05/2026;31/05/2026;Salle Jean Tardieu
+rond-point;Le Ring de Katharsy;Alice Laloy;Alice Laloy;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/le-ring-de-katharsy;theatre;;contemporain;20/05/2026;30/05/2026;Salle Renaud-Barrault
+rond-point;Où es-tu ?;Irène Jacob / Keren Ann;Joëlle Bouvier;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/ou-es-tu-1;autre;;;03/06/2026;14/06/2026;Salle Jean Tardieu
+rond-point;Immaqaa, ici peut-être;;Mathurin Bolze;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/cirque/immaqaa-ici-peut-etre;autre;;;05/06/2026;14/06/2026;Salle Renaud-Barrault
+rond-point;Polar(e);Céline Fuhrer / Jean-Luc Vincent;Céline Fuhrer / Jean-Luc Vincent;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/polar-e-1;theatre;;contemporain;17/06/2026;25/06/2026;Salle Jean Tardieu
+rond-point;Tout est calme dans les hauteurs;Thomas Bernhard;Jean-François Sivadier;;https://www.theatredurondpoint.fr/fr/programmation/saison-25-26/theatre/tout-est-calme-dans-les-hauteurs;theatre;drame;contemporain;18/06/2026;04/07/2026;Salle Renaud-Barrault
+theatre-de-la-concorde;La beauté intérieure, cabaret;Marion Corrales;Céline Sallette;;https://theatredelaconcorde.paris/evenements/la-beaute-interieure-cabaret-de-marion-corrales/;autre;;;06/03/2026;29/05/2026;Ciné-club
+theatre-de-la-concorde;Une légende à la rue;Florence Huige;Florence Huige / Morgane Lombard;;https://theatredelaconcorde.paris/evenements/une-legende-a-la-rue/;theatre;;contemporain;04/03/2026;14/03/2026;Studio Pierre Cardin
+theatre-de-la-concorde;Scènes de la vie conjugale;Ingmar Bergman;Christophe Perton;;https://theatredelaconcorde.paris/evenements/scenes-de-la-vie-conjugale/;theatre;drame;contemporain;17/03/2026;28/03/2026;Grande salle Joséphine Baker
+theatre-de-la-concorde;La bande originale de nos vies;Kevin Keiss;Eugénie Ravon;;https://theatredelaconcorde.paris/evenements/la-bande-originale-de-nos-vies/;theatre;;;01/04/2026;25/04/2026;Grande salle Joséphine Baker
+theatre-de-la-concorde;Rapport pour une académie;Franz Kafka;Georges Lavaudant;;https://theatredelaconcorde.paris/evenements/rapport-pour-une-academie/;theatre;;classique;13/06/2026;26/06/2026;Grande salle Joséphine Baker
+theatre-de-la-concorde;Je me souviens de la terre;Sébastien Lepotvin;Myriam Marzouki;;https://theatredelaconcorde.paris/evenements/je-me-souviens-de-la-terre/;theatre;;;22/05/2026;30/05/2026;Grande salle Joséphine Baker
+ivt;Je(s);Emmanuelle Laborit / Jennifer Lesage-David;Jennifer Lesage-David;;https://www.ivt.fr/spectacles/je-s-mars-avril2026;autre;;;19/03/2026;04/04/2026;
+ivt;Nous sommes des filles sans histoire;Alice Zeniter;Anthony Guyon;;https://www.ivt.fr/spectacles/nous-sommes-des-filles-sans-histoire;theatre;;contemporain;08/04/2026;18/04/2026;
+opera-de-paris;Carmen;Georges Bizet;Calixto Bieito;;https://www.operadeparis.fr/saison-25-26/opera/carmen;opéra;drame;;07/02/2026;19/03/2026;Opéra Bastille
+opera-de-paris;Nixon in China;John Adams;Valentina Carrasco;;https://www.operadeparis.fr/saison-25-26/opera/nixon-in-china;opéra;;;24/02/2026;20/03/2026;Opéra Bastille
+opera-de-paris;Empreintes (Arena / Étude);;; Morgann Runacre-Temple / Jessica Wright / Marcos Morau;https://www.operadeparis.fr/saison-25-26/ballet/marcos-morau-morgann-runace-jessica-wright;danse;;;11/03/2026;28/03/2026;Palais Garnier
+opera-de-paris;Tosca;Giacomo Puccini;Pierre Audi;;https://www.operadeparis.fr/saison-25-26/opera/tosca;opéra;drame;;12/03/2026;18/04/2026;Opéra Bastille
+opera-de-paris;La Finta giardiniera;Wolfgang Amadeus Mozart;Julie Delille;;https://www.operadeparis.fr/saison-25-26/opera/la-finta-giardiniera;opéra;comique;;24/03/2026;01/04/2026;MC93 Bobigny
+opera-de-paris;Roméo et Juliette;;; Rudolf Noureev;https://www.operadeparis.fr/saison-25-26/ballet/romeo-et-juliette;danse;drame;;02/04/2026;12/05/2026;Opéra Bastille
+opera-de-paris;Satyagraha;Philip Glass;Bobbi Jene Smith / Or Schraiber;;https://www.operadeparis.fr/saison-25-26/opera/satyagraha;opéra;;;10/04/2026;03/05/2026;Palais Garnier
+opera-de-paris;Rusalka;Antonín Dvořák;Robert Carsen;;https://www.operadeparis.fr/saison-25-26/opera/rusalka;opéra;drame;;02/05/2026;20/05/2026;Opéra Bastille
+opera-de-paris;La Dame aux camélias;;;John Neumeier;https://www.operadeparis.fr/saison-25-26/ballet/la-dame-aux-camelias;danse;drame;;05/05/2026;23/05/2026;Palais Garnier
+opera-de-paris;Ercole amante;Antonia Bembo;Netia Jones;;https://www.operadeparis.fr/saison-25-26/opera/ercole-amante;opéra;;;28/05/2026;14/06/2026;Opéra Bastille
+opera-de-paris;La Cenerentola;Gioacchino Rossini;Guillaume Gallienne;;https://www.operadeparis.fr/saison-25-26/opera/la-cenerentola;opéra;comique;;03/06/2026;11/07/2026;Palais Garnier
+opera-de-paris;La Traviata;Giuseppe Verdi;Simon Stone;;https://www.operadeparis.fr/saison-25-26/opera/la-traviata;opéra;drame;;04/06/2026;13/07/2026;Opéra Bastille
+opera-de-paris;La Bayadère;;;Rudolf Noureev;https://www.operadeparis.fr/saison-25-26/ballet/la-bayadere;danse;;;17/06/2026;14/07/2026;Opéra Bastille
+opera-de-paris;Vibrations;;;Micaela Taylor / Mats Ek / Crystal Pite;https://www.operadeparis.fr/saison-25-26/ballet/micaela-taylor-mats-ek-crystal-pite;danse;;;27/06/2026;14/07/2026;Palais Garnier
+maison-des-metallos;Sauvez vos projets (et peut-être le monde) avec la méthode itérative;Antoine Defoort;Antoine Defoort;;https://www.maisondesmetallos.paris/sauvez-vos-projets-antoine-defoort;theatre;comique;contemporain;17/03/2026;28/03/2026;
+maison-des-metallos;J'étais parti·e, pardon (dans un autre univers);Théophile Dubus / Collectif Mind The Gap;Théophile Dubus / Collectif Mind The Gap;;https://www.maisondesmetallos.paris/j-etais-parti-e-pardon-collectif-mind-the-gap;theatre;;contemporain;18/03/2026;21/03/2026;
+maison-des-metallos;Pode Ser + C'est toi qu'on adore;;;Leïla Ka;https://www.maisondesmetallos.paris/pode-ser-c-est-toi-qu-on-adore-leila-ka;danse;;;24/03/2026;28/03/2026;
+maison-des-metallos;Timon/Titus;Collectif OS'O;Collectif OS'O;;https://www.maisondesmetallos.paris/timon-titus-collectif-os-o;theatre;drame;contemporain;07/04/2026;11/04/2026;
+maison-des-metallos;Fiesta;Gwendoline Soublin;Fiona Chauvin / Olivier Letellier;;https://www.maisondesmetallos.paris/fiesta-gwendoline-soublin-fiona-chauvin-olivier-letellier;theatre;comique;contemporain;15/04/2026;18/04/2026;
+maison-des-metallos;Quartier de femmes;Zazon Castro;Mohamed Bourouissa;;https://www.maisondesmetallos.paris/quartier-de-femmes-mohamed-bourouissa-zazon-castro;theatre;;contemporain;19/05/2026;23/05/2026;
+maison-des-metallos;DAINAS (pron. daïnas);Jonathan Capdevielle & Dimitri Doré;Jonathan Capdevielle;;https://www.maisondesmetallos.paris/dainas-pron-dainas-jonathan-capdevielle-dimitri-dore;theatre;;contemporain;09/06/2026;13/06/2026;
+maison-des-metallos;CRASH !;La Comète;La Comète;;https://www.maisondesmetallos.paris/crash-la-comete;theatre;comique;contemporain;17/06/2026;18/06/2026;
+theatre-du-soleil;À tous ceux qui;Noëlle Renaude;Timothée de Fombelle;;https://www.theatre-du-soleil.fr/fr/agenda-2026/a-tous-ceux-qui-2026-2486;theatre;;contemporain;04/03/2026;22/03/2026;Petite Salle
+theatre-du-soleil;Ici sont les Dragons;Hélène Cixous;Ariane Mnouchkine;;https://www.theatre-du-soleil.fr/fr/notre-theatre/les-spectacles/ici-sont-les-dragons-2024-2470;theatre;drame;contemporain;12/03/2026;26/04/2026;
+theatre-de-la-tempete;Requiem pour les vivants;Delphine Hecquet;Delphine Hecquet;;https://www.la-tempete.fr/saison/spectacles/requiem-pour-les-vivants?color=#ffdd00;theatre;drame;contemporain;12/03/2026;12/04/2026;
+theatre-de-la-tempete;Au-delà de toute mesure;Elsa Agnès;Elsa Agnès;;https://www.la-tempete.fr/saison/spectacles/au-dela-de-toute-mesure?color=#dfcdb7;theatre;;contemporain;13/03/2026;12/04/2026;
+theatre-de-la-tempete;Musiques en héritage;Ludmilla Dabo;Ludmilla Dabo;;https://www.la-tempete.fr/saison/spectacles/musiques-en-heritage?color=#2f52a0;theatre;;contemporain;06/05/2026;24/05/2026;
+theatre-de-la-tempete;Tous coupables sauf Thermos Grönn;Romane Nicolas;Sacha Vilmar;;https://www.la-tempete.fr/saison/spectacles/tous-coupables-sauf-thermos-gronn?color=#e8491d;theatre;comique;contemporain;05/05/2026;24/05/2026;
+theatre-de-la-tempete;Illusions;Ivan Viripaev;Yordan Goldwaser;;https://www.la-tempete.fr/saison/spectacles/illusions?color=#f29fc5;theatre;;contemporain;04/06/2026;21/06/2026;
+theatre-de-la-tempete;La Cerisaie;Anton Tchekhov;Aurélie Van Den Daele;;https://www.la-tempete.fr/saison/spectacles/la-cerisaie?color=#cea99c;theatre;drame;classique;06/06/2026;21/06/2026;
+theatre-de-l-epee-de-bois;Combustions;;Olivier Comte;;https://www.epeedebois.com/un-spectacle/combustions/;theatre;;contemporain;12/03/2026;29/03/2026;
+theatre-de-l-epee-de-bois;Iphingénie – Triptyque Partie I;Jean Racine;Clément Séclin;;https://www.epeedebois.com/un-spectacle/iphigenie/;theatre;drame;classique;12/03/2026;29/03/2026;
+theatre-de-l-epee-de-bois;Doux oiseau de jeunesse;Tennessee Williams;Christophe Hatey / Florence Marschal;;https://www.epeedebois.com/un-spectacle/doux-oiseaux-de-jeunesse/;theatre;drame;contemporain;19/03/2026;05/04/2026;
+theatre-de-l-epee-de-bois;La Traviata – Opéra-Studio;Giuseppe Verdi;Carmelo Agnello;;https://www.epeedebois.com/un-spectacle/la-traviata-opera-studio/;opéra;drame;;02/04/2026;19/04/2026;
+theatre-de-l-epee-de-bois;La Bohème – Opéra Studio;Giacomo Puccini;Carmelo Agnello;;https://www.epeedebois.com/un-spectacle/la-boheme-opera-studio/;opéra;;;03/04/2026;18/04/2026;
+theatre-de-l-epee-de-bois;Comment tombent les rois;Manon Montel;Manon Montel;;https://www.epeedebois.com/un-spectacle/comment-tombent-les-rois/;theatre;;contemporain;02/04/2026;19/04/2026;
+theatre-de-l-epee-de-bois;Emma Picard;Mathieu Belezi;Emmanuel Hérault;;https://www.epeedebois.com/un-spectacle/un-faux-pas-dans-la-vie-demma-picard/;theatre;;contemporain;09/04/2026;19/04/2026;
+theatre-de-l-epee-de-bois;Être vivant – Paroles des oiseaux de la terre;Johanna Gallard;;;https://www.epeedebois.com/un-spectacle/etre-vivant-paroles-doiseaux-de-la-terre/;theatre;;contemporain;22/04/2026;26/04/2026;
+theatre-de-l-epee-de-bois;La Mouette;Anton Tchekhov;Jérôme Méla;;https://www.epeedebois.com/un-spectacle/la-mouette-2/;theatre;drame;classique;23/04/2026;26/04/2026;
+theatre-de-l-epee-de-bois;1.2.3.Tchekhov !;Anton Tchekhov;Jean-Christophe Barbaud;;https://www.epeedebois.com/un-spectacle/1-2-3-tchekhov/;theatre;;classique;23/04/2026;10/05/2026;
+theatre-de-l-epee-de-bois;Oncle Vania;Anton Tchekhov;Jérôme Méla;;https://www.epeedebois.com/un-spectacle/oncle-vania/;theatre;drame;classique;30/04/2026;03/05/2026;
+theatre-de-l-epee-de-bois;Notre-Dame de Paris — ʼANΑΓKH;Augustine Pouplin;Augustine Pouplin;;https://www.epeedebois.com/un-spectacle/notre-dame-de-paris-ana%ce%b3kh/;theatre;drame;classique;30/04/2026;16/05/2026;
+theatre-de-l-epee-de-bois;Le Récit de la servante Zerline;Hermann Broch;Bernard Sobel;;https://www.epeedebois.com/un-spectacle/le-recit-de-la-servante-zerline/;theatre;;contemporain;07/05/2026;17/05/2026;
+theatre-de-l-epee-de-bois;Le Secret d’Amalia;Franz Kafka;Bernard Sobel / Daniel Franco;;https://www.epeedebois.com/un-spectacle/le-secret-damalia/;theatre;drame;contemporain;07/05/2026;17/05/2026;
+theatre-de-l-epee-de-bois;Le Prince;Nicolas Machiavel;Balthazar Gaulier;;https://www.epeedebois.com/un-spectacle/il-principe/;theatre;;classique;21/05/2026;31/05/2026;
+theatre-de-l-epee-de-bois;Antigone;Sophocle / Michel Vinaver;Matthieu Marie;;https://www.epeedebois.com/un-spectacle/antigone/;theatre;drame;classique;21/05/2026;07/06/2026;
+theatre-de-l-epee-de-bois;Les Bonnes;Jean Genet;Marcos Malavia / Maïa Rivière;;https://www.epeedebois.com/un-spectacle/les-bonnes/;theatre;drame;contemporain;28/05/2026;07/06/2026;
+theatre-de-l-epee-de-bois;Villa Dolorosa;Rebekka Kricheldorf;Mario Aguirre;;https://www.epeedebois.com/un-spectacle/villa-dolorosa/;theatre;;contemporain;21/05/2026;24/05/2026;
+theatre-de-l-epee-de-bois;Hippolyte;Robert Garnier;Betty Pelissou;;https://www.epeedebois.com/un-spectacle/hippolyte/;theatre;drame;classique;11/06/2026;28/06/2026;
+theatre-de-l-epee-de-bois;7 Minutes (Comité d’usine);Stefano Massini;Olivier Mellor;;https://www.epeedebois.com/un-spectacle/7-minutes-comite-dusine/;theatre;;contemporain;11/06/2026;28/06/2026;
+theatre-de-l-epee-de-bois;Les Beaux Draps;Maly Chhum;Maly Chhum;;https://www.epeedebois.com/un-spectacle/les-beaux-draps/;theatre;;contemporain;18/06/2026;28/06/2026;
