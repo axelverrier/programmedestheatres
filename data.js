@@ -1,11 +1,18 @@
 
 const TYPE_COLORS = {
-  "Classique":        "#4a7fc1",
-  "Contemporain":     "#c05050",
-  "Comédie":          "#d49010",
-  "Drame":            "#8b3a3a",
-  "Danse":            "#7c5cb5",
-  "Opéra":            "#2a9d8f",
-  "Opérette":         "#3a9d8f",
-  "Comédie musicale": "#c45490",
+  "theatre":          "#3a3a5c",
+  "danse":            "#7c5cb5",
+  "opéra":            "#2a9d8f",
+  "comédie musicale": "#c45490",
+  "autre":            "#888888",
+};
+
+const GENRE_COLORS = {
+  "comique": "#d49010",
+  "drame":   "#8b3a3a",
+};
+
+const CLASSIC_COLORS = {
+  "classique":    "#4a7fc1",
+  "contemporain": "#c05050",
 };

@@ -53,6 +53,7 @@ function parseToISO(str) {
 }
 
 function parseCSV(text) {
+  text = text.replace(/^\uFEFF/, ""); // strip UTF-8 BOM if present
   const [header, ...lines] = text.trim().split("\n");
   const keys = header.split(";").map(s => s.trim());
   return lines
@@ -60,10 +61,19 @@ function parseCSV(text) {
     .map(l => Object.fromEntries(l.split(";").map((v, i) => [keys[i], v.trim()])));
 }
 
+// Builds the tags array for a play directly from CSV fields, no derivation.
+function buildTags(row) {
+  const tags = [];
+  if (row.type)    tags.push({ label: row.type,    color: TYPE_COLORS[row.type]       || "#888" });
+  if (row.genre)   tags.push({ label: row.genre,   color: GENRE_COLORS[row.genre]     || "#888" });
+  if (row.classic) tags.push({ label: row.classic, color: CLASSIC_COLORS[row.classic] || "#888" });
+  return tags;
+}
+
 async function loadData() {
   const [theatreText, playsText] = await Promise.all([
     fetch("theatres.csv").then(r => r.text()),
-    fetch("plays.csv").then(r => r.text()),
+    fetch("data/pieces2025-2026.csv").then(r => r.text()),
   ]);
 
   const map = new Map();
@@ -83,15 +93,15 @@ async function loadData() {
     const theatre = map.get(row.theatre_id);
     if (!theatre) continue;
     theatre.plays.push({
-      title:     row.title,
-      author:    row.author,
-      director:  row.director,
-      types:     row.type.split("|").map(s => s.trim()).filter(Boolean),
-      startDate: parseToISO(row.start_date),
-      endDate:   parseToISO(row.end_date),
-      free:      row.free === "true",
-      salle:     row.salle || "",
-      url:       row.url  || "",
+      title:       row.title,
+      author:      row.author,
+      director:    row.director,
+      choregraphe: row.choregraphe || "",
+      tags:        buildTags(row),
+      startDate:   parseToISO(row.start_date),
+      endDate:     parseToISO(row.end_date),
+      salle:       row.salle || "",
+      url:         row.url  || "",
     });
   }
 
@@ -184,7 +194,7 @@ function render() {
       const w     = right - left;
       if (w <= 0) return;
 
-      const isOn = activeFilters.size === 0 || play.types.some(t => activeFilters.has(t));
+      const isOn = activeFilters.size === 0 || play.tags.some(t => activeFilters.has(t.label));
 
       const block = document.createElement("div");
       block.className = "play-block" + (isOn ? "" : " dimmed");
@@ -207,10 +217,10 @@ function render() {
 
       const tagsDiv = document.createElement("div");
       tagsDiv.className = "play-tags";
-      play.types.forEach(t => {
+      play.tags.forEach(t => {
         const tag = document.createElement("span");
         tag.className = "play-tag";
-        tag.innerHTML = `<span class="tag-dot" style="background:${TYPE_COLORS[t] || '#888'}"></span>${t}`;
+        tag.innerHTML = `<span class="tag-dot" style="background:${t.color}"></span>${t.label}`;
         tagsDiv.appendChild(tag);
       });
       inner.appendChild(tagsDiv);
@@ -241,8 +251,8 @@ const tip = document.getElementById("tooltip");
 const isTouch = () => window.matchMedia("(pointer: coarse)").matches;
 
 function tipContent(p, theatreId) {
-  const typeBadges = p.types
-    .map(t => `<span class="tt-type" style="background:${TYPE_COLORS[t] || '#888'}">${t}</span>`)
+  const typeBadges = p.tags
+    .map(t => `<span class="tt-type" style="background:${t.color}">${t.label}</span>`)
     .join(" ");
   return (
     (p.url
@@ -250,10 +260,10 @@ function tipContent(p, theatreId) {
       : `<div class="tt-title">${p.title}</div>`) +
     `<div class="tt-types">${typeBadges}</div>` +
     (p.salle    ? `<div class="tt-row"><span class="lbl">Salle ·</span> ${p.salle}</div>`             : "") +
-    (p.author   ? `<div class="tt-row"><span class="lbl">Auteur ·</span> ${p.author}</div>`          : "") +
-    (p.director ? `<div class="tt-row"><span class="lbl">Mise en scène ·</span> ${p.director}</div>` : "") +
-    `<div class="tt-dates">${fmt(p.startDate)} → ${fmt(p.endDate)}</div>` +
-    (p.free  ? `<span class="tt-badge badge-free">Gratuit</span>` : "")
+    (p.author      ? `<div class="tt-row"><span class="lbl">Auteur ·</span> ${p.author}</div>`             : "") +
+    (p.director    ? `<div class="tt-row"><span class="lbl">Mise en scène ·</span> ${p.director}</div>`    : "") +
+    (p.choregraphe ? `<div class="tt-row"><span class="lbl">Chorégraphie ·</span> ${p.choregraphe}</div>` : "") +
+    `<div class="tt-dates">${fmt(p.startDate)} → ${fmt(p.endDate)}</div>`
   );
 }
 
@@ -355,17 +365,17 @@ function renderRegionFilters() {
   });
 }
 
-function renderFilters() {
-  const c = document.getElementById("filters");
+function renderFilterGroup(containerId, colorMap) {
+  const c = document.getElementById(containerId);
   c.innerHTML = "";
-  Object.entries(TYPE_COLORS).forEach(([type, color]) => {
+  Object.entries(colorMap).forEach(([label, color]) => {
     const btn = document.createElement("button");
-    btn.className = "filter-btn" + (activeFilters.has(type) ? " active" : "");
+    btn.className = "filter-btn" + (activeFilters.has(label) ? " active" : "");
     btn.style.setProperty("--type-color", color);
-    btn.innerHTML = `<span class="dot" style="background:${color}"></span>${type}`;
+    btn.innerHTML = `<span class="dot" style="background:${color}"></span>${label}`;
     btn.addEventListener("click", () => {
-      if (activeFilters.has(type)) { activeFilters.delete(type); btn.classList.remove("active"); }
-      else                         { activeFilters.add(type);    btn.classList.add("active");    }
+      if (activeFilters.has(label)) { activeFilters.delete(label); btn.classList.remove("active"); }
+      else                          { activeFilters.add(label);    btn.classList.add("active");    }
       render();
       syncMirrorWidth();
       updateLabels();
@@ -373,6 +383,8 @@ function renderFilters() {
     c.appendChild(btn);
   });
 }
+
+function renderFilters() { renderFilterGroup("filters", TYPE_COLORS); }
 
 // ── Initial view + Today button ───────────────────────────────────────
 
@@ -424,6 +436,8 @@ document.getElementById("todayBtn").addEventListener("click", () => {
     return;
   }
   renderFilters();
+  renderFilterGroup("genreFilters", GENRE_COLORS);
+  renderFilterGroup("classicFilters", CLASSIC_COLORS);
   renderRegionFilters();
   render();
   setInitialView();
