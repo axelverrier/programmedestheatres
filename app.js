@@ -135,9 +135,10 @@ function render() {
   wrap.appendChild(mRow);
 
   // Theatre rows
-  const visibleTheatres = activeRegion === "all"
+  const visibleTheatres = (activeRegion === "all"
     ? theatres
-    : theatres.filter(t => t.region === activeRegion);
+    : theatres.filter(t => t.region === activeRegion)
+  ).filter(t => t.plays.length > 0);
 
   visibleTheatres.forEach(theatre => {
     const numLanes  = assignLanes(theatre.plays);
