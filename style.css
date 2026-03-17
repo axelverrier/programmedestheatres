@@ -55,6 +55,49 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 .filter-btn:hover { opacity: .8; }
 .control-sep { width: 1px; background: var(--border); align-self: stretch; margin: 0 4px; }
 
+.controls-topbar { display: contents; } /* inline on desktop — children flow into controls flex */
+.filters-toggle { display: none; }      /* hidden on desktop */
+.filter-groups {
+  display: contents;                     /* children flow into controls flex on desktop */
+}
+
+.filters-toggle {
+  display: none; align-items: center; gap: 5px;
+  padding: 4px 12px; border-radius: 20px;
+  border: 1.5px solid var(--border);
+  font-size: .74rem; font-weight: 600; cursor: pointer;
+  background: #f0f0f6; color: #333; transition: all .12s;
+}
+.filters-toggle:hover { background: #e4e4f0; }
+
+.vision-btn { position: relative; }
+.vision-btn::after {
+  content: "Je vais voir ces pièces à coup sûr !";
+  position: absolute; top: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  background: #1c1c2e; color: #fff;
+  font-size: .7rem; font-weight: 500; white-space: nowrap;
+  padding: 5px 10px; border-radius: 6px;
+  pointer-events: none;
+  opacity: 0; transition: opacity .15s;
+}
+.vision-btn:hover::after { opacity: 1; }
+
+.vision-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 4px 14px; border-radius: 20px;
+  border: 1.5px solid #c8a800;
+  font-size: .74rem; font-weight: 700; cursor: pointer; letter-spacing: .02em;
+  background: #fffbe6; color: #8a6f00; transition: all .15s;
+  white-space: nowrap;
+}
+.vision-btn:hover { background: #fff3b0; }
+.vision-btn.active {
+  background: #f5c800; color: #3a2e00;
+  border-color: #c8a800;
+  box-shadow: 0 0 0 3px rgba(245,200,0,.25);
+}
+
 /* Scroll container — hide native scrollbar, keep the fixed mirror one */
 .timeline-scroll-container {
   overflow-x: scroll; padding-bottom: 24px;
@@ -122,14 +165,14 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 }
 .theatre-name a:hover { color: #4040c8; text-decoration: underline; }
 .theatre-name .arr { font-size: .68rem; color: var(--muted); margin-top: 1px; }
-.youth-badge {
+.status-badge {
   display: inline-block; align-self: flex-start; margin-top: 3px;
   padding: 1px 6px; border-radius: 10px;
   font-size: .62rem; font-weight: 700;
-  background: #d4edda; color: #276138;
-  border: 1px solid #a8d5b5;
   white-space: nowrap;
 }
+.badge-national { background: #dde3f5; color: #2a3a8a; border: 1px solid #b0bde0; }
+.badge-public   { background: #e8f4fd; color: #1a5a8a; border: 1px solid #a8cfe8; }
 
 /* Track */
 .theatre-track { position: relative; isolation: isolate; }
@@ -253,13 +296,18 @@ footer {
   header .subtitle { display: none; }
   .today-btn { padding: 5px 10px; font-size: .72rem; }
 
-  /* Controls: stack filter groups vertically on mobile */
+  /* Controls: collapsible on mobile */
   .controls { position: static; padding: 8px 12px; top: auto; flex-direction: column; align-items: flex-start; gap: 6px; }
+  .controls-topbar { display: flex; align-items: center; gap: 8px; width: 100%; }
+  .filters-toggle { display: flex; }
+  .filter-groups { display: none; flex-direction: column; gap: 6px; width: 100%; }
+  .controls.open .filter-groups { display: flex; }
   .filter-group { gap: 6px; flex-wrap: wrap; }
   .filter-label { display: block; font-size: .68rem; }
   .control-sep { display: none; }
   .filters { gap: 4px; }
   .filter-btn { padding: 3px 8px; font-size: .7rem; }
+  .vision-btn::after { display: none; }
 
   .timeline-wrapper { padding-right: 12px; }
 

@@ -39,6 +39,7 @@ function getMonths() {
 let theatres = [];
 let activeFilters = new Set(); // empty = show all
 let activeRegion = "all"; // "all" | "Paris" | "Ile-de-France"
+let editorsPick = false;
 
 // ── Data loaders ─────────────────────────────────────────────────────
 
@@ -83,7 +84,8 @@ async function loadData() {
       name:           row.name,
       arrondissement: +row.arrondissement,
       url:            row.url,
-      youthDiscount:  row.youth_discount === "true",
+      status:          row.status || "",
+      theatreNational: row.status_theatre_national === "true",
       region:         row.region || "Paris",
       plays:          [],
     });
@@ -93,15 +95,16 @@ async function loadData() {
     const theatre = map.get(row.theatre_id);
     if (!theatre) continue;
     theatre.plays.push({
-      title:       row.title,
-      author:      row.author,
-      director:    row.director,
-      choregraphe: row.choregraphe || "",
-      tags:        buildTags(row),
-      startDate:   parseToISO(row.start_date),
-      endDate:     parseToISO(row.end_date),
-      salle:       row.salle || "",
-      url:         row.url  || "",
+      title:        row.title,
+      author:       row.author,
+      director:     row.director,
+      choregraphe:  row.choregraphe || "",
+      tags:         buildTags(row),
+      editorspick:  row.editorspick === "true",
+      startDate:    parseToISO(row.start_date),
+      endDate:      parseToISO(row.end_date),
+      salle:        row.salle || "",
+      url:          row.url  || "",
     });
   }
 
@@ -148,7 +151,10 @@ function render() {
   const visibleTheatres = (activeRegion === "all"
     ? theatres
     : theatres.filter(t => t.region === activeRegion)
-  ).filter(t => t.plays.length > 0);
+  ).map(t => ({
+    ...t,
+    plays: editorsPick ? t.plays.filter(p => p.editorspick) : t.plays,
+  })).filter(t => t.plays.length > 0);
 
   visibleTheatres.forEach(theatre => {
     const numLanes  = assignLanes(theatre.plays);
@@ -163,7 +169,7 @@ function render() {
     nameDiv.innerHTML =
       `<a href="${theatre.url}" target="_blank" rel="noopener">${theatre.name}</a>` +
       `<span class="arr">${theatre.arrondissement}e arr.</span>` +
-      (theatre.youthDiscount ? `<span class="youth-badge">🏷️ Prix jeune</span>` : "");
+      (theatre.theatreNational ? `<span class="status-badge badge-national">Théâtre National</span>` : theatre.status === "public" ? `<span class="status-badge badge-public">Public</span>` : "");
     row.appendChild(nameDiv);
 
     // Track
@@ -345,6 +351,11 @@ mirror.addEventListener("scroll", () => {
 
 // ── Filters ──────────────────────────────────────────────────────────
 
+function renderEditorsPick() {
+  const btn = document.getElementById("editorsPickBtn");
+  btn.classList.toggle("active", editorsPick);
+}
+
 function renderRegionFilters() {
   const c = document.getElementById("regionFilters");
   c.innerHTML = "";
@@ -424,6 +435,20 @@ document.getElementById("todayBtn").addEventListener("click", () => {
   sc.scrollLeft = Math.max(0, pctToday * trackW - (sc.clientWidth - nameW) / 5);
 });
 
+document.getElementById("filtersToggle").addEventListener("click", () => {
+  const controls = document.getElementById("controls");
+  const open = controls.classList.toggle("open");
+  document.getElementById("filtersToggle").textContent = open ? "Filtres ▴" : "Filtres ▾";
+});
+
+document.getElementById("editorsPickBtn").addEventListener("click", () => {
+  editorsPick = !editorsPick;
+  renderEditorsPick();
+  render();
+  syncMirrorWidth();
+  updateLabels();
+});
+
 // ── Init ─────────────────────────────────────────────────────────────
 
 (async () => {
@@ -439,6 +464,7 @@ document.getElementById("todayBtn").addEventListener("click", () => {
   renderFilterGroup("genreFilters", GENRE_COLORS);
   renderFilterGroup("classicFilters", CLASSIC_COLORS);
   renderRegionFilters();
+  renderEditorsPick();
   render();
   setInitialView();
   syncMirrorWidth();
