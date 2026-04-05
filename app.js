@@ -425,7 +425,7 @@ function setInitialView() {
   sc.scrollLeft = scrollPct * totalTrackW;
 }
 
-document.getElementById("todayBtn").addEventListener("click", () => {
+function scrollToToday() {
   const today = new Date();
   if (today < RANGE_START || today > RANGE_END) return;
   const sc    = document.getElementById("scrollContainer");
@@ -433,7 +433,8 @@ document.getElementById("todayBtn").addEventListener("click", () => {
   const trackW = sc.scrollWidth - nameW;
   const pctToday = (today - RANGE_START) / TOTAL_MS;
   sc.scrollLeft = Math.max(0, pctToday * trackW - (sc.clientWidth - nameW) / 5);
-});
+}
+document.querySelectorAll(".today-btn").forEach(btn => btn.addEventListener("click", scrollToToday));
 
 document.getElementById("filtersToggle").addEventListener("click", () => {
   const controls = document.getElementById("controls");

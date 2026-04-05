@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critiques — Programme des théâtres</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎭</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>🎭 Programme des Théâtres de Paris (et alentours)</h1>
+        <p class="subtitle">Saison 2025–2026</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tab-nav">
+    <div class="tab-links">
+      <a href="index.html" class="tab-link">Programme</a>
+      <a href="critiques.html" class="tab-link active">Critiques</a>
+    </div>
+  </nav>
+
+  <div class="page-content">
+    <h2 class="page-title">Critiques</h2>
+    <p class="page-subtitle">
+      Critiques de <a href="https://www.journal-laterrasse.fr/theatre/type/critique/" target="_blank" rel="noopener" style="color:inherit;">La Terrasse</a>
+      pour les pièces actuellement à l'affiche
+    </p>
+
+    <ul class="critics-list" id="criticsList">
+      <li style="color:var(--muted);font-size:.85rem;padding:14px 0;">Chargement…</li>
+    </ul>
+
+    <p class="critics-meta" id="criticsMeta"></p>
+  </div>
+
+  <script>
+    function truncate(str, n) {
+      return str.length > n ? str.slice(0, n).trimEnd() + "\u2026" : str;
+    }
+
+    fetch("data/critics.json")
+      .then(r => r.json())
+      .then(data => {
+        const list = document.getElementById("criticsList");
+        const meta = document.getElementById("criticsMeta");
+
+        if (!data.matches || data.matches.length === 0) {
+          list.innerHTML = '<li style="color:var(--muted);font-size:.85rem;padding:14px 0;">Aucune critique trouvée pour les pièces actuellement à l\'affiche.</li>';
+        } else {
+          list.innerHTML = data.matches.map(m => `
+            <li>
+              <a class="critics-play-link" href="${m.article_url}" target="_blank" rel="noopener">${m.play_title}</a>
+              <span class="critics-theatre">${m.theatre}${m.director ? " · " + m.director : ""}</span>
+              <span class="critics-headline">${truncate(m.article_title, 110)}</span>
+            </li>`).join("");
+        }
+
+        meta.textContent = `Mis à jour le ${data.updated}`;
+      })
+      .catch(() => {
+        document.getElementById("criticsList").innerHTML =
+          '<li style="color:var(--muted);font-size:.85rem;padding:14px 0;">Impossible de charger les critiques.</li>';
+      });
+  </script>
+
+</body>
+</html>

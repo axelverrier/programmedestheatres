@@ -15,9 +15,15 @@
         <h1>🎭 Programme des Théâtres de Paris (et alentours)</h1>
         <p class="subtitle">Saison 2025–2026</p>
       </div>
-      <button class="today-btn" id="todayBtn">Aujourd'hui</button>
     </div>
   </header>
+
+  <nav class="tab-nav">
+    <div class="tab-links">
+      <a href="index.html" class="tab-link active">Programme</a>
+      <a href="critiques.html" class="tab-link">Critiques</a>
+    </div>
+  </nav>
 
   <div class="controls" id="controls">
     <div class="controls-topbar">
@@ -46,7 +52,7 @@
       <div class="control-sep"></div>
       <button class="vision-btn" id="editorsPickBtn">✦ J'ai la vision</button>
     </div><!-- /.filter-groups -->
-  </div>
+  </div><!-- /.controls -->
 
   <div class="timeline-scroll-container" id="scrollContainer">
     <div class="timeline-wrapper" id="timeline"></div>
@@ -59,9 +65,10 @@
   </div>
 
   <footer>
-    <p>Données récupérées manuellement. Ce site vise à donner une vision globale et chronologique des pièces jouées à Paris et aux alentours en Ile-de-France. Il n'a pas (encore) vocation à être exhaustif. Ce projet est librement inspiré de www.programmedesexpos.paris de Terry Laire. 
-Il est entièrement libre de droit puisqu'il est autant mon fait que celui de Claude Code, si ce n'est davantage le sien. Si vous constatez des erreurs ou des manquements dans les données ou que vous avez des suggestions, vous pouvez: me contacter (axel.verrier7(at)gmail.com), créer une issue sur Github, ou mieux: une pull request.</p>
+    <p>Ce projet est librement inspiré de www.programmedesexpos.paris de Terry Laire. Il est entièrement libre de droit. Si vous constatez des erreurs, des manquements dans les données ou que vous avez des suggestions, vous pouvez créer une issue sur <a href="https://github.com/axelverrier/programmedestheatres">le GitHub associé</a>. </p>
   </footer>
+
+  <button class="today-btn today-btn-fab">Aujourd'hui</button>
 
   <script src="data.js"></script>
   <script src="app.js"></script>

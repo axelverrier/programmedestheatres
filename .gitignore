@@ -3,3 +3,9 @@ reference.md
 oldtemp/
 .claude/
 critics/
+metteurs-en-scene.html
+readme-future-directions.md
+log-claude/
+__pycache__/
+*.pyc
+.DS_Store
