@@ -308,6 +308,7 @@ footer {
   .filters { gap: 4px; }
   .filter-btn { padding: 3px 8px; font-size: .7rem; }
   .vision-btn::after { display: none; }
+  .vision-btn { align-self: flex-start; }
 
   .timeline-wrapper { padding-right: 12px; }
 
