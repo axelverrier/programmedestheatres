@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07",
+  "updated": "2026-04-08",
   "matches": [
     {
       "play_title": "Art majeur",
@@ -77,6 +77,13 @@
       "director": "Elsa Agnès",
       "article_title": "« Au-delà de toute mesure », une création en forme de rêverie et de quête existentielle d’Elsa Agnès",
       "article_url": "https://www.journal-laterrasse.fr/au-dela-de-toute-mesure-une-creation-en-forme-de-reverie-et-de-quete-existentielle-delsa-agnes/"
+    },
+    {
+      "play_title": "Biosphère",
+      "theatre": "Théâtre Silvia Monfort",
+      "director": "Frédéric Sonntag",
+      "article_title": "« Biosphère » : Frédéric Sonntag nous entraîne dans un huis-clos existentiel",
+      "article_url": "https://www.journal-laterrasse.fr/biosphere-frederic-sonntag-nous-entraine-dans-un-huis-clos-existentiel/"
     }
   ]
 }
