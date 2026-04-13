@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12",
+  "updated": "2026-04-13",
   "matches": [
     {
       "play_title": "Art majeur",
@@ -30,13 +30,6 @@
       "article_url": "https://www.journal-laterrasse.fr/dans-une-mise-en-scene-tout-en-intelligence-de-denis-podalydes-la-troupe-de-la-comedie-francaise-fait-renaitre-la-grandeur-du-cid/"
     },
     {
-      "play_title": "Vudú (3318) Blixen",
-      "theatre": "Odéon – Théâtre de l'Europe",
-      "director": "Angélica Liddell",
-      "article_title": "Angélica Liddell fait de « Vudù (3318) Blixen » une fresque généreuse où s’agrègent amour, mort et liberté créatrice",
-      "article_url": "https://www.journal-laterrasse.fr/angelica-liddell-fait-de-vudu-3318-blixen-une-ode-a-la-liberte-creatrice/"
-    },
-    {
       "play_title": "À notre place",
       "theatre": "Théâtre National de la Colline",
       "director": "Stéphane Braunschweig",
@@ -63,20 +56,6 @@
       "director": "Ariane Mnouchkine",
       "article_title": "Ariane Mnouchkine et les siens créent « Ici sont les Dragons, Deuxième Époque » : une fresque brillamment incarnée qui nous alerte",
       "article_url": "https://www.journal-laterrasse.fr/ariane-mnouchkine-et-les-siens-creent-ici-sont-les-dragons-deuxieme-epoque-une-fresque-brillamment-incarnee-qui-nous-alerte/"
-    },
-    {
-      "play_title": "Requiem pour les vivants",
-      "theatre": "Théâtre de la Tempête",
-      "director": "Delphine Hecquet",
-      "article_title": "Delphine Hecquet présente « Requiem pour les vivants », un spectacle profondément touchant.",
-      "article_url": "https://www.journal-laterrasse.fr/delphine-hecquet-presente-requiem-pour-les-vivants-un-spectacle-profondement-touchant/"
-    },
-    {
-      "play_title": "Au-delà de toute mesure",
-      "theatre": "Théâtre de la Tempête",
-      "director": "Elsa Agnès",
-      "article_title": "« Au-delà de toute mesure », une création en forme de rêverie et de quête existentielle d’Elsa Agnès",
-      "article_url": "https://www.journal-laterrasse.fr/au-dela-de-toute-mesure-une-creation-en-forme-de-reverie-et-de-quete-existentielle-delsa-agnes/"
     },
     {
       "play_title": "Biosphère",
