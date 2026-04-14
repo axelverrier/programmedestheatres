@@ -178,6 +178,7 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 }
 .badge-national { background: #dde3f5; color: #2a3a8a; border: 1px solid #b0bde0; }
 .badge-public   { background: #e8f4fd; color: #1a5a8a; border: 1px solid #a8cfe8; }
+.badge-prive    { background: #f5ddd0; color: #8b3a10; border: 1px solid #d4956a; }
 
 /* Track */
 .theatre-track { position: relative; isolation: isolate; }

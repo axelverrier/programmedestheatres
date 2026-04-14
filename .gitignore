@@ -9,3 +9,5 @@ log-claude/
 __pycache__/
 *.pyc
 .DS_Store
+legacy/
+webscrapping-data/

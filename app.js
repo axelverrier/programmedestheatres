@@ -39,6 +39,7 @@ function getMonths() {
 let theatres = [];
 let activeFilters = new Set(); // empty = show all
 let activeRegion = "all"; // "all" | "Paris" | "Ile-de-France"
+let activeStatus = "all"; // "all" | "public" | "prive"
 let editorsPick = false;
 
 // ── Data loaders ─────────────────────────────────────────────────────
@@ -65,50 +66,61 @@ function parseCSV(text) {
 // Builds the tags array for a play directly from CSV fields, no derivation.
 function buildTags(row) {
   const tags = [];
-  if (row.type)    tags.push({ label: row.type,    color: TYPE_COLORS[row.type]       || "#888" });
-  if (row.genre)   tags.push({ label: row.genre,   color: GENRE_COLORS[row.genre]     || "#888" });
-  if (row.classic) tags.push({ label: row.classic, color: CLASSIC_COLORS[row.classic] || "#888" });
+  if (row.genre) tags.push({ label: row.genre, color: GENRE_COLORS[row.genre] || "#888" });
   return tags;
 }
 
 async function loadData() {
-  const [theatreText, playsText] = await Promise.all([
-    fetch("theatres.csv").then(r => r.text()),
-    fetch("data/pieces2025-2026.csv").then(r => r.text()),
+  const [publicsText, privesText, publicsPlaysText, privesPlaysText] = await Promise.all([
+    fetch("data/theatres-publics.csv").then(r => r.text()),
+    fetch("data/theatres-prives.csv").then(r => r.text()),
+    fetch("data/theatres-publics-pieces-2025-2026.csv").then(r => r.text()),
+    fetch("data/theatres-prives-pieces-2025-2026.csv").then(r => r.text()),
   ]);
 
-  const map = new Map();
-  for (const row of parseCSV(theatreText)) {
-    map.set(row.theatre_id, {
-      id:             row.theatre_id,
-      name:           row.name,
-      arrondissement: +row.arrondissement,
-      url:            row.url,
-      status:          row.status || "",
-      theatreNational: row.status_theatre_national === "true",
-      region:         row.region || "Paris",
-      plays:          [],
-    });
+  function buildTheatreMap(csvText) {
+    const map = new Map();
+    for (const row of parseCSV(csvText)) {
+      map.set(row.theatre_id, {
+        id:             row.theatre_id,
+        name:           row.name,
+        arrondissement: +row.arrondissement,
+        url:            row.url,
+        status:         row.status || "",
+        theatreNational: row.status_theatre_national === "true",
+        region:         row.location || "Paris",
+        plays:          [],
+      });
+    }
+    return map;
   }
 
-  for (const row of parseCSV(playsText)) {
-    const theatre = map.get(row.theatre_id);
-    if (!theatre) continue;
-    theatre.plays.push({
-      title:        row.title,
-      author:       row.author,
-      director:     row.director,
-      choregraphe:  row.choregraphe || "",
-      tags:         buildTags(row),
-      editorspick:  row.editorspick === "true",
-      startDate:    parseToISO(row.start_date),
-      endDate:      parseToISO(row.end_date),
-      salle:        row.salle || "",
-      url:          row.url  || "",
-    });
+  function addPlays(map, playsText) {
+    for (const row of parseCSV(playsText)) {
+      const theatre = map.get(row.theatre_id);
+      if (!theatre) continue;
+      theatre.plays.push({
+        title:      row.title,
+        author:     row.author,
+        director:   row.director,
+        tags:       buildTags(row),
+        editorspick: row.editorspick === "true",
+        startDate:  parseToISO(row.start_date),
+        endDate:    parseToISO(row.end_date),
+        salle:      row.salle || "",
+        url:        row.url   || "",
+      });
+    }
   }
 
-  return [...map.values()];
+  const publicsMap = buildTheatreMap(publicsText);
+  const privesMap  = buildTheatreMap(privesText);
+  addPlays(publicsMap, publicsPlaysText);
+  addPlays(privesMap,  privesPlaysText);
+
+  // Publics keep their CSV order; privés sorted alphabetically
+  const prives = [...privesMap.values()].sort((a, b) => a.name.localeCompare(b.name, "fr"));
+  return [...publicsMap.values(), ...prives];
 }
 
 // ── Render ──────────────────────────────────────────────────────────
@@ -148,10 +160,10 @@ function render() {
   wrap.appendChild(mRow);
 
   // Theatre rows
-  const visibleTheatres = (activeRegion === "all"
-    ? theatres
-    : theatres.filter(t => t.region === activeRegion)
-  ).map(t => ({
+  const visibleTheatres = theatres
+    .filter(t => activeRegion === "all" || t.region === activeRegion)
+    .filter(t => activeStatus === "all" || t.status === activeStatus)
+    .map(t => ({
     ...t,
     plays: editorsPick ? t.plays.filter(p => p.editorspick) : t.plays,
   })).filter(t => t.plays.length > 0);
@@ -169,7 +181,7 @@ function render() {
     nameDiv.innerHTML =
       `<a href="${theatre.url}" target="_blank" rel="noopener">${theatre.name}</a>` +
       `<span class="arr">${theatre.arrondissement}e arr.</span>` +
-      (theatre.theatreNational ? `<span class="status-badge badge-national">Théâtre National</span>` : theatre.status === "public" ? `<span class="status-badge badge-public">Public</span>` : "");
+      (theatre.theatreNational ? `<span class="status-badge badge-national">Théâtre National</span>` : theatre.status === "public" ? `<span class="status-badge badge-public">Public</span>` : theatre.status === "prive" ? `<span class="status-badge badge-prive">Privé</span>` : "");
     row.appendChild(nameDiv);
 
     // Track
@@ -266,9 +278,8 @@ function tipContent(p, theatreId) {
       : `<div class="tt-title">${p.title}</div>`) +
     `<div class="tt-types">${typeBadges}</div>` +
     (p.salle    ? `<div class="tt-row"><span class="lbl">Salle ·</span> ${p.salle}</div>`             : "") +
-    (p.author      ? `<div class="tt-row"><span class="lbl">Auteur ·</span> ${p.author}</div>`             : "") +
-    (p.director    ? `<div class="tt-row"><span class="lbl">Mise en scène ·</span> ${p.director}</div>`    : "") +
-    (p.choregraphe ? `<div class="tt-row"><span class="lbl">Chorégraphie ·</span> ${p.choregraphe}</div>` : "") +
+    (p.author   ? `<div class="tt-row"><span class="lbl">Texte ·</span> ${p.author}</div>`           : "") +
+    (p.director ? `<div class="tt-row"><span class="lbl">Mise en scène ·</span> ${p.director}</div>` : "") +
     `<div class="tt-dates">${fmt(p.startDate)} → ${fmt(p.endDate)}</div>`
   );
 }
@@ -356,6 +367,26 @@ function renderEditorsPick() {
   btn.classList.toggle("active", editorsPick);
 }
 
+function renderStatusFilters() {
+  const c = document.getElementById("statusFilters");
+  c.innerHTML = "";
+  [["all", "Tous"], ["public", "Public"], ["prive", "Privé"]].forEach(([val, label]) => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn" + (activeStatus === val ? " active" : "");
+    btn.style.setProperty("--type-color", "#555");
+    btn.textContent = label;
+    btn.addEventListener("click", () => {
+      activeStatus = val;
+      c.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      render();
+      syncMirrorWidth();
+      updateLabels();
+    });
+    c.appendChild(btn);
+  });
+}
+
 function renderRegionFilters() {
   const c = document.getElementById("regionFilters");
   c.innerHTML = "";
@@ -394,8 +425,6 @@ function renderFilterGroup(containerId, colorMap) {
     c.appendChild(btn);
   });
 }
-
-function renderFilters() { renderFilterGroup("filters", TYPE_COLORS); }
 
 // ── Initial view + Today button ───────────────────────────────────────
 
@@ -461,9 +490,8 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
       Ouvrez le site via un serveur local (ex: <code>python -m http.server</code>).</p>`;
     return;
   }
-  renderFilters();
   renderFilterGroup("genreFilters", GENRE_COLORS);
-  renderFilterGroup("classicFilters", CLASSIC_COLORS);
+  renderStatusFilters();
   renderRegionFilters();
   renderEditorsPick();
   render();
