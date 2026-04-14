@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-13",
+  "updated": "2026-04-14",
   "matches": [
     {
       "play_title": "Art majeur",
@@ -63,6 +63,20 @@
       "director": "Frédéric Sonntag",
       "article_title": "« Biosphère » : Frédéric Sonntag nous entraîne dans un huis-clos existentiel",
       "article_url": "https://www.journal-laterrasse.fr/biosphere-frederic-sonntag-nous-entraine-dans-un-huis-clos-existentiel/"
+    },
+    {
+      "play_title": "Les règles du savoir-vivre dans la société moderne",
+      "theatre": "Théâtre du Petit Saint-Martin - Paris",
+      "director": "Marcial Di Fonzo Bo",
+      "article_title": "Catherine Hiegel investit Les Règles du savoir-vivre dans la société moderne de Jean-Luc Lagarce dans une mise en scène de Marcial Di Fonzo Bo",
+      "article_url": "https://www.journal-laterrasse.fr/catherine-hiegel-investit-les-regles-du-savoir-vivre-dans-la-societe-moderne-de-jean-luc-lagarce-dans-une-mise-en-scene-de-marcial-di-fonzo-bo/"
+    },
+    {
+      "play_title": "L'Ecole des femmes",
+      "theatre": "Artistic Théâtre",
+      "director": "Frédérique Lazarini",
+      "article_title": "Frédérique Lazarini met en scène « L’École des Femmes » : un conte d’hier et d’aujourd’hui qui célèbre la puissance libératrice de l’amour",
+      "article_url": "https://www.journal-laterrasse.fr/frederique-lazarini-met-en-scene-lecole-des-femmes-un-conte-dhier-et-daujourdhui-qui-questionne-et-rejouit/"
     }
   ]
 }
