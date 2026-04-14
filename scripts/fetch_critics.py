@@ -21,8 +21,14 @@ from bs4 import BeautifulSoup
 TERRASSE_P1   = "https://www.journal-laterrasse.fr/theatre/type/critique/"
 TERRASSE_PAGE = "https://www.journal-laterrasse.fr/theatre/type/critique/page/{}/"
 ROOT     = Path(__file__).parent.parent
-PLAYS    = ROOT / "data" / "pieces2025-2026.csv"
-THEATRES = ROOT / "theatres.csv"
+PLAYS_FILES = [
+    ROOT / "data" / "theatres-publics-pieces-2025-2026.csv",
+    ROOT / "data" / "theatres-prives-pieces-2025-2026.csv",
+]
+THEATRES_FILES = [
+    ROOT / "data" / "theatres-publics.csv",
+    ROOT / "data" / "theatres-prives.csv",
+]
 OUT      = ROOT / "data" / "critics.json"
 PAGES    = 4   # ~16-40 articles; raise if too many shows are missed
 
@@ -56,21 +62,25 @@ def parse_date(s: str) -> date:
 
 def current_plays() -> list[dict]:
     today = date.today()
-    theatre_map = {r["theatre_id"]: r["name"] for r in parse_csv(THEATRES)}
+    theatre_map = {}
+    for theatres_file in THEATRES_FILES:
+        for r in parse_csv(theatres_file):
+            theatre_map[r["theatre_id"]] = r["name"]
     plays = []
-    for row in parse_csv(PLAYS):
-        try:
-            start = parse_date(row.get("start_date", ""))
-            end   = parse_date(row.get("end_date", ""))
-        except Exception:
-            continue
-        if start <= today <= end:
-            plays.append({
-                "title":    row.get("title", "").strip(),
-                "director": row.get("director", "").strip(),
-                "theatre":  theatre_map.get(row.get("theatre_id", ""), ""),
-                "url":      row.get("url", "").strip(),
-            })
+    for plays_file in PLAYS_FILES:
+        for row in parse_csv(plays_file):
+            try:
+                start = parse_date(row.get("start_date", ""))
+                end   = parse_date(row.get("end_date", ""))
+            except Exception:
+                continue
+            if start <= today <= end:
+                plays.append({
+                    "title":    row.get("title", "").strip(),
+                    "director": row.get("director", "").strip(),
+                    "theatre":  theatre_map.get(row.get("theatre_id", ""), ""),
+                    "url":      row.get("url", "").strip(),
+                })
     return plays
 
 
