@@ -169,7 +169,8 @@ function render() {
   })).filter(t => t.plays.length > 0);
 
   visibleTheatres.forEach(theatre => {
-    const numLanes  = assignLanes(theatre.plays);
+    const renderedPlays = theatre.plays.filter(p => pct(p.endDate) - pct(p.startDate) > 0);
+    const numLanes  = assignLanes(renderedPlays);
     const trackH    = numLanes * 51 + 8;
 
     const row = document.createElement("div");

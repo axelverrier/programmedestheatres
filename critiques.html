@@ -15,15 +15,12 @@
         <h1>🎭 Programme des Théâtres de Paris (et alentours)</h1>
         <p class="subtitle">Saison 2025–2026</p>
       </div>
+      <nav class="tab-switcher">
+        <a href="index.html" class="tab-opt">Programme</a>
+        <a href="critiques.html" class="tab-opt active">Critiques</a>
+      </nav>
     </div>
   </header>
-
-  <nav class="tab-nav">
-    <div class="tab-links">
-      <a href="index.html" class="tab-link">Programme</a>
-      <a href="critiques.html" class="tab-link active">Critiques</a>
-    </div>
-  </nav>
 
   <div class="page-content">
     <h2 class="page-title">Critiques</h2>
@@ -42,7 +39,7 @@
 
   <script>
     function truncate(str, n) {
-      return str.length > n ? str.slice(0, n).trimEnd() + "\u2026" : str;
+      return str.length > n ? str.slice(0, n).trimEnd() + "…" : str;
     }
 
     const SOURCE_LABELS = {
@@ -69,7 +66,7 @@
           list.innerHTML = all.map(m => `
             <li>
               <a class="critics-play-link" href="${m.article_url}" target="_blank" rel="noopener">${m.play_title}</a>
-              <span class="critics-theatre">${m.theatre}${m.director ? " \u00b7 " + m.director : ""}</span>
+              <span class="critics-theatre">${m.theatre}${m.director ? " · " + m.director : ""}</span>
               <span class="critics-headline">${truncate(m.article_title, 110)}</span>
               <span class="critics-source">${SOURCE_LABELS[m.source] || m.source}</span>
             </li>`).join("");

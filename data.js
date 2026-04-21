@@ -1,5 +1,5 @@
 
 const GENRE_COLORS = {
-  "comique": "#d49010",
-  "drame":   "#8b3a3a",
+  "comique": "#c05808",
+  "drame":   "#8b2020",
 };

@@ -177,6 +177,7 @@ def main():
             })
 
     data = {"updated": date.today().isoformat(), "matches": matches}
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(matches)} matches to {OUT}")
     if not matches:

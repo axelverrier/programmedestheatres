@@ -219,6 +219,7 @@ def main():
 
     matches.sort(key=lambda m: m["play_title"])
     data = {"updated": date.today().isoformat(), "matches": matches}
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Wrote {} matches to {}".format(len(matches), OUT))
     if not matches:
