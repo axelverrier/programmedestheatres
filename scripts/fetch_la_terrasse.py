@@ -6,7 +6,7 @@ Matching strategy (in order):
   2. URL slug match  — title words + director surname appear in the article URL
   3. Full text match — title words + director surname appear in the article text
 
-Writes data/critics.json.
+Writes data/critics/laterrasse.json.
 """
 import json
 import re
@@ -29,7 +29,7 @@ THEATRES_FILES = [
     ROOT / "data" / "theatres-publics.csv",
     ROOT / "data" / "theatres-prives.csv",
 ]
-OUT      = ROOT / "data" / "critics.json"
+OUT      = ROOT / "data" / "critics" / "laterrasse.json"
 PAGES    = 4   # ~16-40 articles; raise if too many shows are missed
 
 

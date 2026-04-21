@@ -1,9 +1,9 @@
-name: Fetch critics
+name: Fetch France Culture critiques
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # daily at 06:00 UTC
-  workflow_dispatch:       # allow manual trigger from the Actions tab
+    - cron: '30 6 * * *'   # daily at 06:30 UTC (30 min after La Terrasse)
+  workflow_dispatch:        # allow manual trigger from the Actions tab
 
 jobs:
   fetch:
@@ -19,15 +19,15 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
-      - name: Fetch La Terrasse critiques
-        run: python scripts/fetch_critics.py
+      - name: Fetch Les Midis de Culture critiques
+        run: python scripts/fetch_france_culture.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/critics.json
-          git diff --cached --quiet || git commit -m "chore: update critics feed [skip ci]"
+          git add data/critics/france_culture.json
+          git diff --cached --quiet || git commit -m "chore: update France Culture feed [skip ci]"
           git push

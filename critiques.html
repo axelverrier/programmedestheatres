@@ -29,6 +29,7 @@
     <h2 class="page-title">Critiques</h2>
     <p class="page-subtitle">
       Critiques de <a href="https://www.journal-laterrasse.fr/theatre/type/critique/" target="_blank" rel="noopener" style="color:inherit;">La Terrasse</a>
+      et de <a href="https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture" target="_blank" rel="noopener" style="color:inherit;">Les Midis de Culture</a>
       pour les pièces actuellement à l'affiche
     </p>
 
@@ -44,24 +45,38 @@
       return str.length > n ? str.slice(0, n).trimEnd() + "\u2026" : str;
     }
 
-    fetch("data/critics.json")
-      .then(r => r.json())
-      .then(data => {
+    const SOURCE_LABELS = {
+      terrasse:       "La Terrasse",
+      france_culture: "Les Midis de Culture",
+    };
+
+    Promise.all([
+      fetch("data/critics/laterrasse.json").then(r => r.json()),
+      fetch("data/critics/france_culture.json").then(r => r.json()).catch(() => ({ matches: [] })),
+    ])
+      .then(([terrasse, fc]) => {
         const list = document.getElementById("criticsList");
         const meta = document.getElementById("criticsMeta");
 
-        if (!data.matches || data.matches.length === 0) {
+        const all = [
+          ...(terrasse.matches || []).map(m => ({ ...m, source: "terrasse" })),
+          ...(fc.matches || []).map(m => ({ ...m, source: "france_culture" })),
+        ].sort((a, b) => a.play_title.localeCompare(b.play_title, "fr"));
+
+        if (all.length === 0) {
           list.innerHTML = '<li style="color:var(--muted);font-size:.85rem;padding:14px 0;">Aucune critique trouvée pour les pièces actuellement à l\'affiche.</li>';
         } else {
-          list.innerHTML = data.matches.map(m => `
+          list.innerHTML = all.map(m => `
             <li>
               <a class="critics-play-link" href="${m.article_url}" target="_blank" rel="noopener">${m.play_title}</a>
-              <span class="critics-theatre">${m.theatre}${m.director ? " · " + m.director : ""}</span>
+              <span class="critics-theatre">${m.theatre}${m.director ? " \u00b7 " + m.director : ""}</span>
               <span class="critics-headline">${truncate(m.article_title, 110)}</span>
+              <span class="critics-source">${SOURCE_LABELS[m.source] || m.source}</span>
             </li>`).join("");
         }
 
-        meta.textContent = `Mis à jour le ${data.updated}`;
+        const dates = [terrasse.updated, fc.updated].filter(Boolean).sort();
+        meta.textContent = dates.length ? `Mis à jour le ${dates[dates.length - 1]}` : "";
       })
       .catch(() => {
         document.getElementById("criticsList").innerHTML =

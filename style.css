@@ -339,6 +339,10 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   font-size: .78rem; color: #555; line-height: 1.4;
   font-style: italic;
 }
+.critics-source {
+  font-size: .68rem; color: var(--muted);
+  font-style: normal; letter-spacing: .02em;
+}
 .critics-meta {
   font-size: .72rem; color: var(--muted); margin-top: 20px;
 }
