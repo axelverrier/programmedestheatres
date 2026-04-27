@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-26",
+  "updated": "2026-04-27",
   "matches": [
     {
       "play_title": "Art majeur",
@@ -7,13 +7,6 @@
       "director": "Guillaume Barbot",
       "article_title": "« Art majeur » mis en scène par Guillaume Barbot, explore comment des chansons peuvent marquer nos vies",
       "article_url": "https://www.journal-laterrasse.fr/art-majeur-mis-en-scene-par-guillaume-barbot-explore-comment-la-chanson-peut-marquer-nos-vies/"
-    },
-    {
-      "play_title": "Les héros ne dorment jamais",
-      "theatre": "Comédie-Française",
-      "director": "Edith Proust",
-      "article_title": "Avec « Les héros ne dorment jamais », Edith Proust signe sa première mise en scène à la Comédie-Française",
-      "article_url": "https://www.journal-laterrasse.fr/avec-les-heros-ne-dorment-jamais-edith-proust-signe-sa-premiere-mise-en-scene-a-la-comedie-francaise/"
     },
     {
       "play_title": "L'Ordre du jour",
@@ -30,13 +23,6 @@
       "article_url": "https://www.journal-laterrasse.fr/dans-une-mise-en-scene-tout-en-intelligence-de-denis-podalydes-la-troupe-de-la-comedie-francaise-fait-renaitre-la-grandeur-du-cid/"
     },
     {
-      "play_title": "Ici sont les Dragons",
-      "theatre": "Théâtre du Soleil",
-      "director": "Ariane Mnouchkine",
-      "article_title": "Ariane Mnouchkine et les siens créent « Ici sont les Dragons, Deuxième Époque » : une fresque brillamment incarnée qui nous alerte",
-      "article_url": "https://www.journal-laterrasse.fr/ariane-mnouchkine-et-les-siens-creent-ici-sont-les-dragons-deuxieme-epoque-une-fresque-brillamment-incarnee-qui-nous-alerte/"
-    },
-    {
       "play_title": "Les règles du savoir-vivre dans la société moderne",
       "theatre": "Théâtre du Petit Saint-Martin - Paris",
       "director": "Marcial Di Fonzo Bo",
@@ -49,6 +35,13 @@
       "director": "Frédérique Lazarini",
       "article_title": "Frédérique Lazarini met en scène « L’École des Femmes » : un conte d’hier et d’aujourd’hui qui célèbre la puissance libératrice de l’amour",
       "article_url": "https://www.journal-laterrasse.fr/frederique-lazarini-met-en-scene-lecole-des-femmes-un-conte-dhier-et-daujourdhui-qui-questionne-et-rejouit/"
+    },
+    {
+      "play_title": "Le parfait manuel - A l'usage des futurs dictateurs",
+      "theatre": "Théâtre de Belleville",
+      "director": "Mariana Lezin",
+      "article_title": "« Le Parfait Manuel » , de Mariana Lézin et Paul Tilmont,  propose une délicieuse satire politique sur la fabrication du dictateur et le vacillement de la démocratie",
+      "article_url": "https://www.journal-laterrasse.fr/le-parfait-manuel-de-mariana-lezin-et-paul-tilmont-propose-une-delicieuse-satire-politique-sur-la-fabrication-du-dictateur-et-le-vacillement-de-la-democratie/"
     }
   ]
 }
