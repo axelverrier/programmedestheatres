@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04",
+  "updated": "2026-05-05",
   "matches": [
     {
       "play_title": "Le Cid",
@@ -7,6 +7,13 @@
       "director": "Denis Podalydès",
       "article_title": "Dans une mise en scène tout en intelligence de Denis Podalydès, la troupe de la Comédie-Française fait renaître la grandeur du Cid",
       "article_url": "https://www.journal-laterrasse.fr/dans-une-mise-en-scene-tout-en-intelligence-de-denis-podalydes-la-troupe-de-la-comedie-francaise-fait-renaitre-la-grandeur-du-cid/"
+    },
+    {
+      "play_title": "Le Syndrome de Cassandre",
+      "theatre": "Théâtre du Rond-Point",
+      "director": "Yann Frisch",
+      "article_title": "« Le Syndrome de Cassandre » ou le talent virtuose de Yann Frisch, le clown à l’humour grinçant",
+      "article_url": "https://www.journal-laterrasse.fr/le-syndrome-de-cassandre-2-2/"
     },
     {
       "play_title": "Les règles du savoir-vivre dans la société moderne",
