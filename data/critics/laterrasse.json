@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15",
+  "updated": "2026-05-16",
   "matches": [
     {
       "play_title": "Le Cid",
@@ -42,6 +42,13 @@
       "director": "Mariana Lezin",
       "article_title": "« Le Parfait Manuel » , de Mariana Lézin et Paul Tilmont,  propose une délicieuse satire politique sur la fabrication du dictateur et le vacillement de la démocratie",
       "article_url": "https://www.journal-laterrasse.fr/le-parfait-manuel-de-mariana-lezin-et-paul-tilmont-propose-une-delicieuse-satire-politique-sur-la-fabrication-du-dictateur-et-le-vacillement-de-la-democratie/"
+    },
+    {
+      "play_title": "Clôture de l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "",
+      "article_title": "Pascal Rambert reprend « Clôture de l’amour », un magistral regard sur les affres d’une séparation",
+      "article_url": "https://www.journal-laterrasse.fr/cloture-de-lamour-de-pascal-rambert-deflagration-bouleversante-continue-son-magistral-periple-2/"
     }
   ]
 }
