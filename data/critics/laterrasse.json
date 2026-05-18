@@ -1,4 +1,40 @@
 {
-  "updated": "2026-05-17",
-  "matches": []
+  "updated": "2026-05-18",
+  "matches": [
+    {
+      "play_title": "Les règles du savoir-vivre dans la société moderne",
+      "theatre": "Théâtre du Petit Saint-Martin - Paris",
+      "director": "Marcial Di Fonzo Bo",
+      "article_title": "Catherine Hiegel investit Les Règles du savoir-vivre dans la société moderne de Jean-Luc Lagarce dans une mise en scène de Marcial Di Fonzo Bo",
+      "article_url": "https://www.journal-laterrasse.fr/catherine-hiegel-investit-les-regles-du-savoir-vivre-dans-la-societe-moderne-de-jean-luc-lagarce-dans-une-mise-en-scene-de-marcial-di-fonzo-bo/"
+    },
+    {
+      "play_title": "L'Ecole des femmes",
+      "theatre": "Artistic Théâtre",
+      "director": "Frédérique Lazarini",
+      "article_title": "Frédérique Lazarini met en scène « L’École des Femmes » : un conte d’hier et d’aujourd’hui qui célèbre la puissance libératrice de l’amour",
+      "article_url": "https://www.journal-laterrasse.fr/frederique-lazarini-met-en-scene-lecole-des-femmes-un-conte-dhier-et-daujourdhui-qui-questionne-et-rejouit/"
+    },
+    {
+      "play_title": "La vie rêvée",
+      "theatre": "Théâtre Actuel La Bruyère",
+      "director": "",
+      "article_title": "« La Vie Rêvée » : Kelly Rivière continue sa tournée avec son seule en scène où elle interprète son double fictif. Un spectacle virevoltant !",
+      "article_url": "https://www.journal-laterrasse.fr/kelly-riviere-cree-la-vie-revee-un-seule-en-scene-brillant-2/"
+    },
+    {
+      "play_title": "Le parfait manuel - A l'usage des futurs dictateurs",
+      "theatre": "Théâtre de Belleville",
+      "director": "Mariana Lezin",
+      "article_title": "« Le Parfait Manuel » , de Mariana Lézin et Paul Tilmont,  propose une délicieuse satire politique sur la fabrication du dictateur et le vacillement de la démocratie",
+      "article_url": "https://www.journal-laterrasse.fr/le-parfait-manuel-de-mariana-lezin-et-paul-tilmont-propose-une-delicieuse-satire-politique-sur-la-fabrication-du-dictateur-et-le-vacillement-de-la-democratie/"
+    },
+    {
+      "play_title": "Clôture de l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "",
+      "article_title": "Pascal Rambert reprend « Clôture de l’amour », un magistral regard sur les affres d’une séparation",
+      "article_url": "https://www.journal-laterrasse.fr/cloture-de-lamour-de-pascal-rambert-deflagration-bouleversante-continue-son-magistral-periple-2/"
+    }
+  ]
 }
