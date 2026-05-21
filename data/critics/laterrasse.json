@@ -1,6 +1,13 @@
 {
-  "updated": "2026-05-20",
+  "updated": "2026-05-21",
   "matches": [
+    {
+      "play_title": "Le Tartuffe ou l'hypocrite",
+      "theatre": "Comédie-Française",
+      "director": "Ivo Van Hove",
+      "article_title": "Reprise de « Le Tartuffe ou l’Hypocrite » dans la mise en scène d’ Ivo van Hove",
+      "article_url": "https://www.journal-laterrasse.fr/le-tartuffe-ou-lhypocrite-de-moliere-mise-en-scene-ivo-van-hove-2-3/"
+    },
     {
       "play_title": "Edith Beale au Reno Sweeney",
       "theatre": "Théâtre du Rond-Point",
@@ -28,6 +35,13 @@
       "director": "Frédérique Lazarini",
       "article_title": "Frédérique Lazarini met en scène « L’École des Femmes » : un conte d’hier et d’aujourd’hui qui célèbre la puissance libératrice de l’amour",
       "article_url": "https://www.journal-laterrasse.fr/frederique-lazarini-met-en-scene-lecole-des-femmes-un-conte-dhier-et-daujourdhui-qui-questionne-et-rejouit/"
+    },
+    {
+      "play_title": "C'est si simple l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "Charles Berling",
+      "article_title": "« C’est si simple l’amour », un huis clos de Lars Noren mis en scène avec talent par Charles Berling",
+      "article_url": "https://www.journal-laterrasse.fr/charles-berling-met-en-scene-avec-talent-cest-si-simple-lamour-huis-clos-inedit-en-france-de-lars-noren-2/"
     },
     {
       "play_title": "La vie rêvée",
