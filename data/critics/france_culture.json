@@ -1,4 +1,19 @@
 {
-  "updated": "2026-05-24",
-  "matches": []
+  "updated": "2026-05-25",
+  "matches": [
+    {
+      "play_title": "Edith Beale au Reno Sweeney",
+      "theatre": "Théâtre du Rond-Point",
+      "director": "Pierre Maillet",
+      "article_title": "Critique théâtre : \"Edith Beale au Reno Sweeney\" de Pierre Maillet",
+      "article_url": "https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/critique-theatre-edith-beale-au-reno-sweeney-de-pierre-maillet-4271258"
+    },
+    {
+      "play_title": "Scenes from a Marriage",
+      "theatre": "Odéon – Théâtre de l'Europe",
+      "director": "Markus Öhrn",
+      "article_title": "Critique théâtre : \"Scenes from a marriage\" de Markus Öhrn, d'après Ingmar Bergman",
+      "article_url": "https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/critique-theatre-scenes-from-a-marriage-de-markus-oehrn-d-apres-ingmar-bergman-2661640"
+    }
+  ]
 }
