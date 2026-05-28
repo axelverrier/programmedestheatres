@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27",
+  "updated": "2026-05-28",
   "matches": [
     {
       "play_title": "Le Tartuffe ou l'hypocrite",
@@ -16,6 +16,13 @@
       "article_url": "https://www.journal-laterrasse.fr/lazare-cree-lavenir-des-reflets-une-partition-foisonnante-hantee-par-les-fantomes-de-lepoque-revolutionnaire/"
     },
     {
+      "play_title": "Aux singuliers.",
+      "theatre": "Théâtre National de la Colline",
+      "director": "Frédéric Fisbach",
+      "article_title": "« Aux singuliers », Frédéric Fisbach porte à la scène de nouveaux visages et de nouvelles plumes",
+      "article_url": "https://www.journal-laterrasse.fr/aux-singuliers-frederic-fisbach-porte-a-la-scene-de-nouveaux-visages-et-de-nouvelles-plumes/"
+    },
+    {
       "play_title": "Edith Beale au Reno Sweeney",
       "theatre": "Théâtre du Rond-Point",
       "director": "Pierre Maillet",
@@ -28,13 +35,6 @@
       "director": "Alice Laloy",
       "article_title": "« Le Ring de Katharsy » d’Alice Laloy  : un affrontement dystopique orchestré avec science et poésie. Magistral !",
       "article_url": "https://www.journal-laterrasse.fr/alice-laloy-et-les-siens-creent-le-ring-de-katharsy-un-tournoi-dystopique-orchestre-avec-science-et-poesie-2-2/"
-    },
-    {
-      "play_title": "Les règles du savoir-vivre dans la société moderne",
-      "theatre": "Théâtre du Petit Saint-Martin - Paris",
-      "director": "Marcial Di Fonzo Bo",
-      "article_title": "Catherine Hiegel investit Les Règles du savoir-vivre dans la société moderne de Jean-Luc Lagarce dans une mise en scène de Marcial Di Fonzo Bo",
-      "article_url": "https://www.journal-laterrasse.fr/catherine-hiegel-investit-les-regles-du-savoir-vivre-dans-la-societe-moderne-de-jean-luc-lagarce-dans-une-mise-en-scene-de-marcial-di-fonzo-bo/"
     },
     {
       "play_title": "L'Ecole des femmes",
