@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30",
+  "updated": "2026-05-31",
   "matches": [
     {
       "play_title": "Le Tartuffe ou l'hypocrite",
@@ -37,13 +37,6 @@
       "article_url": "https://www.journal-laterrasse.fr/pierre-maillet-met-en-scene-edith-beale-au-reno-sweeney-un-univers-de-cabaret-theatral-sans-cadre-et-sans-limite/"
     },
     {
-      "play_title": "Le Ring de Katharsy",
-      "theatre": "Théâtre du Rond-Point",
-      "director": "Alice Laloy",
-      "article_title": "« Le Ring de Katharsy » d’Alice Laloy  : un affrontement dystopique orchestré avec science et poésie. Magistral !",
-      "article_url": "https://www.journal-laterrasse.fr/alice-laloy-et-les-siens-creent-le-ring-de-katharsy-un-tournoi-dystopique-orchestre-avec-science-et-poesie-2-2/"
-    },
-    {
       "play_title": "L'Ecole des femmes",
       "theatre": "Artistic Théâtre",
       "director": "Frédérique Lazarini",
@@ -63,13 +56,6 @@
       "director": "",
       "article_title": "« La Vie Rêvée » : Kelly Rivière continue sa tournée avec son seule en scène où elle interprète son double fictif. Un spectacle virevoltant !",
       "article_url": "https://www.journal-laterrasse.fr/kelly-riviere-cree-la-vie-revee-un-seule-en-scene-brillant-2/"
-    },
-    {
-      "play_title": "Le parfait manuel - A l'usage des futurs dictateurs",
-      "theatre": "Théâtre de Belleville",
-      "director": "Mariana Lezin",
-      "article_title": "« Le Parfait Manuel » , de Mariana Lézin et Paul Tilmont,  propose une délicieuse satire politique sur la fabrication du dictateur et le vacillement de la démocratie",
-      "article_url": "https://www.journal-laterrasse.fr/le-parfait-manuel-de-mariana-lezin-et-paul-tilmont-propose-une-delicieuse-satire-politique-sur-la-fabrication-du-dictateur-et-le-vacillement-de-la-democratie/"
     },
     {
       "play_title": "Clôture de l'amour",
