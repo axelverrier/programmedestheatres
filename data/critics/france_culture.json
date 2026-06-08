@@ -1,12 +1,19 @@
 {
-  "updated": "2026-06-07",
+  "updated": "2026-06-08",
   "matches": [
     {
-      "play_title": "Scenes from a Marriage",
-      "theatre": "Odéon – Théâtre de l'Europe",
-      "director": "Markus Öhrn",
-      "article_title": "Critique théâtre : \"Scenes from a marriage\" de Markus Öhrn, Bergman en Grand Guignol",
-      "article_url": "https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/critique-theatre-scenes-from-a-marriage-de-markus-oehrn-d-apres-ingmar-bergman-2661640"
+      "play_title": "Penthésilée",
+      "theatre": "Comédie-Française",
+      "director": "Michael Thalheimer",
+      "article_title": "Critique théâtre : \"Penthésilée\", par Michael Thalheimer",
+      "article_url": "https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/critique-theatre-penthesilee-par-michael-thalheimer-3514637"
+    },
+    {
+      "play_title": "Prendre soin",
+      "theatre": "Théâtre de la Ville",
+      "director": "Alexander Zeldin",
+      "article_title": "Critique théâtre : \"Prendre soin\", par Alexander Zeldin",
+      "article_url": "https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/critique-theatre-prendre-soin-par-alexander-zeldin-6109560"
     }
   ]
 }
