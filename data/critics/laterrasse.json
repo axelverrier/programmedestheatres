@@ -1,4 +1,75 @@
 {
-  "updated": "2026-06-09",
-  "matches": []
+  "updated": "2026-06-10",
+  "matches": [
+    {
+      "play_title": "Le Tartuffe ou l'hypocrite",
+      "theatre": "Comédie-Française",
+      "director": "Ivo Van Hove",
+      "article_title": "Reprise de « Le Tartuffe ou l’Hypocrite » dans la mise en scène d’ Ivo van Hove",
+      "article_url": "https://www.journal-laterrasse.fr/le-tartuffe-ou-lhypocrite-de-moliere-mise-en-scene-ivo-van-hove-2-3/"
+    },
+    {
+      "play_title": "Séisme",
+      "theatre": "Comédie-Française",
+      "director": "Robin Ormond",
+      "article_title": "« Séisme » de Duncan Macmillan par Robin Ormond : vibrante partition et interprétation éblouissante",
+      "article_url": "https://www.journal-laterrasse.fr/seisme-de-duncan-macmillan-par-robin-ormond-vibrante-partition-et-interpretation-eblouissante/"
+    },
+    {
+      "play_title": "L'Avenir des reflets",
+      "theatre": "Théâtre National de la Colline",
+      "director": "Lazare",
+      "article_title": "Lazare crée « L’Avenir des reflets », une partition foisonnante hantée par les fantômes de l’époque révolutionnaire",
+      "article_url": "https://www.journal-laterrasse.fr/lazare-cree-lavenir-des-reflets-une-partition-foisonnante-hantee-par-les-fantomes-de-lepoque-revolutionnaire/"
+    },
+    {
+      "play_title": "Aux singuliers.",
+      "theatre": "Théâtre National de la Colline",
+      "director": "Frédéric Fisbach",
+      "article_title": "« Aux singuliers », Frédéric Fisbach porte à la scène de nouveaux visages et de nouvelles plumes",
+      "article_url": "https://www.journal-laterrasse.fr/aux-singuliers-frederic-fisbach-porte-a-la-scene-de-nouveaux-visages-et-de-nouvelles-plumes/"
+    },
+    {
+      "play_title": "Immaqaa, ici peut-être",
+      "theatre": "Théâtre du Rond-Point",
+      "director": "Mathurin Bolze",
+      "article_title": "« Immaqaa ici peut-être » de Mathurin Bolze, une pièce lumineuse",
+      "article_url": "https://www.journal-laterrasse.fr/immaqaa-ici-peut-etre-de-mathurin-bolze-une-piece-lumineuse-2/"
+    },
+    {
+      "play_title": "Illusions",
+      "theatre": "Théâtre de la Tempête",
+      "director": "Yordan Goldwaser",
+      "article_title": "Avec « Illusions », Yordan Goldwaser propose un objet théâtral métaphysique qui explore les contours de la vie amoureuse et tente d’en extraire la substance véritable",
+      "article_url": "https://www.journal-laterrasse.fr/avec-illusions-yordan-goldwaser-propose-un-objet-theatral-metaphysique-qui-explore-les-contours-de-la-vie-amoureuse-et-tente-den-extraire-la-substance-veritable/"
+    },
+    {
+      "play_title": "La Cerisaie",
+      "theatre": "Théâtre de la Tempête",
+      "director": "Aurélie Van Den Daele",
+      "article_title": "« La Cerisaie » par Aurélie Van Den Daele : une mise en scène hors des sentiers battus, une plongée au présent dans la pièce de Tchekhov",
+      "article_url": "https://www.journal-laterrasse.fr/une-cerisaie-mis-en-scene-par-aurelie-van-den-daele-une-mise-en-scene-hors-des-sentiers-battus-une-plongee-au-present-dans-la-piece-de-tchekhov/"
+    },
+    {
+      "play_title": "C'est si simple l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "Charles Berling",
+      "article_title": "« C’est si simple l’amour », un huis clos de Lars Noren mis en scène avec talent par Charles Berling",
+      "article_url": "https://www.journal-laterrasse.fr/charles-berling-met-en-scene-avec-talent-cest-si-simple-lamour-huis-clos-inedit-en-france-de-lars-noren-2/"
+    },
+    {
+      "play_title": "La vie rêvée",
+      "theatre": "Théâtre Actuel La Bruyère",
+      "director": "",
+      "article_title": "« La Vie Rêvée » : Kelly Rivière continue sa tournée avec son seule en scène où elle interprète son double fictif. Un spectacle virevoltant !",
+      "article_url": "https://www.journal-laterrasse.fr/kelly-riviere-cree-la-vie-revee-un-seule-en-scene-brillant-2/"
+    },
+    {
+      "play_title": "Clôture de l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "",
+      "article_title": "Pascal Rambert reprend « Clôture de l’amour », un magistral regard sur les affres d’une séparation",
+      "article_url": "https://www.journal-laterrasse.fr/cloture-de-lamour-de-pascal-rambert-deflagration-bouleversante-continue-son-magistral-periple-2/"
+    }
+  ]
 }
