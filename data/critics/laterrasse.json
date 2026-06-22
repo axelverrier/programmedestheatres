@@ -1,4 +1,47 @@
 {
-  "updated": "2026-06-21",
-  "matches": []
+  "updated": "2026-06-22",
+  "matches": [
+    {
+      "play_title": "Le Tartuffe ou l'hypocrite",
+      "theatre": "Comédie-Française",
+      "director": "Ivo Van Hove",
+      "article_title": "Reprise de « Le Tartuffe ou l’Hypocrite » dans la mise en scène d’ Ivo van Hove",
+      "article_url": "https://www.journal-laterrasse.fr/le-tartuffe-ou-lhypocrite-de-moliere-mise-en-scene-ivo-van-hove-2-3/"
+    },
+    {
+      "play_title": "Séisme",
+      "theatre": "Comédie-Française",
+      "director": "Robin Ormond",
+      "article_title": "« Séisme » de Duncan Macmillan par Robin Ormond : vibrante partition et interprétation éblouissante",
+      "article_url": "https://www.journal-laterrasse.fr/seisme-de-duncan-macmillan-par-robin-ormond-vibrante-partition-et-interpretation-eblouissante/"
+    },
+    {
+      "play_title": "Tout est calme dans les hauteurs",
+      "theatre": "Théâtre du Rond-Point",
+      "director": "Jean-François Sivadier",
+      "article_title": "Jean-François Sivadier présente « Tout est calme dans les hauteurs » de Thomas Bernhard, un spectacle jouissif, drôle et noir",
+      "article_url": "https://www.journal-laterrasse.fr/jean-francois-sivadier-presente-tout-est-calme-dans-les-hauteurs-de-thomas-bernhard-un-spectacle-jouissif-drole-et-noir/"
+    },
+    {
+      "play_title": "7 Minutes (Comité d’usine)",
+      "theatre": "Théâtre de l'Épée de Bois",
+      "director": "Olivier Mellor",
+      "article_title": "Olivier Mellor et la Compagnie du Berger présentent « 7 minutes (comité d’usine) », œuvre chorale intensément politique et plaidoyer pour la dignité",
+      "article_url": "https://www.journal-laterrasse.fr/olivier-mellor-et-la-compagnie-du-berger-presentent-7-minutes-comite-dusine-oeuvre-chorale-intensement-politique-et-plaidoyer-pour-la-dignite/"
+    },
+    {
+      "play_title": "C'est si simple l'amour",
+      "theatre": "Théâtre de l'Atelier",
+      "director": "Charles Berling",
+      "article_title": "« C’est si simple l’amour », un huis clos de Lars Noren mis en scène avec talent par Charles Berling",
+      "article_url": "https://www.journal-laterrasse.fr/charles-berling-met-en-scene-avec-talent-cest-si-simple-lamour-huis-clos-inedit-en-france-de-lars-noren-2/"
+    },
+    {
+      "play_title": "La vie rêvée",
+      "theatre": "Théâtre Actuel La Bruyère",
+      "director": "",
+      "article_title": "« La Vie Rêvée » : Kelly Rivière continue sa tournée avec son seule en scène où elle interprète son double fictif. Un spectacle virevoltant !",
+      "article_url": "https://www.journal-laterrasse.fr/kelly-riviere-cree-la-vie-revee-un-seule-en-scene-brillant-2/"
+    }
+  ]
 }
