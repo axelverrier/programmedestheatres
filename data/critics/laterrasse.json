@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02",
+  "updated": "2026-07-03",
   "matches": [
     {
       "play_title": "Le Tartuffe ou l'hypocrite",
@@ -21,6 +21,13 @@
       "director": "Jean-François Sivadier",
       "article_title": "Jean-François Sivadier présente « Tout est calme dans les hauteurs » de Thomas Bernhard, un spectacle jouissif, drôle et noir",
       "article_url": "https://www.journal-laterrasse.fr/jean-francois-sivadier-presente-tout-est-calme-dans-les-hauteurs-de-thomas-bernhard-un-spectacle-jouissif-drole-et-noir/"
+    },
+    {
+      "play_title": "La Cerisaie de Tchekhov /《樱桃园》，契诃夫",
+      "theatre": "Théâtre des Champs-Elysées",
+      "director": "Rimas Tuminas",
+      "article_title": "« La Cerisaie » par Aurélie Van Den Daele : une mise en scène hors des sentiers battus, une plongée au présent dans la pièce de Tchekhov",
+      "article_url": "https://www.journal-laterrasse.fr/une-cerisaie-mis-en-scene-par-aurelie-van-den-daele-une-mise-en-scene-hors-des-sentiers-battus-une-plongee-au-present-dans-la-piece-de-tchekhov/"
     }
   ]
 }
