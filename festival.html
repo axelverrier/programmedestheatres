@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festivals — Programme des théâtres</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎭</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>Pièces de théâtre</h1>
+        <p class="subtitle">Paris et IDF · Saison 2026–2027</p>
+      </div>
+      <nav class="tab-switcher">
+        <a href="index.html" class="tab-opt">Programme</a>
+        <a href="festival.html" class="tab-opt active">Festivals</a>
+        <a href="critiques.html" class="tab-opt">Critiques</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-content">
+    <h2 class="page-title">Festivals</h2>
+    <p class="page-subtitle"></p>
+
+    <div class="festival-grid" id="festivalGrid">
+      <p style="color:var(--muted);font-size:.85rem;">Chargement…</p>
+    </div>
+  </div>
+
+  <script>
+    const MONTHS_FR = ["Jan","Fév","Mar","Avr","Mai","Juin","Juil","Août","Sep","Oct","Nov","Déc"];
+
+    function parseToISO(str) {
+      str = str.trim();
+      if (/^\d{2}\/\d{2}\/\d{4}$/.test(str)) {
+        const [d, m, y] = str.split("/");
+        return `${y}-${m}-${d}`;
+      }
+      return str;
+    }
+
+    function fmt(dateStr) {
+      const d = new Date(dateStr);
+      return `${d.getDate()} ${MONTHS_FR[d.getMonth()]} ${d.getFullYear()}`;
+    }
+
+    function parseCSV(text) {
+      text = text.replace(/^﻿/, "");
+      const [header, ...lines] = text.trim().split("\n");
+      const keys = header.split(";").map(s => s.trim());
+      return lines
+        .filter(l => l.trim())
+        .map(l => Object.fromEntries(l.split(";").map((v, i) => [keys[i], v.trim()])));
+    }
+
+    fetch("data/festivals-2026-2027.csv")
+      .then(r => r.text())
+      .then(text => {
+        const grid = document.getElementById("festivalGrid");
+        const festivals = parseCSV(text)
+          .map(row => ({
+            name:          row.name,
+            url:           row.url,
+            programmeUrl:  row.programme_url || row.url,
+            startDate:     parseToISO(row.start_date),
+            endDate:       parseToISO(row.end_date),
+            location:      row.location || "",
+          }))
+          .sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
+
+        if (festivals.length === 0) {
+          grid.innerHTML = '<p style="color:var(--muted);font-size:.85rem;">Aucun festival à venir pour le moment.</p>';
+          return;
+        }
+
+        grid.innerHTML = festivals.map(f => `
+          <div class="festival-card">
+            <a class="festival-name" href="${f.url}" target="_blank" rel="noopener">${f.name}</a>
+            <div class="festival-dates">${fmt(f.startDate)} → ${fmt(f.endDate)}</div>
+            ${f.location ? `<div class="festival-location">${f.location}</div>` : ""}
+            <a class="festival-link" href="${f.programmeUrl}" target="_blank" rel="noopener">Voir le programme ↗</a>
+          </div>`).join("");
+      })
+      .catch(() => {
+        document.getElementById("festivalGrid").innerHTML =
+          '<p style="color:var(--muted);font-size:.85rem;">Impossible de charger les festivals.</p>';
+      });
+  </script>
+
+</body>
+</html>

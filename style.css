@@ -378,6 +378,30 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   font-size: .72rem; color: var(--muted); margin-top: 20px;
 }
 
+/* Festival cards */
+.festival-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+.festival-card {
+  display: flex; flex-direction: column; gap: 5px;
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 16px 18px; background: var(--row-bg);
+}
+.festival-name {
+  color: var(--header-bg); text-decoration: none;
+  font-size: .92rem; font-weight: 700; line-height: 1.3;
+}
+.festival-name:hover { color: var(--link-hover); text-decoration: underline; }
+.festival-dates { font-size: .76rem; font-weight: 600; color: var(--today-col); }
+.festival-location { font-size: .78rem; color: var(--muted); }
+.festival-link {
+  margin-top: 8px; align-self: flex-start;
+  font-size: .74rem; font-weight: 600;
+  color: var(--header-bg); text-decoration: none;
+}
+.festival-link:hover { color: var(--link-hover); text-decoration: underline; }
+
 /* Placeholder */
 .placeholder {
   border: 1.5px dashed var(--border); border-radius: 8px;
