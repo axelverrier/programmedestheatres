@@ -1,5 +1,5 @@
-const RANGE_START = new Date("2025-09-01");
-const RANGE_END   = new Date("2026-07-31");
+const RANGE_START = new Date("2026-09-01");
+const RANGE_END   = new Date("2027-07-31");
 const TOTAL_MS    = RANGE_END - RANGE_START;
 
 const MONTHS_FR = ["Jan","Fév","Mar","Avr","Mai","Juin","Juil","Août","Sep","Oct","Nov","Déc"];
@@ -63,19 +63,25 @@ function parseCSV(text) {
     .map(l => Object.fromEntries(l.split(";").map((v, i) => [keys[i], v.trim()])));
 }
 
-// Builds the tags array for a play directly from CSV fields, no derivation.
+// Builds the tags array for a play directly from CSV fields.
+// A comma-separated type ("théâtre, danse") means several types at once.
 function buildTags(row) {
-  const tags = [];
-  if (row.genre) tags.push({ label: row.genre, color: GENRE_COLORS[row.genre] || "#888" });
-  return tags;
+  if (!row.type) return [];
+  return row.type.split(",").map(s => s.trim()).filter(Boolean)
+    .map(label => ({ label, color: TYPE_COLORS[label] || "#888" }));
+}
+
+// Fetches a CSV, resolving to "" (no rows) if the file is missing instead of throwing.
+function fetchOptionalCSV(path) {
+  return fetch(path).then(r => r.ok ? r.text() : "").catch(() => "");
 }
 
 async function loadData() {
   const [publicsText, privesText, publicsPlaysText, privesPlaysText] = await Promise.all([
     fetch("data/theatres-publics.csv").then(r => r.text()),
     fetch("data/theatres-prives.csv").then(r => r.text()),
-    fetch("data/theatres-publics-pieces-2025-2026.csv").then(r => r.text()),
-    fetch("data/theatres-prives-pieces-2025-2026.csv").then(r => r.text()),
+    fetch("data/theatres-publics-pieces-2026-2027.csv").then(r => r.text()),
+    fetchOptionalCSV("data/theatres-prives-pieces-2026-2027.csv"),
   ]);
 
   function buildTheatreMap(csvText) {
@@ -84,11 +90,12 @@ async function loadData() {
       map.set(row.theatre_id, {
         id:             row.theatre_id,
         name:           row.name,
-        arrondissement: +row.arrondissement,
+        arrondissement: +row.arrondissement || 0,
         url:            row.url,
         status:         row.status || "",
         theatreNational: row.status_theatre_national === "true",
-        region:         row.location || "Paris",
+        region:         row.location === "IDF" ? "Ile-de-France" : (row.location || "Paris"),
+        incomplet:      row.incomplet === "true",
         plays:          [],
       });
     }
@@ -160,13 +167,14 @@ function render() {
   wrap.appendChild(mRow);
 
   // Theatre rows
+  const filtering = activeFilters.size > 0 || editorsPick;
   const visibleTheatres = theatres
     .filter(t => activeRegion === "all" || t.region === activeRegion)
     .filter(t => activeStatus === "all" || t.status === activeStatus)
     .map(t => ({
     ...t,
     plays: editorsPick ? t.plays.filter(p => p.editorspick) : t.plays,
-  })).filter(t => t.plays.length > 0);
+  })).filter(t => !filtering || t.plays.length > 0);
 
   visibleTheatres.forEach(theatre => {
     const renderedPlays = theatre.plays.filter(p => pct(p.endDate) - pct(p.startDate) > 0);
@@ -181,7 +189,8 @@ function render() {
     nameDiv.className = "theatre-name";
     nameDiv.innerHTML =
       `<a href="${theatre.url}" target="_blank" rel="noopener">${theatre.name}</a>` +
-      `<span class="arr">${theatre.arrondissement}e arr.</span>` +
+      (theatre.incomplet ? `<span class="incomplete-marker">*</span>` : "") +
+      (theatre.arrondissement ? `<span class="arr">${theatre.arrondissement}e arr.</span>` : "") +
       (theatre.theatreNational ? `<span class="status-badge badge-national">Théâtre National</span>` : theatre.status === "public" ? `<span class="status-badge badge-public">Public</span>` : theatre.status === "prive" ? `<span class="status-badge badge-prive">Privé</span>` : "");
     row.appendChild(nameDiv);
 
@@ -234,16 +243,6 @@ function render() {
       titleEl.textContent = play.title;
       inner.appendChild(titleEl);
 
-      const tagsDiv = document.createElement("div");
-      tagsDiv.className = "play-tags";
-      play.tags.forEach(t => {
-        const tag = document.createElement("span");
-        tag.className = "play-tag";
-        tag.innerHTML = `<span class="tag-dot" style="background:${t.color}"></span>${t.label}`;
-        tagsDiv.appendChild(tag);
-      });
-      inner.appendChild(tagsDiv);
-
       block.appendChild(inner);
 
       if (isOn) {
@@ -270,14 +269,10 @@ const tip = document.getElementById("tooltip");
 const isTouch = () => window.matchMedia("(pointer: coarse)").matches;
 
 function tipContent(p, theatreId) {
-  const typeBadges = p.tags
-    .map(t => `<span class="tt-type" style="background:${t.color}">${t.label}</span>`)
-    .join(" ");
   return (
     (p.url
       ? `<a class="tt-title tt-title-link" href="${p.url}" target="_blank" rel="noopener">${p.title} ↗</a>`
       : `<div class="tt-title">${p.title}</div>`) +
-    `<div class="tt-types">${typeBadges}</div>` +
     (p.salle    ? `<div class="tt-row"><span class="lbl">Salle ·</span> ${p.salle}</div>`             : "") +
     (p.author   ? `<div class="tt-row"><span class="lbl">Texte ·</span> ${p.author}</div>`           : "") +
     (p.director ? `<div class="tt-row"><span class="lbl">Mise en scène ·</span> ${p.director}</div>` : "") +
@@ -491,7 +486,7 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
       Ouvrez le site via un serveur local (ex: <code>python -m http.server</code>).</p>`;
     return;
   }
-  renderFilterGroup("genreFilters", GENRE_COLORS);
+  renderFilterGroup("typeFilters", TYPE_COLORS);
   renderStatusFilters();
   renderRegionFilters();
   renderEditorsPick();
