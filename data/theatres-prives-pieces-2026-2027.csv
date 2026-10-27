@@ -1,0 +1,529 @@
+﻿theatre_id;title;author;director;url;start_date;end_date;salle;type;editorspick;ajout_claude
+13eme-art;Cher Evan Hansen;Benj Pasek, Justin Paul;Olivier Solivérès;https://le13emeart.com/les-evenements/cher-evan-hansen/;21/09/2026;21/09/2026;;théâtre;;oui
+13eme-art;Miroir Miroir;;Tarek Aït Meddour;https://le13emeart.com/les-evenements/miroir-miroir/;25/09/2026;25/09/2026;;danse;;oui
+13eme-art;Terre sacrée et merveilles d'Angkor;;Chap Chamroeunmina;https://le13emeart.com/les-evenements/terre-sacree-et-merveilles-dangkor/;03/10/2026;03/10/2026;;danse;;oui
+13eme-art;Let's Go!;;Fauve Hautot, Romain Guillermic;https://le13emeart.com/les-evenements/lets-go/;08/10/2026;08/11/2026;;danse;;oui
+13eme-art;Black Legends;;;https://le13emeart.com/les-evenements/black-legends/;26/11/2026;31/01/2027;;théâtre;;oui
+13eme-art;Casse-Noisette;;Marius Petipa;https://le13emeart.com/les-evenements/casse-noisette-2/;23/12/2026;02/01/2027;;danse;;oui
+13eme-art;Des vies d'ombres et de lumières;;;https://le13emeart.com/les-evenements/des-vies-dombres-et-de-lumieres/;13/01/2027;13/01/2027;;théâtre;;oui
+13eme-art;Carmen;;Abou Lagraa;https://le13emeart.com/les-evenements/carmen/;12/02/2027;21/02/2027;;danse;;oui
+13eme-art;Bonnie & Clyde;;François Mauduit;https://le13emeart.com/les-evenements/bonnie-clyde/;02/03/2027;05/03/2027;;danse;;oui
+13eme-art;London City Ballet - Ghost Light & L'Oiseau de feu;;John Neumeier, Glen Tetley;https://le13emeart.com/les-evenements/london-city-ballet/;20/05/2027;30/05/2027;;danse;;oui
+13eme-art;Junior Ballet de l'Opéra national de Paris;;;https://le13emeart.com/les-evenements/junior-ballet-de-lopera-national-de-paris/;04/06/2027;13/06/2027;;danse;;oui
+13eme-art;Catwalk;;Mourad Merzouki;https://le13emeart.com/les-evenements/catwalk/;16/06/2027;27/06/2027;;danse;;oui
+theatre-actuel-la-bruyere;Le Manuel de la jeune mariée 1957;Virginie Lemoine;Virginie Lemoine;https://www.theatrelabruyere.com/spectacle/le-manuel-de-la-jeune-mariee/;26/08/2026;31/12/2026;;théâtre;;oui
+theatre-actuel-la-bruyere;Un soupçon d'amitié;Philippe Froget;Chloé Froget;https://www.theatrelabruyere.com/spectacle/un-soupcon-damitie;10/09/2026;26/12/2026;;théâtre;;
+theatre-actuel-la-bruyere;Les Frottements du cœur;Katia Ghanty;Eric Bu;https://www.theatrelabruyere.com/spectacle/lesfrottementsducoeur/;05/10/2026;28/12/2026;;théâtre;;oui
+theatre-actuel-la-bruyere;Kessel, la liberté à tout prix;Mathieu Rannou;Mathieu Rannou;https://www.theatrelabruyere.com/spectacle/kessel/;12/10/2026;28/12/2026;;théâtre;;oui
+theatre-actuel-la-bruyere;Oublie-moi;Matthew Seager;Marie-Julie Baup, Thierry Lopez;https://www.theatrelabruyere.com/spectacle/oublie-moi/;13/10/2026;31/12/2026;;théâtre;;oui
+theatre-actuel-la-bruyere;Les Garçons et Guillaume, à table !;Guillaume Gallienne;Patrice Mincke;https://www.theatrelabruyere.com/spectacle/les-garcons-et-guillaume-a-table/;11/01/2027;29/03/2027;;théâtre;;oui
+theatre-actuel-la-bruyere;22 minutes;Benoit Solès;Benoit Solès;https://www.theatrelabruyere.com/spectacle/22minutes/;12/01/2027;16/05/2027;;théâtre;;oui
+theatre-antoine;Le Sens de l'humour;Sacha Judaszko, Fabrice Donnio;;https://theatre-antoine.com/event-pro/le-sens-de-lhumour/;16/09/2026;10/01/2027;;théâtre;;oui
+theatre-antoine;Robert Badinter : l'enragé de justice;Nina Pynson;Jérémie Lippmann;https://theatre-antoine.com/event-pro/robert-badinter/;23/09/2026;03/01/2027;;théâtre;;oui
+theatre-antoine;Les Trois Mousquetaires;Alexandre Dumas, Jean-Philippe Daguerre, Charlotte Matzneff;;https://theatre-antoine.com/event-pro/les-trois-mousquetaires/;18/10/2026;28/03/2027;;théâtre;;oui
+theatre-antoine;L'Affaire Christian Ranucci;;;https://theatre-antoine.com/event-pro/christophe-hondelatte/;08/12/2026;08/12/2026;;théâtre;;oui
+theatre-antoine;La Cerisaie;Anton Tchekhov;Eric Ruf;https://theatre-antoine.com/event-pro/la-cerisaie/;29/01/2027;02/05/2027;;théâtre;;oui
+theatre-artistic;L'École des femmes;Molière;Frédérique Lazarini;https://artistictheatre.com/lecole-des-femmes/;17/09/2026;24/10/2026;;théâtre;;oui
+theatre-artistic;Sous le regard de Stefan Zweig - Destruction de l'hôtel de Joseph Roth;Stefan Zweig, Joseph Roth;;https://artistictheatre.com/sous-le-regard-de-stefan-zweig/;04/11/2026;05/11/2026;;théâtre;;oui
+theatre-artistic;Novecento;Alessandro Baricco;Arthur Daniel;https://artistictheatre.com/novecento/;28/11/2026;16/12/2026;;théâtre;;oui
+theatre-atelier;Derrière;Nicolas Chaigneau, Claire Laureau;Nicolas Chaigneau, Claire Laureau;https://www.theatre-atelier.com/event/derriere-pjpp-2026/;10/09/2026;12/11/2026;;théâtre;;oui
+theatre-atelier;Les Galets au Tilleul;pjpp;;https://www.theatre-atelier.com/event/les-galets-au-tilleul-pjpp-2026/;19/09/2026;14/11/2026;;théâtre;;oui
+theatre-atelier;4.48 Psychose;Sarah Kane;Jacques Osinski;https://www.theatre-atelier.com/event/4-48-psychose-sarah-kane-sandrine-bonnaire-2026/;24/09/2026;15/11/2026;;théâtre;;oui
+theatre-atelier;L'Art du portrait selon Cioran;Emil Cioran;Emmanuelle Garassino;https://www.theatre-atelier.com/event/lart-du-portrait-selon-cioran-fabrice-luchini-2026/;07/10/2026;02/12/2026;;théâtre;;oui
+theatre-atelier;Des sorcières comme les autres;Anne Sylvestre;Laetitia Grimaldi;https://www.theatre-atelier.com/event/des-sorcieres-comme-les-autres-anne-sylvestre-2026/;19/11/2026;19/11/2026;;théâtre;;oui
+theatre-atelier;La vie est une fête;Chiens de Navarre;Jean-Christophe Meurisse;https://www.theatre-atelier.com/event/la-vie-est-une-fete-chiens-de-navarre-2026/;27/11/2026;03/01/2027;;théâtre;;oui
+theatre-atelier;Va aimer;Eva Rami;;https://www.theatre-atelier.com/event/triptyque-eva-rami-2026/;09/01/2027;09/01/2027;;théâtre;;oui
+theatre-atelier;Merci de votre collaboration;Lola Lafon;Emmanuel Noblet;https://www.theatre-atelier.com/event/merci-de-votre-collaboration-lola-lafon-2027/;15/01/2027;28/02/2027;;théâtre;;oui
+theatre-atelier;Quelques informations sur Charles Baudelaire;;Emmanuelle Garassino;https://www.theatre-atelier.com/event/fabrice-luchini-quelques-informations-sur-charles-baudelaire-2027/;18/01/2027;01/03/2027;;théâtre;;oui
+theatre-atelier;La lente et difficile agonie du crapaud buffle sur le socle patriarcal;;Anne-Sophie Pauchet;https://www.theatre-atelier.com/event/la-lente-et-difficile-agonie-du-crapaud-buffle-cie-akte-2027/;21/01/2027;28/02/2027;;théâtre;;oui
+theatre-atelier;La chair est triste hélas;Ovidie;Ovidie;https://www.theatre-atelier.com/event/la-chair-est-triste-helas-ovidie-annamouglalis2025/;05/03/2027;03/04/2027;;théâtre;;oui
+theatre-atelier;Les Variations Goldberg;Nancy Huston;Ninon Brétécher;https://www.theatre-atelier.com/event/les-variations-goldberg-nancy-huston-2027/;11/03/2027;04/04/2027;;théâtre;;oui
+theatre-atelier;En émoi;Ivan Viripaev;Galin Stoev;https://www.theatre-atelier.com/event/en-emoi-ivan-viripaev-galin-stoev-2027/;13/04/2027;30/05/2027;;théâtre;;oui
+theatre-atelier;Polar(e);Céline Fuhrer, Jean-Luc Vincent;Céline Fuhrer, Jean-Luc Vincent;https://www.theatre-atelier.com/event/polare-celine-fuhrer-jean-luc-vincent-2026/;24/04/2027;23/05/2027;;théâtre;;oui
+theatre-atelier;Sa bouche ne connaît pas de dimanche;Rébecca Chaillon, Pierre Guillois;;https://www.theatre-atelier.com/event/sa-bouche-ne-connait-pas-de-dimanche-rebecca-chaillon-et-pierre-guillois-2027/;10/06/2027;19/06/2027;;théâtre;;oui
+theatre-des-beliers;Big Mother;Mélody Mourey;;https://www.theatredesbeliersparisiens.com/spectacle/big-mother/;07/02/2023;03/01/2027;;théâtre;;oui
+theatre-des-beliers;La Zone Indigo;Mélody Mourey;;https://www.theatredesbeliersparisiens.com/spectacle/la-zone-indigo/;30/01/2026;03/01/2027;;théâtre;;oui
+theatre-des-beliers;Le Goût de la framboise;Raphaële Volkoff;Martin Darondeau;https://www.theatredesbeliersparisiens.com/spectacle/le-gout-de-la-framboise/;29/08/2026;03/01/2027;;théâtre;;oui
+theatre-belleville;France-Fiction;Nicolas Robinet;Tudual Gallic;https://www.theatredebelleville.com/france-fiction;02/09/2026;30/09/2026;;théâtre;;oui
+theatre-belleville;Mondes Possibles;Rachel Collignon;Christophe Montenez;https://www.theatredebelleville.com/mondes-possibles;02/09/2026;30/09/2026;;théâtre;;oui
+theatre-belleville;Utopie\Viande;Alexandre Horréard;Alexandre Horréard;https://www.theatredebelleville.com/utopie-viande;06/09/2026;29/09/2026;;théâtre;;oui
+theatre-belleville;À ce stade de la nuit;Maylis de Kerangal;Antoine Oppenheim;https://www.theatredebelleville.com/a-ce-stade-de-la-nuit;06/09/2026;29/09/2026;;performance;;oui
+theatre-belleville;1336 (parole de Fralibs);Philippe Durand;Philippe Durand;https://www.theatredebelleville.com/1336-parole-de-fralibs-2026;03/10/2026;28/11/2026;;théâtre;;oui
+theatre-belleville;Gérard de Suresnes;Thibault Raisse, Grégoire Lopoukhine;Grégoire Lopoukhine, Emmanuel Rehbinder;https://www.theatredebelleville.com/gerard-de-suresnes;04/10/2026;27/10/2026;;théâtre;;oui
+theatre-belleville;Larzac !;Philippe Durand;Philippe Durand;https://www.theatredebelleville.com/larzac;04/10/2026;30/11/2026;;théâtre;;oui
+theatre-belleville;Yoni;Isaac Eder;Isaac Eder;https://www.theatredebelleville.com/yoni;06/10/2026;31/01/2027;;théâtre;;oui
+theatre-belleville;Match Retour;Félicien Juttner;Augustin Bouchacourt;https://www.theatredebelleville.com/match-retour;07/10/2026;31/10/2026;;théâtre;;oui
+theatre-belleville;Force Bleus;Thomas Gourdy;Thomas Gourdy;https://www.theatredebelleville.com/force-bleus;05/11/2026;28/11/2026;;performance;;oui
+theatre-belleville;Monstres;Elisa Sitbon Kendall;Elisa Sitbon Kendall;https://www.theatredebelleville.com/monstres;06/11/2026;29/11/2026;;théâtre;;oui
+theatre-belleville;Super-Raptor, Un Noël chez les Johnson;Romain Duquesne;Romain Duquesne;https://www.theatredebelleville.com/super-raptor;02/12/2026;30/12/2026;;théâtre;;oui
+theatre-belleville;Le Rapt de Louis Garrel;Bryan Polach;Bryan Polach;https://www.theatredebelleville.com/le-rapt-de-louis-garrel;03/12/2026;26/12/2026;;théâtre;;oui
+theatre-belleville;Souterrain;Raphaël Bocobza;Raphaël Bocobza;https://www.theatredebelleville.com/souterrain;03/01/2027;26/01/2027;;théâtre;;oui
+porte-saint-martin;Mes battements;Albin de la Simone;Albin de la Simone;https://www.portestmartin.com/mes-battements;04/09/2026;13/11/2026;;théâtre;;modifié
+porte-saint-martin;Article 353 du code pénal;Tanguy Viel;Emmanuel Noblet;https://www.portestmartin.com/article-353-du-code-penal;10/09/2026;02/01/2027;;théâtre;;modifié
+porte-saint-martin;Oh les beaux jours;Samuel Beckett;Marc Paquien;https://www.portestmartin.com/oh-les-beaux-jours-688f601a;23/09/2026;29/11/2026;;théâtre;;modifié
+porte-saint-martin;Le Mariage de Figaro;Pierre-Augustin Caron de Beaumarchais;Alain Françon;https://www.portestmartin.com/le-mariage-de-figaro;26/09/2026;31/12/2026;;théâtre;;modifié
+porte-saint-martin;Courir à la catastrophe;Antoine Heuillet;Antoine Heuillet;https://www.portestmartin.com/courir-a-la-catastrophe;29/09/2026;01/12/2026;Petit Saint-Martin;théâtre;;oui
+porte-saint-martin;Fabrice Luchini lit Victor Hugo;Victor Hugo;Emmanuelle Garassino;https://www.portestmartin.com/fabrice-luchini-lit-victor-hugo-copie-6780373a;05/10/2026;26/01/2027;Porte Saint-Martin;théâtre;;oui
+porte-saint-martin;Concert très chic;Michel Fau;Michel Fau;https://www.portestmartin.com/concert-tres-chic;12/10/2026;28/12/2026;Bouffes Parisiens;théâtre;;oui
+porte-saint-martin;Quelques informations sur Charles Baudelaire;;Emmanuelle Garassino;https://www.portestmartin.com/quelques-informations-sur-charles-baudelaire;01/11/2026;17/12/2026;Petit Saint-Martin;théâtre;;oui
+porte-saint-martin;Ça, c'est l'amour;Jean Robert-Charrier;Julie-Anne Roth;https://www.portestmartin.com/ca-c-est-l-amour;09/01/2027;18/04/2027;Bouffes Parisiens;théâtre;;oui
+porte-saint-martin;Ça ira (1) Fin de Louis;Joël Pommerat;Joël Pommerat;https://www.portestmartin.com/ca-ira-1-fin-de-louis-c10dc3dd;14/01/2027;18/04/2027;Porte Saint-Martin;théâtre;;oui
+porte-saint-martin;Heureux les heureux;Yasmina Reza;Yasmina Reza;https://www.portestmartin.com/heureux-les-heureux;21/01/2027;20/02/2027;Petit Saint-Martin;théâtre;;oui
+porte-saint-martin;ah;Nicolas Doutey;Alain Françon;https://www.portestmartin.com/ah;26/02/2027;28/03/2027;Petit Saint-Martin;théâtre;;oui
+theatre-de-la-boussole;Max et la pyramide magique;Maud Delmar;Timothy Meyers;https://www.theatrelaboussole.com/max-et-la-pyramide-magique;20/09/2025;27/06/2027;;théâtre;;oui
+theatre-de-la-boussole;Mes petits classiques;Maud Delmar;Timothy Meyers;https://www.theatrelaboussole.com/mespetitsclassiques;11/10/2025;27/06/2027;;théâtre;;oui
+theatre-de-la-boussole;La Fée des comptines et la malle enchantée;Maud Delmar;Timothy Meyers;https://www.theatrelaboussole.com/lafeedescomptinesetlamalleenchantee;21/03/2026;07/03/2027;;théâtre;;oui
+theatre-de-la-boussole;L'Arc-en-ciel des émotions;Maud Delmar;Timothy Meyers;https://www.theatrelaboussole.com/larcencieldesemotions;01/09/2026;30/11/2026;;marionnettes;;oui
+theatre-de-la-boussole;Vous;La Compagnie WE IMPRO;La Compagnie WE IMPRO;https://www.theatrelaboussole.com/vous;01/09/2026;31/12/2026;;théâtre;;oui
+theatre-de-la-boussole;Coupable d'être une femme;;;https://www.theatrelaboussole.com/coupabledetreunefemme;17/09/2026;09/01/2027;;théâtre;;oui
+theatre-de-la-boussole;Sauvez ma classe;Samuel Tasinaje;;https://www.theatrelaboussole.com/sauvez-ma-classe;29/09/2026;09/02/2027;;théâtre;;oui
+theatre-de-la-boussole;Musicals Kids;Thierry Lebon;Thierry Lebon;https://www.theatrelaboussole.com/musical-kids;04/10/2026;04/10/2026;;théâtre;;oui
+theatre-de-la-boussole;Bob Dumont voit rouge en mer jaune (ou l'inverse);Cyril Gourbet;;https://www.theatrelaboussole.com/bob-dumont;09/10/2026;31/12/2026;;théâtre;;oui
+theatre-de-la-boussole;La Puce à l'oreille;Georges Feydeau;;https://www.theatrelaboussole.com/la-puce-a-l-oreille;24/10/2026;01/11/2026;;théâtre;;oui
+theatre-de-la-boussole;À ma place;;Sofiane Khelladi;https://www.theatrelaboussole.com/a-ma-place;24/10/2026;24/10/2026;;théâtre;;oui
+theatre-de-la-boussole;Les Histoires improvisées de Pralini;Eustache Mchaik;;https://www.theatrelaboussole.com/histoires-improvisees;28/10/2026;09/12/2026;;théâtre;;oui
+theatre-de-la-boussole;La Folle Journée magique du Père Noël;Maud Delmar;Timothy Meyers;https://www.theatrelaboussole.com/lafollejourneemagique;07/11/2026;03/01/2027;;théâtre;;oui
+theatre-de-la-boussole;Le Café enchanté;Jacques de Villiers;;https://www.theatrelaboussole.com/le-café-enchanté;09/11/2026;30/11/2026;;théâtre;;oui
+theatre-de-la-boussole;Casse-Noisette : le musical;Timothy Meyers;Timothy Meyers;https://www.theatrelaboussole.com/casse-noisettelemusical;15/11/2026;10/01/2027;;théâtre;;oui
+theatre-de-la-boussole;Mon cousin italien;;Vincenzo Cirillo;https://www.theatrelaboussole.com/mon-cousin-italien;25/11/2026;25/11/2026;;théâtre;;oui
+theatre-de-la-boussole;Viking : les deux royaumes;;;https://www.theatrelaboussole.com/vikings-les-2-royaumes;12/12/2026;13/12/2026;;théâtre;;oui
+cafe-de-la-gare;Dîner de famille;Joseph Gallet, Pascal Rocher;Pascal Rocher;https://cdlg.org/j/index.php/112-diner;22/06/2019;31/12/2026;;théâtre;;modifié
+cafe-de-la-gare;État d'urgence;Annabelle Legrand, Martial Courcier;Tim Remis;https://cdlg.org/j/index.php/227-urgence;23/10/2026;31/12/2026;;théâtre;;oui
+cafe-de-la-gare;Le Secret de Sherlock Holmes;Christophe Guillon, Christian Chevalier;Christophe Guillon;https://cdlg.org/j/index.php/208-holmes;30/10/2026;31/12/2026;;théâtre;;oui
+cafe-de-la-gare;On est fait pour s'entendre;Manuel Montero;;https://cdlg.org/j/index.php/238-on-est-fait;08/11/2026;08/11/2026;;théâtre;;oui
+cafe-de-la-gare;Les Renversés - Un royaume renversant;;;https://cdlg.org/j/index.php/240-les-renverses;05/12/2026;05/12/2026;;théâtre;;oui
+champs-elysees;Malandain Ballet Biarritz - L'Oiseau de feu, Boléro, Minuit et demi;;Thierry Malandain;https://www.theatrechampselysees.fr/saison-2026-27/danse/malandain-ballet-biarritz;22/09/2026;25/09/2026;;danse;;oui
+champs-elysees;Boston Ballet - Cacti, Vertical Road;;Alexander Ekman, Akram Khan;https://www.theatrechampselysees.fr/saison-2026-27/danse/boston-ballet-2;08/10/2026;11/10/2026;;danse;;oui
+champs-elysees;Manon Lescaut;Giacomo Puccini;Oliver Mears;https://www.theatrechampselysees.fr/saison-2026-27/opera-mis-en-scene/manon-lescaut;02/11/2026;15/11/2026;;théâtre;;oui
+champs-elysees;Les Pêcheurs de perles;Georges Bizet;Pierre-André Weitz;https://www.theatrechampselysees.fr/saison-2026-27/opera-mis-en-scene/les-pecheurs-de-perles-2;05/12/2026;14/12/2026;;théâtre;;oui
+champs-elysees;Entre chiens et louves (Cirque Le Roux);Cirque Le Roux, Benoît Probst;Charlotte Saliou;https://www.theatrechampselysees.fr/saison-2026-27/danse/cirque-le-roux;22/12/2026;08/01/2027;;performance;;oui
+champs-elysees;Ballet de l'Opéra de Lyon - House, Le Sacre du printemps;;Sharon Eyal, Mats Ek;https://www.theatrechampselysees.fr/saison-2026-27/danse/ballet-de-l-opera-de-lyon;14/01/2027;17/01/2027;;danse;;oui
+champs-elysees;Rinaldo;Georg Friedrich Haendel;Valentina Carrasco;https://www.theatrechampselysees.fr/saison-2026-27/opera-mis-en-scene/rinaldo-2;22/02/2027;28/02/2027;;théâtre;;oui
+champs-elysees;The Joffrey Ballet - Midsummer Night's Dream;;Alexander Ekman;https://www.theatrechampselysees.fr/saison-2026-27/danse/the-joffrey-ballet;18/03/2027;21/03/2027;;danse;;oui
+champs-elysees;Orphée;Christoph Willibald Gluck, Hector Berlioz;Ted Huffman;https://www.theatrechampselysees.fr/saison-2026-27/opera-mis-en-scene/orphee;20/04/2027;29/04/2027;;théâtre;;oui
+champs-elysees;La Salida (Ballet flamenco);;Rubén Molina;https://www.theatrechampselysees.fr/saison-2026-27/danse/ballet-flamenco;04/05/2027;04/05/2027;;danse;;oui
+champs-elysees;Les 4 saisons dansées;;Mourad Merzouki;https://www.theatrechampselysees.fr/saison-2026-27/danse/les-4-saisons-dansees;10/05/2027;13/05/2027;;danse;;oui
+champs-elysees;La Fille du régiment;Gaetano Donizetti;Léa Jézéquel;https://www.theatrechampselysees.fr/saison-2026-27/en-famille/la-fille-du-regiment-2;05/06/2027;13/06/2027;;théâtre;;oui
+champs-elysees;Ballet National de Norvège - Celebrating Kylián;;Jiří Kylián;https://www.theatrechampselysees.fr/saison-2026-27/danse/ballet-national-de-norvege-celebrating-kylian;30/06/2027;03/07/2027;;danse;;oui
+comedie-bastille;Mémé casse bonbons;Anne Cangelosi, Alexandre Delimoges;Alexandre Delimoges;https://comedie-bastille-billetterie.tickandlive.com/evenement/meme-casse-bonbons;01/09/2026;02/01/2027;;théâtre;;oui
+comedie-bastille;Le Premier Homme;Hugues Leforestier;;https://comedie-bastille-billetterie.tickandlive.com/evenement/le-premier-homme;26/10/2026;29/12/2026;;théâtre;;oui
+comedie-bastille;Le Radeau de la Méduse;Alexandre Delimoges;;https://comedie-bastille-billetterie.tickandlive.com/evenement/le-radeau-de-la-meduse-3eme-saison;26/10/2026;28/12/2026;;théâtre;;oui
+comedie-bastille;Le Témoin;Stéphane Guérin;Christophe Gand;https://comedie-bastille-billetterie.tickandlive.com/evenement/le-temoin;28/10/2026;30/12/2026;;théâtre;;oui
+comedie-bastille;Une heure avec Frida Kahlo;Nicolas Delas;Nicolas Delas;https://comedie-bastille-billetterie.tickandlive.com/evenement/une-heure-avec-frida-kahlo;28/10/2026;30/12/2026;;théâtre;;oui
+comedie-bastille;La Folle Histoire du couple;Bertrand Fournel, Fabrice Blind;;https://comedie-bastille-billetterie.tickandlive.com/evenement/la-folle-histoire-du-couple-1;29/10/2026;01/11/2026;;théâtre;;oui
+comedie-bastille;Napo;Éric Delcourt, Tony Zannier;Romain Thunin;https://comedie-bastille-billetterie.tickandlive.com/evenement/napo-saison-2;29/10/2026;03/01/2027;;théâtre;;oui
+comedie-bastille;Les Monologues du machin;Thomas Caruso Aragona;Thomas Caruso Aragona;https://comedie-bastille-billetterie.tickandlive.com/evenement/les-monologues-du-machin-2eme-saison;31/10/2026;07/11/2026;;théâtre;;oui
+comedie-bastille;Plutôt crever ! - Les Swinging Poules;Florence Andrieu, Flannan Obé, Caroline Montier;Marie Blondel;https://comedie-bastille-billetterie.tickandlive.com/evenement/plutot-crever-les-swinging-poules;01/11/2026;03/01/2027;;théâtre;;oui
+comedie-bastille;Le Libraire aux pieds nus;Cliff Paillé;Noémie Alzieu;https://comedie-bastille-billetterie.tickandlive.com/evenement/le-libraire-aux-pieds-nus;05/11/2026;19/12/2026;;théâtre;;oui
+comedie-bastille;Je reviens te chanter;Grégory Plouviez;;https://comedie-bastille-billetterie.tickandlive.com/evenement/je-reviens-te-chanter;18/12/2026;29/03/2027;;théâtre;;oui
+comedie-bastille;#Marie-Antoinette;Priscilla Seiller, Virginie Jakimow;Franck Duarte;https://comedie-bastille-billetterie.tickandlive.com/evenement/marie-antoinette;19/12/2026;29/05/2027;;théâtre;;oui
+comedie-bastille;L'Expérience de Milgram;Simon Leblond;Alice Gaulon;https://comedie-bastille-billetterie.tickandlive.com/evenement/lexperience-de-milgram;21/12/2026;26/05/2027;;théâtre;;oui
+comedie-de-paris;Tout feu tout flamme;Arthur Jugnot;Arthur Jugnot;https://www.comediedeparis.com/tout-feu-tout-flamme;26/08/2026;03/01/2027;;théâtre;;oui
+comedie-de-paris;Les Comptines de Capucine;Michaël Marche;Alexandre Vaz;https://www.comediedeparis.com/les-comptinesdecapucine;11/10/2026;03/01/2027;;théâtre;;oui
+comedie-de-paris;Souris puisque c'est grave;Franck Le Hen;Romain Thunin;https://www.comediedeparis.com/souris-puisque-cest-grave;26/10/2026;26/10/2026;;théâtre;;oui
+comedie-de-paris;C'est promis;Andrea Schneider, Jeremy Veluire;Andrea Schneider;https://www.comediedeparis.com/c-est-promis;16/11/2026;23/11/2026;;théâtre;;oui
+contrescarpe;La Promesse de l'aube;Romain Gary;Tigran Mekhitarian;https://www.lecontrescarpe.com/lapromessedelaube;08/08/2026;03/01/2027;;théâtre;;oui
+contrescarpe;Terre des hommes;Antoine de Saint-Exupéry;Thierry Harcourt;https://www.lecontrescarpe.com/terredeshommes;28/08/2026;19/12/2026;;théâtre;;oui
+contrescarpe;Le Silence des voix qui se sont tues;Laurence Bohec;Laurence Bohec;https://www.lecontrescarpe.com/lesilencedesvoixquisesonttues;23/09/2026;16/12/2026;;théâtre;;oui
+contrescarpe;L'Heure H;Jean-Louis Lahaye, Etienne de Balasy;Etienne de Balasy;https://www.lecontrescarpe.com/lheure-h;01/10/2026;20/12/2026;;théâtre;;oui
+contrescarpe;Blessures ordinaires;Matthieu Séguier;;https://www.lecontrescarpe.com/blessuresordinaires;04/10/2026;19/12/2026;;théâtre;;oui
+contrescarpe;Sissi Von Vart;Manon Viel;Benoit Giros;https://www.lecontrescarpe.com/sissivonvart;20/10/2026;29/12/2026;;théâtre;;oui
+deux-anes;So Churchill;Sylvain Beltran-Lamy;;https://2anes.com/alaffiche/so-churchill/;29/10/2026;17/12/2026;;théâtre;;oui
+deux-anes;Le Dîner de cocus;Jacques Gay;Jacques Gay;https://2anes.com/alaffiche/le-diner-de-cocus/;31/10/2026;27/12/2026;;théâtre;;oui
+deux-anes;Les Bichons;Sylvain Beltran-Lamy;;https://2anes.com/alaffiche/les-bichons/;05/11/2026;17/12/2026;;théâtre;;oui
+divine-comedie;Un Ouvrage de dames;Jean-Claude Danaud;Compagnie Figarillo;https://ladivinecomedie.qidoon.com/events/4026;10/09/2026;31/12/2026;;théâtre;;
+divine-comedie;Champollion, Égypte mon amour;Joëlle Fossier-Auguste;Joëlle Fossier-Auguste;https://ladivinecomedie.qidoon.com/events/4346;27/10/2026;29/12/2026;;théâtre;;oui
+divine-comedie;À contresens (de la police judiciaire à la scène);Thierry Roudil;;https://ladivinecomedie.qidoon.com/events/4897;27/10/2026;27/10/2026;;théâtre;;oui
+divine-comedie;Maman, je ne rêve plus !;Hikaru Fray;;https://ladivinecomedie.qidoon.com/events/4811;28/10/2026;06/01/2027;;théâtre;;oui
+divine-comedie;Vieille branche;;;https://ladivinecomedie.qidoon.com/events/4794;29/10/2026;20/12/2026;;théâtre;;oui
+divine-comedie;Je t'aime à l'italienne/algérienne;;;https://ladivinecomedie.qidoon.com/events/1426;31/10/2026;09/01/2027;;théâtre;;oui
+divine-comedie;Le Père Noël est une ordure;La troupe du Splendid;Dragana Smiljanic;https://ladivinecomedie.qidoon.com/events/4572;31/10/2026;09/01/2027;;théâtre;;oui
+divine-comedie;Les Bobos font du ski;Kader Nemer;Kader Nemer;https://ladivinecomedie.qidoon.com/events/3843;31/10/2026;09/01/2027;;théâtre;;oui
+divine-comedie;Destiny - L'histoire dont vous êtes les héros;;Marouene Cherdouh;https://ladivinecomedie.qidoon.com/events/4770;05/11/2026;17/12/2026;;théâtre;;oui
+divine-comedie;Spin-Off;;;https://ladivinecomedie.qidoon.com/events/2378;05/11/2026;03/12/2026;;théâtre;;oui
+divine-comedie;Retour de flamme;Jean Martiny, Bruno Le Millin;Éric Lemignon;https://ladivinecomedie.qidoon.com/events/4646;07/12/2026;07/12/2026;;théâtre;;oui
+divine-comedie;Gigi;;;https://ladivinecomedie.qidoon.com/events/4961;16/12/2026;16/12/2026;;théâtre;;oui
+divine-comedie;La Vie devant soi;Romain Gary;Carole Mermoud;https://ladivinecomedie.qidoon.com/events/4941;07/01/2027;29/04/2027;;théâtre;;oui
+divine-comedie;La Quatrième Improvisation;;;https://ladivinecomedie.qidoon.com/events/4742;10/01/2027;24/01/2027;;théâtre;;oui
+theatre-edgar;Du couscous à l'Élysée;Gabriel Francès, Romuald Maufras, Sam Namane;Justine Paolini;https://www.theatre-edgar.com/du-couscous-a-l-elisee;01/09/2025;31/12/2026;;théâtre;;oui
+theatre-edgar;Tout Molière ou presque !;Vincent Caire;Vincent Caire;https://www.theatre-edgar.com/tout-molière-ou-presque;07/06/2026;27/12/2026;;théâtre;;oui
+theatre-edgar;Braquage en cours !;Mickaël Soleirol, Damien Dufour;Mickaël Soleirol;https://www.theatre-edgar.com/braquage-en-cours;10/07/2026;28/12/2026;;théâtre;;oui
+theatre-edgar;Mon beau-père et moi;Jérôme Paquatte, Jean-Marc Magnoni;;https://www.theatre-edgar.com/jeu-de-cette-famille;10/07/2026;30/10/2026;;théâtre;;oui
+theatre-edgar;Mon meilleur témoin;Arnaud Cosson;Luq Hamett;https://www.theatre-edgar.com/mon-meilleur-temoin;27/10/2026;03/05/2027;;théâtre;;oui
+theatre-edgar;Le Club des complotistes;Mathieu Oliver;Sébastien Bruzzone, Cédric Telles;https://tpa.fr/pieces-theatre-paris/le-club-des-complotistes-14336.html;02/11/2026;03/01/2027;;théâtre;;oui
+theatre-edouard-vii;Le Père;Florian Zeller;Florian Zeller;https://www.theatreedouard7.com/spectacles/le-pere;24/09/2026;30/12/2026;;théâtre;;oui
+theatre-edouard-vii;Le Chameau;Jean Reno;Ladislas Chollat;https://www.theatreedouard7.com/spectacles/jean-reno-le-chameau;01/12/2026;31/12/2026;;théâtre;;oui
+theatre-essaion;Le grand chaperon rouge et le petit loup;Carole Bellanger;Carole Bellanger;https://essaion-theatre.com/spectacle/le-grand-chaperon-rouge-et-le-petit-loup/;13/06/2026;04/10/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;La sorcière du placard aux balais;Pierre Gripari;Letti Laubies;https://essaion-theatre.com/spectacle/la-sorciere-du-placard-aux-balais/;04/07/2026;29/11/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Ce matin-là !;Marion Monier;Marion Monier, Elisabetta Spaggiari;https://essaion-theatre.com/spectacle/ce-matin-l%c3%a0/;22/08/2026;18/11/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;La petite Poule rousse;Sylvain Bernert;Sylvain Bernert;https://essaion-theatre.com/spectacle/la-petite-poule-rousse/;23/08/2026;30/09/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le Livre de la Jungle;Vincent Bernard;Isabelle Olivier;https://essaion-theatre.com/spectacle/le-livre-de-la-jungle/;24/08/2026;04/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Peter Pan;Etienne Luneau;Vincent Bernard;https://essaion-theatre.com/spectacle/peter-pan-2/;24/08/2026;14/10/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Mémoires d’un tricheur;Sacha Guitry, Eric-Emmanuel Schmitt;Amar Mostefaoui;https://essaion-theatre.com/spectacle/memoires-dun-tricheur/;02/09/2026;29/10/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Rowlands et Cassavetes;Nicky Naudé;Nicky Naudé;https://essaion-theatre.com/spectacle/rowlands-et-cassavetes/;03/09/2026;03/10/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Les carnets du sous-sol;Fiodor Dostoïevski;Christophe Laparra;https://essaion-theatre.com/spectacle/les-carnets-du-sous-sol/;04/09/2026;07/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Après-midi, Piscine;Franz Kafka;Bernard Bloch;https://essaion-theatre.com/spectacle/apres-midi-piscine/;07/09/2026;01/12/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Big Floyd;Prune Wong;Prune Wong;https://essaion-theatre.com/spectacle/big-floyd/;07/09/2026;25/10/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Double Fracture;Jean-Baptiste Darosey, Stéphanie Gagneux;Stéphanie Gagneux;https://essaion-theatre.com/spectacle/double-fracture/;07/09/2026;30/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Nuit d'été (une pièce avec chansons);David Greig, Gordon McIntyre;Sarah Glond, Stéphane Hervé;https://essaion-theatre.com/spectacle/nuit-d-ete-une-piece-avec-chansons/;07/09/2026;22/09/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Françoise par Sagan;Françoise Sagan;Alex Lutz;https://essaion-theatre.com/spectacle/francoise-par-sagan/;09/09/2026;17/06/2027;;théâtre;;oui
+theatre-essaion;L’Apollon de Bellac;Jean Giraudoux;Christel Pourchet;https://essaion-theatre.com/spectacle/lapollon-de-bellac/;09/09/2026;01/10/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Le Horla;Guy de Maupassant;Arnaud Beunaiche;https://essaion-theatre.com/spectacle/le-horla/;11/09/2026;08/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Vous qui passez sans me voir;Sébastien Biessy;Sébastien Biessy;https://essaion-theatre.com/spectacle/vous-qui-passez-sans-me-voir/;11/09/2026;26/09/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Sophie Forte - La Valise;Sophie Forte;Virginie Lemoine, Frédéric Patto;https://essaion-theatre.com/spectacle/sophie-forte-la-valise/;12/09/2026;16/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;L’intégrale des fables;Jean de La Fontaine;Pascal Ruiz;https://essaion-theatre.com/spectacle/lintegrale-des-fables/;13/09/2026;15/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Encore une Marilyn, mais cette fois-ci la vraie !;Sophie Forte;Sophie Forte;https://essaion-theatre.com/spectacle/encore-une-marilyn-mais-cette-fois-ci-la-vraie-2/;02/10/2026;03/04/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Le Petit Chat Botté;Xavier Bartens;Anne Leterrier, Xavier Bartens;https://essaion-theatre.com/spectacle/le-petit-chat-botte/;03/10/2026;02/12/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Une vie sans ordonnance !;Sylvie Chenus, Nell Holson;Sylvie Chenus, Juliette Croizat;https://essaion-theatre.com/spectacle/une-vie-sans-ordonnance/;05/10/2026;03/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Jean Zay, L'homme complet;Jean Zay;Michel Cochet;https://essaion-theatre.com/spectacle/jean-zay-l-homme-complet/;06/10/2026;16/02/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;L'Affaire Dussaert;Jacques Mougenot;Jacques Mougenot;https://essaion-theatre.com/spectacle/l-affaire-dussaert/;07/10/2026;27/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Mozart, le dernier voyage à Paris;Wolfgang Amadeus Mozart;Camille de Léobardy;https://essaion-theatre.com/spectacle/mozart-le-dernier-voyage-a-paris/;08/10/2026;14/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le Roman de Renart;;Freddy Viau;https://essaion-theatre.com/spectacle/le-roman-de-renart/;10/10/2026;29/11/2026;Salle Théâtre;théâtre;;oui
+theatre-essaion;Pâquerette mène l'enquête;Carole Bellanger;Compagnie Scénofolies;https://essaion-theatre.com/spectacle/paquerette-mene-l-enquete/;17/10/2026;29/11/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Bad Queen;Nathalie Dahan;Nathalie Dahan;https://essaion-theatre.com/spectacle/bad-queen/;04/11/2026;30/12/2026;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le Fantôme de Canterville;Oscar Wilde, Leïla Moguez;Leïla Moguez;https://essaion-theatre.com/spectacle/le-fantome-de-canterville/;07/11/2026;27/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Pour un Oui, pour un Non;Nathalie Sarraute;Michel Favart;https://essaion-theatre.com/spectacle/pour-un-oui-pour-un-non/;09/11/2026;12/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le Premier Homme;Albert Camus;Patrick Roldez;https://essaion-theatre.com/spectacle/le-premier-homme/;11/11/2026;21/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Tiquetonne;Marguerite Kloeckner, Alexis Chevalier;Alexis Chevalier;https://essaion-theatre.com/spectacle/tiquetonne/;12/11/2026;16/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le Mariage forcé;Molière;Jérôme Léger, Emmanuel Vacarisas;https://essaion-theatre.com/spectacle/le-mariage-force/;20/11/2026;24/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Sous le sapin d’après l'univers de Casse-noisette;Michel Laliberté;Michel Laliberté;https://essaion-theatre.com/spectacle/sous-le-sapin-d-apres-l-univers-de-casse-noisette/;21/11/2026;17/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Le Père Noël aime la lumière !;Vanessa Luna Nahoum;Vanessa Luna Nahoum;https://essaion-theatre.com/spectacle/le-pere-noel-aime-la-lumiere/;02/12/2026;06/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;N’est pas Père-Noël qui veut;Carole Bellanger;Carole Bellanger;https://essaion-theatre.com/spectacle/nest-pas-pere-noel-qui-veut/;02/12/2026;10/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Charlotte et le Costume du Père Noël;Leslie Carles, Jérémie Milsztein;Leslie Carles, Jérémie Milsztein;https://essaion-theatre.com/spectacle/charlotte-et-le-costume-du-pere-noel/;05/12/2026;03/01/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Le traîneau du Père Noël;Joyce Brunet;Joyce Brunet;https://essaion-theatre.com/spectacle/le-traineau-du-pere-noel/;05/12/2026;03/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le justaucorps bleu;Lara Neumann, Flannan Obé;Flannan Obé;https://essaion-theatre.com/spectacle/le-justaucorps-bleu/;07/12/2026;05/01/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Roule Galette;Sylvain Bernert;Sylvain Bernert;https://essaion-theatre.com/spectacle/roule-galette/;06/01/2027;29/03/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;La Flûte Enchantée;Wolfgang Amadeus Mozart;;https://essaion-theatre.com/spectacle/la-flute-enchantee/;09/01/2027;28/02/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Marlaguette;Marie Colmont;Thierry Jahn;https://essaion-theatre.com/spectacle/marlaguette/;09/01/2027;29/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;J'ai besoin d'air, c'est pour ça que je fume;Clémence de Vimal;Clémence de Vimal;https://essaion-theatre.com/spectacle/j-ai-besoin-d-air-c-est-pour-ca-que-je-fume/;11/01/2027;23/03/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Les Contes du Chat Perché;Marcel Aymé;Thierry Jahn;https://essaion-theatre.com/spectacle/les-contes-du-chat-perche/;16/01/2027;21/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Un ciel rempli d'oiseaux;Antoine Choplin;Dominique Lurcel;https://essaion-theatre.com/spectacle/un-ciel-rempli-d-oiseaux/;20/01/2027;18/02/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Jamais je n'aurais imaginé être une femme exceptionnelle;Esther Bastendorff;Clémentine Yelnik, Esther Bastendorff;https://essaion-theatre.com/spectacle/jamais-je-n-aurais-imagine-etre-une-femme-exceptionnelle/;21/01/2027;20/03/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Choubidouwa !;Les Divalala;Nicolas Guilleminot;https://essaion-theatre.com/spectacle/choubidouwa/;23/01/2027;07/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Rossignol à la langue pourrie;Jehan-Rictus;Guy-Pierre Couleau;https://essaion-theatre.com/spectacle/rossignol-a-la-langue-pourrie/;24/01/2027;04/04/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Côté Jardin;Nicolas di Tullio;Ariane Gardel;https://essaion-theatre.com/spectacle/cote-jardin/;25/01/2027;22/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Son odeur après la pluie;Cédric Sapin-Defour, Véronique Boutonnet;Richard Arselin, Véronique Boutonnet;https://essaion-theatre.com/spectacle/son-odeur-apres-la-pluie/;29/01/2027;27/03/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Chats-Pitres, Contes Félins du Japon;Isabelle Genlis;Isabelle Genlis, Fumie Hihara;https://essaion-theatre.com/spectacle/chats-pitres-contes-felins-du-japon/;30/01/2027;17/03/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Juvénal : les Satires;Juvénal;Géraud Bénech;https://essaion-theatre.com/spectacle/juvenal-les-satires/;31/01/2027;18/04/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Passeports pour la Liberté;Stéphane Beaud, Samira Belhoumi;Dominique Lurcel;https://essaion-theatre.com/spectacle/passeports-pour-la-liberte/;23/02/2027;24/03/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;L’Arbre Sans Fin;Claude Ponti;Yaouenn Tenin;https://essaion-theatre.com/spectacle/larbre-sans-fin/;02/03/2027;23/05/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Pom Pom Pommes;Eugénie Gendron;Eugénie Gendron;https://essaion-theatre.com/spectacle/pom-pom-pommes/;13/03/2027;30/05/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;L’Ingénu;Voltaire;Jean-Christophe Barbaud;https://essaion-theatre.com/spectacle/lingenu/;17/03/2027;30/06/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Le retour des fleurs;;Sue Buckmaster, Charlotte Jouanneteau;https://essaion-theatre.com/spectacle/le-retour-des-fleurs/;27/03/2027;09/05/2027;Salle Théâtre;marionnettes;;oui
+theatre-essaion;Une Censure sachant chanter;Raphaël Callandreau, Julie Autissier;Nicolas Guilleminot;https://essaion-theatre.com/spectacle/une-censure-sachant-chanter/;29/03/2027;18/05/2027;Salle Cabaret;théâtre;;oui
+theatre-essaion;Sherlock Holmes et la Mystérieuse Association des Hommes roux;Arthur Conan Doyle, Leïla Moguez;Leïla Moguez;https://essaion-theatre.com/spectacle/sherlock-holmes-et-la-mysterieuse-association-des-hommes-roux/;03/04/2027;06/06/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Valjean !;Christophe Delessart;Elsa Saladin;https://essaion-theatre.com/spectacle/valjean/;07/04/2027;17/06/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Choisis la vie et tu vivras;Christiane Singer;Laurent Brouazin;https://essaion-theatre.com/spectacle/choisis-la-vie-et-tu-vivras/;11/04/2027;30/05/2027;Salle Théâtre;théâtre;;oui
+theatre-essaion;Le jardin de Lilou;Joyce Brunet;Joyce Brunet;https://essaion-theatre.com/spectacle/le-jardin-de-lilou/;05/06/2027;29/07/2027;Salle Théâtre;théâtre;;oui
+folies-bergere;SHREK le Musical;;;https://www.foliesbergere.com/fr/Shrek-Le-Musical-Le-Spectacle-2-Octobre-2026-Au-17-Janvier-2027-Billetterie-Paris;03/10/2026;17/01/2027;;théâtre;;
+folies-bergere;L'âge bête;Olivier Baroux;Olivier Baroux;https://www.foliesbergere.com/fr/Michele-Laroque-Et-Kad-Merad-L-%C3%82ge-B%C3%AAte-7-Octobre-Au-24-Octobre-2026-Billetterie-Paris;07/10/2026;24/10/2026;;théâtre;;
+folies-bergere;Barbara, du bout des lèvres;;Benjamin Millepied;https://www.foliesbergere.com/fr/Barbara-Du-Bout-Des-Levres-Spectacle-9-Novembre-Au-22-Novembre-2026-Billetterie-Paris;09/11/2026;22/11/2026;;danse;;oui
+folies-bergere;Move Me Once More;;;https://www.foliesbergere.com/fr/Move-Me-Once-More-Le-Dernier-Cabaret-14-Novembre-Au-29-Novembre-2026-Billetterie-Paris;17/11/2026;29/11/2026;;performance;;oui
+folies-bergere;Summerland;;;https://www.foliesbergere.com/fr/Summerland-Avec-November-Ultra-24-Novembre-Au-29-Novembre-2026-Billetterie-Paris;24/11/2026;29/11/2026;;danse;;oui
+folies-bergere;UNE SECONDE AVANT NOEL - LE MUSICAL;;;https://www.foliesbergere.com/fr/Une-Seconde-Avant-Noel-Le-Musical-Du-11-Decembre-2026-Au-17-Janvier-2027-Billetterie-Paris;11/12/2026;17/01/2027;;théâtre;;
+folies-bergere;Kinky Boots;Harvey Fierstein, Cyndi Lauper;Christopher Lopez;https://www.foliesbergere.com/fr/Kinky-Boots-La-Comedie-Musicale-2027-Billetterie-Paris;12/02/2027;09/05/2027;;théâtre;;oui
+folies-bergere;Sukhishvili;;;https://www.foliesbergere.com/fr/Sukhishvili-The-First-The-Original-15-Mars-2027-Billetterie-Paris;15/03/2027;15/03/2027;;danse;;oui
+theatre-fontaine;2:22 A Ghost Story;Danny Robins;Ladislas Chollat;https://www.theatrefontaine.com/spectacles/222-ghost-story;15/09/2026;03/01/2027;;théâtre;;oui
+funambule-montmartre;Les Musiciens de Brême;Xavier Bartens;Xavier Bartens, Anne Leterrier;https://www.funambule-montmartre.com/les-musiciens-de-breme;05/09/2026;08/11/2026;;théâtre;;oui
+funambule-montmartre;Mémoire(s) de l'Olympia;;Laurent Malot;https://www.funambule-montmartre.com/memoires-de-l-olympia;05/09/2026;03/01/2027;;théâtre;;oui
+funambule-montmartre;Trop petite;Hans Christian Andersen;Laetitia Miserez;https://www.funambule-montmartre.com/trop-petite;05/09/2026;08/11/2026;;théâtre;;oui
+funambule-montmartre;L'Importance d'être Claire;Oscar Wilde, Aurore Boyer;Aurore Boyer;https://www.funambule-montmartre.com/l-importance-d-etre-claire;07/09/2026;09/11/2026;;théâtre;;oui
+funambule-montmartre;Maître Mô;Jean-Yves Moyart;Ronan Heuzel;https://www.funambule-montmartre.com/maitre-mo;07/09/2026;05/01/2027;;théâtre;;oui
+funambule-montmartre;Démodé;Mily Neau;Mily Neau;https://www.funambule-montmartre.com/demode;08/09/2026;11/11/2026;;théâtre;;oui
+funambule-montmartre;Sagan, le miroir des sentiments;Olivia Lauret, Valentine Tessier;Olivia Lauret, Valentine Tessier;https://www.funambule-montmartre.com/sagan-le-miroir-des-sentiments;08/09/2026;04/11/2026;;théâtre;;oui
+funambule-montmartre;Elles disent… l'Odyssée;Jean-Luc Lagarce;Vincent Marbeau;https://www.funambule-montmartre.com/elles-disent-l-odyssee;08/10/2026;08/11/2026;;théâtre;;oui
+funambule-montmartre;La Fin de la civilisation;Alain Péron;Fanette Jounieaux Maerten;https://www.funambule-montmartre.com/la-fin-de-la-civilisation;08/10/2026;01/11/2026;;théâtre;;oui
+funambule-montmartre;Une Peau d'Âne;Charles Perrault;;https://www.funambule-montmartre.com/peau-d-ane;19/10/2026;30/10/2026;;théâtre;;oui
+funambule-montmartre;Kabinet;Hélène Vieilletoile;Hélène Vieilletoile;https://www.funambule-montmartre.com/kabinet;05/11/2026;29/11/2026;;théâtre;;oui
+funambule-montmartre;L'Étrange Noël du magicien;Jérémy Richard;Wilfried Richard;https://www.funambule-montmartre.com/l-etrange-noel-du-magicien;11/11/2026;03/01/2027;;théâtre;;oui
+funambule-montmartre;Caravan;Pierre Duchesne;Pierre Loup Mériaux;https://www.funambule-montmartre.com/caravan;12/11/2026;10/01/2027;;théâtre;;oui
+funambule-montmartre;Une année de réchauffement;Julien Kirsche, Timothée Ansieau;Julien Kirsche, Timothée Ansieau;https://www.funambule-montmartre.com/une-annee-de-rechauffement;14/11/2026;30/12/2026;;théâtre;;oui
+funambule-montmartre;Camembert : le couronnement;;Collectif Nous Indiscipliné.es;https://www.funambule-montmartre.com/camembert-le-couronnement;16/11/2026;01/03/2027;;théâtre;;oui
+funambule-montmartre;Mauvaises chiennes;Marcia Burnier;Margot Souriau;https://www.funambule-montmartre.com/mauvaises-chiennes;16/11/2026;29/03/2027;;théâtre;;oui
+funambule-montmartre;Soie;Alessandro Baricco;William Mesguich;https://www.funambule-montmartre.com/soie;17/11/2026;27/01/2027;;théâtre;;oui
+funambule-montmartre;Lily et l'atelier du Père Noël;Scirly Sassella;Antoine Bobbera;https://www.funambule-montmartre.com/lily-et-l-atelier-du-pere-noel;18/11/2026;30/12/2026;;théâtre;;oui
+funambule-montmartre;Magellan;Stefan Zweig;Claire Boust;https://www.funambule-montmartre.com/magellan;03/12/2026;31/01/2027;;théâtre;;oui
+funambule-montmartre;Alice au pays des merveilles;Lewis Carroll, Marie-Laure Malric, Marie Simon;Philippe Gouin;https://www.funambule-montmartre.com/alice-au-pays-des-merveilles;21/12/2026;31/03/2027;;théâtre;;oui
+gaite-montparnasse;Témoin de mariage;Jean-Luc Lemoine;Anthony Marty;https://gaite.com/spectacles/temoin-de-mariage/;01/07/2026;12/09/2026;;théâtre;;oui
+gaite-montparnasse;L'Embarras du choix;Sébastien Azzopardi, Sacha Danino;Sébastien Azzopardi;https://gaite.com/spectacles/lembarras-du-choix;02/09/2026;03/07/2027;;théâtre;;modifié
+gaite-montparnasse;La Claque;Fred Radix;Fred Radix;https://gaite.com/spectacles/la-claque/;11/09/2026;23/05/2027;;théâtre;;oui
+gaite-montparnasse;Les Vilaines;Guy Bontempelli, Elsa Bontempelli;Elsa Bontempelli;https://gaite.com/spectacles/les-vilaines;30/09/2026;16/06/2027;;théâtre;;modifié
+gaite-montparnasse;Chat Botté, le musical;Charles Perrault, Les Frères Safa;Les Frères Safa;https://gaite.com/spectacles/chat-botte/;19/09/2026;29/05/2027;;théâtre;;oui
+gaite-montparnasse;Le Livre de la jungle;Rudyard Kipling, Ely Grimaldi, Igor de Chaillé;Ned Grujic;https://gaite.com/spectacles/le-livre-de-la-jungle/;20/09/2026;22/05/2027;;théâtre;;oui
+gaite-montparnasse;Et n'oubliez pas la pièce;Fred Radix;Fred Radix;https://gaite.com/spectacles/et-noubliez-pas-la-piece/;21/09/2026;25/05/2027;;théâtre;;oui
+gaite-montparnasse;Blanche Neige et les Sept Nains;Olivier Solivérès;Olivier Solivérès;https://gaite.com/spectacles/blanche-neige-et-les-sept-nains/;03/10/2026;30/05/2027;;théâtre;;oui
+gaite-montparnasse;Les Funambules;;Stéphane Corbin;https://gaite.com/spectacles/les-funambules-elles;07/10/2026;09/06/2027;;théâtre;;
+gaite-montparnasse;Cinq de Cœur - Un air de fête;;Virginie Lemoine;https://gaite.com/spectacles/cinq-de-coeur/;04/11/2026;02/06/2027;;théâtre;;oui
+gaite-montparnasse;Dans les étoiles;David Elbaz, Eric Théobald, Manon Elezaar;Eric Théobald;https://gaite.com/spectacles/david-elbaz-dans-les-etoiles/;18/02/2027;03/04/2027;;théâtre;;oui
+gaite-rive-gauche;Paris is Magique;Sacha Judaszko, Nicolas Nebot;Sacha Judaszko, Nicolas Nebot;https://lagaiterivegauche.com/spectacles/paris-is-magique/;23/06/2026;27/06/2027;;théâtre;;oui
+gaite-rive-gauche;Pocahontas, le musical;Samuel Safa;Les Frères Safa;https://lagaiterivegauche.com/spectacles/pocahontas/;19/09/2026;30/05/2027;;théâtre;;oui
+gaite-rive-gauche;Zwaj;;Hajare Akiri-Marmagne, Arthur Marmagne;https://lagaiterivegauche.com/spectacles/zwaj/;27/09/2026;27/12/2026;;danse;;oui
+gaite-rive-gauche;La Belle au bois dormant;Nicolas Nebot, Dominique Mattei;;https://lagaiterivegauche.com/spectacles/la-belle-au-bois-dormant/;03/10/2026;09/05/2027;;théâtre;;oui
+gaite-rive-gauche;The Opera Locos;Yllana, Rami Eldar;David Ottone, Joe O'Curneen;https://lagaiterivegauche.com/spectacles/the-opera-locos/;04/10/2026;14/02/2027;;théâtre;;oui
+gaite-rive-gauche;Jovany - Le dernier saltimbanque;;;https://lagaiterivegauche.com/spectacles/jovany-le-dernier-saltimbanque/;13/10/2026;15/12/2026;;théâtre;;oui
+gaite-rive-gauche;C@sse Noisette;Elsa Bontempelli;Elsa Bontempelli;https://lagaiterivegauche.com/spectacles/casse-noisette/;04/11/2026;16/12/2026;;danse;;oui
+gaite-rive-gauche;Le Grrôle de Noël;Les Frères Safa;;https://lagaiterivegauche.com/spectacles/le-grrole-de-noel/;15/11/2026;30/12/2026;;théâtre;;oui
+gaite-rive-gauche;Les Vice Versa - Imagine;;Anthony Figueiredo, Régis Truchy;https://lagaiterivegauche.com/spectacles/les-vice-versa/;09/01/2027;09/01/2027;;théâtre;;oui
+gaite-rive-gauche;Les Grands Discours;;Marie Guibourt;https://lagaiterivegauche.com/spectacles/les-grands-discours/;15/01/2027;29/05/2027;;théâtre;;oui
+gaite-rive-gauche;Alice au pays des merveilles;;;https://lagaiterivegauche.com/spectacles/alice-au-pays-des-merveilles/;07/02/2027;30/06/2027;;théâtre;;oui
+gaite-rive-gauche;Divas of Soul – Un musical disco soul;;Noah Ndema;https://lagaiterivegauche.com/spectacles/divas-of-soul/;28/02/2027;25/04/2027;;théâtre;;oui
+theatre-gemeaux-parisiens;Anatomie d'un aveuglement;Alain Roisin;Marie Philippe;https://www.theatrelucas-paumier.fr/anatomie-d-un-aveuglement;19/09/2026;30/12/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;Ultra-Girl contre Schopenhauer;Cédric Roulliat;Cédric Roulliat;https://www.theatrelucas-paumier.fr/ultra-girl-contre-schopenhauer;19/09/2026;26/12/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;Une femme à la mer;Florence Arthaud;Stéphane Cottin;https://www.theatrelucas-paumier.fr/une-femme-a-la-mer;19/09/2026;31/03/2027;;théâtre;;oui
+theatre-gemeaux-parisiens;L'Empereur des boulevards;Olivier Schmidt;Olivier Schmidt;https://www.theatrelucas-paumier.fr/l-empereur-des-boulevards;21/09/2026;29/12/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;La Jeanne de Delteil;Joseph Delteil;Christian Schiaretti;https://www.theatrelucas-paumier.fr/la-jeanne-de-delteil;21/09/2026;17/02/2027;;théâtre;;oui
+theatre-gemeaux-parisiens;Roméo et Juliette;William Shakespeare;Maud Buquet Kandinsky;https://www.theatrelucas-paumier.fr/romeo-et-juliette;27/09/2026;13/12/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;Phèdre;Jean Racine;Jean-Yves Brignon;https://www.theatrelucas-paumier.fr/phedre;28/09/2026;12/04/2027;;théâtre;;oui
+theatre-gemeaux-parisiens;Katte;Jean-Marie Besset;Frédérique Lazarini;https://www.theatrelucas-paumier.fr/katte;01/10/2026;22/11/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;Orphelins;Dennis Kelly;Olivier Sanquer;https://www.theatrelucas-paumier.fr/orphelins;06/10/2026;29/12/2026;;théâtre;;oui
+theatre-gemeaux-parisiens;La Cabane de l'architecte;Louise Doutreligne;Jean-Luc Paliès;https://www.theatrelucas-paumier.fr/cabane-de-l-architecte;04/01/2027;05/04/2027;;théâtre;;oui
+theatre-gemeaux-parisiens;Los Guardiola;Giorgia Marchiori, Marcelo Guardiola;Marcelo Guardiola;https://www.theatrelucas-paumier.fr/los-guardiola;07/01/2027;25/02/2027;;théâtre;;oui
+theatre-gymnase-marie-bell;La Folle du 5ème;Eléonore Bauer;Arnaud Schmitt;https://theatredugymnase.com/event-pro/la-folle-du-5eme;12/09/2026;31/12/2026;;théâtre;;oui
+theatre-gymnase-marie-bell;Le Discours d'un roi;David Seidler;Jérémie Lippmann;https://theatredugymnase.com/event-pro/le-discours-dun-roi;17/09/2026;03/01/2027;;théâtre;;oui
+theatre-gymnase-marie-bell;Brassens, l'amour des mots;Georges Brassens;Daniel Mesguich;https://theatredugymnase.com/event-pro/brassens-lamour-des-mots;18/09/2026;17/01/2027;;théâtre;;oui
+theatre-gymnase-marie-bell;La Belle et la Bête;Yanis Azaiez, Marie Rioux;Yanis Azaiez, Marie Rioux;https://theatredugymnase.com/event-pro/la-belle-et-la-bete;19/09/2026;28/12/2026;;théâtre;;oui
+theatre-gymnase-marie-bell;La Douleur;Marguerite Duras;Virginie Gaillard;https://theatredugymnase.com/event-pro/la-douleur;06/10/2026;09/12/2026;;théâtre;;oui
+theatre-gymnase-marie-bell;Le Fantôme de l'Opéra;Gaston Leroux;Benoit Solès;https://theatredugymnase.com/event-pro/le-fantome-de-lopera;08/10/2026;17/01/2027;;théâtre;;modifié
+theatre-gymnase-marie-bell;Potted Potter;;Christopher Lopez;https://theatredugymnase.com/event-pro/potted-potter;17/10/2026;17/01/2027;;théâtre;;oui
+theatre-gymnase-marie-bell;Je reviens nous chercher;Wendy Garner, Camille Péri;Smaïn Fairouze;https://theatredugymnase.com/event-pro/je-reviens-te-chercher;23/11/2026;30/11/2026;;théâtre;;oui
+theatre-gymnase-marie-bell;Laide !;Élodie Menant, Julien Salvia, Ludovic-Alexandre Vidal;Élodie Menant, Julien Salvia, Ludovic-Alexandre Vidal;https://theatredugymnase.com/event-pro/laide;22/01/2027;30/04/2027;;théâtre;;oui
+theatre-gymnase-marie-bell;Qui est Sylvia ?;Edward Albee;Marc Paquien;https://theatredugymnase.com/event-pro/qui-est-sylvia;27/01/2027;31/03/2027;;théâtre;;oui
+theatre-hebertot;Le Cid pète 1 câble;Pierre Corneille, Caroline Vigneaux;Caroline Vigneaux;https://www.theatrehebertot.com/spectacle/le-cid-pete-1-cable;18/09/2026;03/01/2027;;théâtre;;oui
+theatre-hebertot;Diplomatie;Cyril Gély;Béatrice Agenin;https://www.theatrehebertot.com/spectacle/diplomatie;23/09/2026;03/01/2027;;théâtre;;oui
+theatre-hebertot;Les Misérables;Victor Hugo, Manon Montel;Manon Montel;https://www.theatrehebertot.com/spectacle/les-miserables;26/09/2026;26/12/2026;;théâtre;;oui
+theatre-hebertot;Viva Verdi;Pierre-Olivier Scotto;Raymond Acquaviva;https://www.theatrehebertot.com/spectacle/viva-verdi;30/09/2026;06/12/2026;;théâtre;;oui
+theatre-hebertot;Le Mariage de David et Leïla ou le Jour de l'éclipse;Alexis Michalik;Alexis Michalik;https://www.theatrehebertot.com/spectacle/le-mariage-de-david-et-leila;30/01/2027;27/06/2027;;théâtre;;oui
+theatre-huchette;La cantatrice chauve [Spectacle Ionesco];Eugène Ionesco;Nicolas Bataille;https://www.theatre-huchette.com/la-cantatrice-chauve;24/01/2023;31/12/2026;;théâtre;;
+theatre-huchette;La leçon [Spectacle Ionesco];Eugène Ionesco;Marcel Cuvelier;https://www.theatre-huchette.com/la-lecon;24/01/2023;31/12/2026;;théâtre;;
+theatre-huchette;Walt – La folie Disney;Fanny Dupin, Damien Maric;Victoire Berger-Perrin;https://www.theatre-huchette.com/walt-la-folie-disney/;17/09/2026;21/11/2026;;théâtre;;oui
+theatre-huchette;Indocile Duo;;;https://www.theatre-huchette.com/indocile-duo/;31/10/2026;21/11/2026;;théâtre;;oui
+theatre-lepic;Attends-moi, j'arrive !;Emma Bojan, Étienne Lautrette;Thibault Segouin;https://theatrelepic.com/programmation/attends-moi-j-arrive-emma-bojan/;03/02/2026;15/12/2026;;théâtre;;oui
+theatre-lepic;Pourquoi les gens qui sèment;;Sébastien Bizeau;https://theatrelepic.com/programmation/pourquoi-les-gens-qui-sement/;09/09/2026;03/01/2027;;théâtre;;oui
+theatre-lepic;Fin, fin et fin;Lancelot Cherer;Lancelot Cherer;https://theatrelepic.com/programmation/fin-fin-et-fin/;10/09/2026;03/01/2027;;théâtre;;oui
+theatre-lepic;Où vont les larmes quand elles sèchent;Baptiste Beaulieu;Léna Bréban;https://theatrelepic.com/programmation/ou-vont-les-larmes-quand-elles-sechent/;19/09/2026;29/12/2026;;théâtre;;oui
+theatre-lepic;Bâtards;Louise Dupuis;Louise Dupuis;https://theatrelepic.com/programmation/batards/;20/09/2026;03/01/2027;;théâtre;;oui
+theatre-lepic;Mon côté Wertheimer [Les mères poules ne font pas des mouettes];Chloé Oliveres;Chloé Oliveres, Papy;https://theatrelepic.com/programmation/mon-cote-wertheimer-chloe-oliveres/;22/09/2026;29/12/2026;;théâtre;;oui
+theatre-lucernaire;ODYSSÉE LA CONFÉRENCE MUSICALE;Julie Costanza, Jean-Baptiste Darosey;Stéphanie Gagneux;https://www.lucernaire.fr/theatre/odyssee-la-conference-musicale-2;13/05/2026;06/09/2026;;théâtre;;
+theatre-lucernaire;Mystère à Silent Pool, Agatha Christie a disparu;Carla Girod, Drys Penthier, Axel Stein-Kurdzielewicz;David Legras, Axel Stein-Kurdzielewicz;https://www.lucernaire.fr/theatre/mystere-a-silent-pool-agatha-christie-a-disparu/;10/06/2026;27/09/2026;Théâtre Rouge;théâtre;;oui
+theatre-lucernaire;Dolto, lorsque Françoise paraît;Eric Bu;;https://www.lucernaire.fr/theatre/dolto-lorsque-francoise-parait/;26/08/2026;01/11/2026;Théâtre Noir;théâtre;;oui
+theatre-lucernaire;Madeleine Béjart, une femme libre;Pierre-Olivier Scotto;Xavier Lemaire;https://www.lucernaire.fr/theatre/madeleine-bejart-une-femme-libre/;26/08/2026;01/11/2026;Paradis;théâtre;;oui
+theatre-lucernaire;Hemingway;Pascale Moine-Frémy;Élie Rapp;https://www.lucernaire.fr/theatre/hemingway/;02/09/2026;08/11/2026;Paradis;théâtre;;oui
+theatre-lucernaire;La Raison du plus fou, Rousseau vs Diderot;Franck Mercadal;Grégori Baquet;https://www.lucernaire.fr/theatre/la-raison-du-plus-fou/;02/09/2026;15/11/2026;Théâtre Noir;théâtre;;oui
+theatre-lucernaire;Le Schpountz;Marcel Pagnol;Delphine Depardieu, Arthur Cachia;https://www.lucernaire.fr/theatre/le-schpountz/;02/09/2026;10/01/2027;Théâtre Rouge;théâtre;;oui
+theatre-lucernaire;Oliver Twist;Charles Dickens;Ned Grujic;https://www.lucernaire.fr/theatre/oliver-twist/;09/09/2026;17/01/2027;Théâtre Rouge;théâtre;;oui
+theatre-lucernaire;Touchée par les fées, Ultima Verba;Marie Desplechin;Thierry Thieû Niang;https://www.lucernaire.fr/theatre/touchee-par-les-fees-ultima-veba/;30/09/2026;15/11/2026;Théâtre Rouge;théâtre;;oui
+theatre-lucernaire;Pépito petit bateau, le voyage initiatique d'un petit cargo;Simon Bensa;Simon Bensa, Pauline Paris, Thierry Jahn;https://www.lucernaire.fr/theatre/pepito-petit-bateau-le-voyage-initiatique-dun-petit-cargo/;04/10/2026;03/01/2027;Théâtre Rouge;théâtre;;oui
+theatre-lucernaire;Le Voyage en Uruguay;Clément Hervieu-Léger;Daniel San Pedro;https://www.lucernaire.fr/theatre/le-voyage-en-uruguay/;04/11/2026;03/01/2027;Paradis;théâtre;;oui
+theatre-lucernaire;Shakespeare Stories, les histoires de l'oncle Will;William Shakespeare;Ned Grujic;https://www.lucernaire.fr/theatre/shakespeare-stories-les-histoires-de-loncle-will/;04/11/2026;17/01/2027;Théâtre Noir;théâtre;;oui
+theatre-lucernaire;Une mouette;Pierre Lericq, Anton Tchekhov;Pierre Lericq;https://www.lucernaire.fr/theatre/une-mouette/;11/11/2026;24/01/2027;Paradis;théâtre;;oui
+theatre-lucernaire;Le Portrait de Dorian Gray;Oscar Wilde, Thomas Le Douarec;Thomas Le Douarec;https://www.lucernaire.fr/theatre/le-portrait-de-dorian-gray/;18/11/2026;24/01/2027;Théâtre Rouge;théâtre;;oui
+theatre-madeleine;Manon Bril - 300 000 ans;Manon Bril, Etienne Lautrette;Théo Comby Lemaitre;https://www.theatre-madeleine.com/spectacle/manon-brill-300-000-ans;17/09/2026;18/12/2026;;théâtre;;
+theatre-madeleine;Cendrillon;Charles Perrault;Rébecca Stella;https://www.theatre-madeleine.com/spectacle/cendrillon;17/10/2026;27/12/2026;;théâtre;;modifié
+theatre-madeleine;Nuit d'ivresse;Josiane Balasko;Philippe Lellouche;https://www.offi.fr/theatre/theatre-de-la-madeleine-2633/nuit-divresse-102472.html;20/10/2026;21/10/2026;;théâtre;;oui
+theatre-madeleine;Tailleur pour Dames;Georges Feydeau, Julien Alluguette, Ange-Mathieu Bonvarlet;Julien Alluguette;https://www.theatre-madeleine.com/spectacle/tailleur-pour-dames/;05/11/2026;10/01/2027;;théâtre;;oui
+theatre-madeleine;Hier Encore;Laura Presgurvic;Laura Presgurvic;https://www.theatre-madeleine.com/spectacle/hier-encore/;28/01/2027;28/03/2027;;théâtre;;oui
+manufacture-des-abbesses;Pompon;Marion Claisse;Adèle Gotkovsky;https://www.manufacturedesabbesses.com/theatre-paris/pompon/;23/08/2026;28/10/2026;;théâtre;;oui
+manufacture-des-abbesses;La Solitude d'un acteur de peep show avant son entrée en scène;Paul Van Mulder;Thierry Harcourt;https://www.manufacturedesabbesses.com/theatre-paris/la-solitude-dun-acteur-de-peep-show/;26/08/2026;10/10/2026;;théâtre;;oui
+manufacture-des-abbesses;Nos belles courgettes;Jérémie Scheffler;Jérémie Scheffler;https://www.manufacturedesabbesses.com/theatre-paris/nos-belles-courgettes/;28/08/2026;18/10/2026;;théâtre;;oui
+manufacture-des-abbesses;Fracassés;Kae Tempest;Théodore De Andreis, Cassandre Karagevrekis;https://www.manufacturedesabbesses.com/theatre-paris/fracasses/;03/09/2026;24/09/2026;;théâtre;;oui
+manufacture-des-abbesses;Petit dinosaure n'est pas d'accord;Sophie Hoyer;Sophie Hoyer;https://www.manufacturedesabbesses.com/theatre-paris/petit-dinosaure-nest-pas-daccord/;12/09/2026;15/11/2026;;théâtre;;oui
+manufacture-des-abbesses;Pom Pom Pommes;Eugénie Gendron;Eugénie Gendron, Leïla Moguez;https://www.manufacturedesabbesses.com/theatre-paris/pom-pom-pommes/;12/09/2026;22/11/2026;;théâtre;;oui
+manufacture-des-abbesses;Une vie deux fous;Patrick Loiseau, Tobias Ohana, Philippe Avocat;Fabrice Salé;https://www.manufacturedesabbesses.com/theatre-paris/une-vie-deux-fous/;14/10/2026;21/11/2026;;théâtre;;oui
+manufacture-des-abbesses;Vertige (2001-2021);Guillaume Vincent;César Oliva;https://www.manufacturedesabbesses.com/theatre-paris/vertige/;22/10/2026;06/12/2026;;théâtre;;oui
+manufacture-des-abbesses;By Our Bootstraps;Jordan Beswick;Lyn Kagen;https://www.manufacturedesabbesses.com/theatre-paris/by-our-bootstraps/;26/10/2026;03/11/2026;;théâtre;;oui
+manufacture-des-abbesses;La Bande;Xavier Carrar;Alexis Stefan;https://www.manufacturedesabbesses.com/theatre-paris/la-bande/;01/11/2026;25/11/2026;;théâtre;;oui
+manufacture-des-abbesses;Anouk et l'oiseau bleu;Marie Busato-Grueau;;https://www.manufacturedesabbesses.com/theatre-paris/anouk-et-loiseau-bleu/;21/11/2026;03/01/2027;;théâtre;;oui
+manufacture-des-abbesses;Les Filles de cendres;Rosy Pollastro;Rosy Pollastro;https://www.manufacturedesabbesses.com/theatre-paris/les-filles-de-cendres/;25/11/2026;02/01/2027;;théâtre;;oui
+manufacture-des-abbesses;Le Voyage de Rudolph;Leïla Moguez;;https://www.manufacturedesabbesses.com/theatre-paris/le-voyage-de-rudolphe/;28/11/2026;03/01/2027;;théâtre;;oui
+manufacture-des-abbesses;Mémoire de fille;Annie Ernaux;Violette Campo;https://www.manufacturedesabbesses.com/theatre-paris/memoire-de-fille/;29/11/2026;06/01/2027;;théâtre;;oui
+manufacture-des-abbesses;Boucle d'Or;Florence Duchez;;https://www.manufacturedesabbesses.com/theatre-paris/boucle-dor/;16/01/2027;31/01/2027;;théâtre;;oui
+manufacture-des-abbesses;Le Petit Chaperon rouge;;Florence Duchez;https://www.manufacturedesabbesses.com/theatre-paris/le-petit-chaperon-rouge/;16/01/2027;30/06/2027;;théâtre;;oui
+theatre-marigny;Les Aventuriers de minuit;Julien Lefebvre, Florence Lefebvre;Elie Rapp, Ludovic Laroche;https://www.theatremarigny.fr/evenement/les-aventuriers-de-minuit/;16/09/2026;30/12/2026;Studio Marigny;théâtre;;oui
+theatre-marigny;Carnets d'Ukraine;Michel Hazanavicius;Julien Gelas;https://www.theatremarigny.fr/evenement/carnets-dukraine/;03/10/2026;24/01/2027;Studio Marigny;théâtre;;oui
+theatre-marigny;Amadeus;Peter Shaffer;Olivier Solivérès;https://www.theatremarigny.fr/evenement/amadeus-2/;07/10/2026;03/01/2027;Grande salle;théâtre;;oui
+theatre-marigny;Le Bossu de Notre-Dame;Victor Hugo;Olivier Solivérès;https://www.theatremarigny.fr/evenement/le-bossu-de-notre-dame/;27/10/2026;02/01/2027;Studio Marigny;théâtre;;oui
+theatre-marigny;Au pays du Père-Noël;Olivier Solivérès;Olivier Solivérès;https://www.theatremarigny.fr/evenement/au-pays-du-pere-noel/;11/11/2026;29/12/2026;Grande salle;théâtre;;oui
+theatre-marigny;J'ai dit oui !;Éric Dupond-Moretti;Philippe Lellouche;https://www.theatremarigny.fr/evenement/jai-dit-oui/;13/11/2026;13/11/2026;Grande salle;théâtre;;oui
+theatre-mathurins;Les Aventures de Pinocchio;Carlo Collodi;Olivier Solivérès;https://www.theatredesmathurins.com/spectacles/pinocchio;20/09/2025;30/05/2027;;théâtre;;
+theatre-mathurins;Dernier coup de ciseaux;Paul Pörtner;Sébastien Azzopardi;https://www.theatredesmathurins.com/spectacles/dernier-coup-de-ciseaux;01/08/2026;31/12/2026;;théâtre;;
+theatre-mathurins;Juliette, Victor Hugo mon fol amour;Patrick Tudoret;Patrick Tudoret, Marie Lussignol;https://www.theatredesmathurins.com/spectacles/juliette-victor-hugo-mon-fol-amour/;14/09/2026;28/12/2026;Studio;théâtre;;oui
+theatre-mathurins;Renversante;Florence Hinckel;Léna Bréban;https://www.theatredesmathurins.com/spectacles/renversante/;15/09/2026;15/12/2026;Studio;théâtre;;oui
+theatre-mathurins;Les Beaux;Léonore Confino;Anne Coutureau;https://www.theatredesmathurins.com/spectacles/les-beaux/;16/09/2026;30/12/2026;Studio;théâtre;;oui
+theatre-mathurins;NOVECENTO;Alessandro Baricco;Kelly Rolfo;https://www.theatredesmathurins.com/spectacles/novecento;17/09/2026;17/12/2026;;théâtre;;
+theatre-mathurins;Tribulations d'un musulman d'ici;Ismaël Saidi;Ismaël Saidi;https://www.theatredesmathurins.com/spectacles/tribulations-dun-musulman-dici/;19/09/2026;26/12/2026;Studio;théâtre;;oui
+theatre-mathurins;Chevaliers, Princesse et Dragon;Olivier Solivérès;Olivier Solivérès;https://www.theatredesmathurins.com/spectacles/chevaliers-princesse-et-dragon;20/09/2026;30/05/2027;;théâtre;;
+theatre-mathurins;Jérusalem;Ismaël Saidi;;https://www.theatredesmathurins.com/spectacles/jerusalem;20/09/2026;27/12/2026;;théâtre;;
+theatre-mathurins;Roberto Zucco;Bernard-Marie Koltès;Rose Noël;https://www.theatredesmathurins.com/spectacles/roberto-zucco/;21/09/2026;28/12/2026;Grande salle;théâtre;;oui
+theatre-mathurins;X-Elles;Florence Alayrac;Géraldine Lonfat;https://www.theatredesmathurins.com/spectacles/x-elles/;21/09/2026;28/12/2026;Studio;théâtre;;oui
+theatre-mathurins;Antigone;Jean Anouilh;Andréa Bescond;https://www.theatredesmathurins.com/spectacles/antigone/;23/09/2026;25/11/2026;Grande salle;théâtre;;oui
+theatre-mathurins;J'aurai 14 ans toute ma vie;Sheila O'Connor;Philippe Calvario;https://www.theatredesmathurins.com/spectacles/jaurai-14-ans-toute-ma-vie/;24/09/2026;31/12/2026;Studio;théâtre;;oui
+theatre-mathurins;PLUS FORT QUE L'OUBLI;;Colette Roumanoff, Valérie Roumanofff;https://www.theatredesmathurins.com/spectacles/plus-fort-que-loubli;27/09/2026;07/02/2027;;théâtre;;
+theatre-mathurins;L'Incroyable Histoire de la femme pailletée;Judith Margolin;Stéphane Corbin;https://www.theatredesmathurins.com/spectacles/lincroyable-histoire-de-la-femme-pailletee/;20/10/2026;31/03/2027;Studio;théâtre;;oui
+theatre-mathurins;Comme s'il en pleuvait;Sébastien Thiéry;Aurélia Aubert;https://www.theatredesmathurins.com/spectacles/comme-sil-en-pleuvait/;13/11/2026;28/11/2026;Studio;théâtre;;oui
+theatre-mathurins;La Trajectoire des gamètes;Laura Léoni;Morgan Perez;https://www.theatredesmathurins.com/spectacles/la-trajectoire-des-gametes/;15/01/2027;26/02/2027;Studio;théâtre;;oui
+theatre-mathurins;La Fille de Don Quichotte;Clémence Rochefort;Valentin Morel;https://www.theatredesmathurins.com/spectacles/la-fille-de-don-quichotte/;17/01/2027;21/03/2027;Studio;théâtre;;oui
+theatre-mathurins;Tanto Poco;Marco Lodoli;;https://www.theatredesmathurins.com/spectacles/tanto-pocco/;18/01/2027;15/02/2027;Studio;théâtre;;oui
+melo-d-amelie;Ce soir ou jamais;;Sandra Tafroy;https://lemelodamelie.com/movie/ce-soir-ou-jamais/;01/09/2026;31/12/2026;;théâtre;;oui
+melo-d-amelie;Gigi, Dalida & moi;;Eugénie De Bohent;https://lemelodamelie.com/movie/gigi-dalida-moi/;03/09/2026;30/12/2026;;théâtre;;oui
+melo-d-amelie;Merci, au suivant;;Ingrid Guervenou-Pruvost, Robert Punzano;https://lemelodamelie.com/movie/merci-au-suivant/;05/09/2026;31/12/2026;;théâtre;;oui
+melo-d-amelie;Le Bar des légendes;;Philippe Jusselme;https://lemelodamelie.com/movie/le-bar-des-legendes/;15/09/2026;30/12/2026;;théâtre;;oui
+melo-d-amelie;Flagrants délires;Sarah Sanders;Sarah Sanders;https://lemelodamelie.com/movie/flagrants-delires/;27/09/2026;13/12/2026;;théâtre;;oui
+melo-d-amelie;Une censure politiquement correcte;Olivier Patient;Olivier Patient;https://lemelodamelie.com/movie/une-censure-politiquement-correcte/;04/10/2026;13/12/2026;;théâtre;;oui
+melo-d-amelie;La Course des marmottes de Noël;Dorothée Martinet;Dorothée Martinet;https://lemelodamelie.com/movie/la-course-des-marmottes-de-noel/;14/11/2026;02/01/2027;;théâtre;;oui
+melo-d-amelie;21h12;;Christine Sireyzol, Robin Schmaus;https://lemelodamelie.com/movie/21h12/;28/11/2026;12/12/2026;;théâtre;;oui
+theatre-michel;ADN;Caroline Ami, Flavie Péan;Sébastien Azzopardi;https://www.theatre-michel.fr/Spectacles/adn/;03/10/2024;02/01/2027;;théâtre;;oui
+theatre-michel;Les Rochambelles;Valérie Demay;Merryl Beaudonnet, Charlotte Bigeard;https://www.theatre-michel.fr/Spectacles/les-rochambelles;25/09/2026;02/01/2027;;théâtre;;
+theatre-michel;On peut s'appeler Alain et sauver le monde;Loïc Bartolini, Jean Chaffard-Luçon;Loïc Bartolini;https://www.theatre-michel.fr/Spectacles/on-peut-sappeler-alain-et-sauver-le-monde/;05/10/2026;29/12/2026;;théâtre;;oui
+theatre-michel;Pourquoi pourquoi ?;Marine Baousson;Nicolas Vital;https://www.theatre-michel.fr/Spectacles/pourquoi-pourquoi/;10/10/2026;31/01/2027;;théâtre;;oui
+theatre-michel;Conspirations;Benoît Facerias, Maxime Schucht, Sylvain Vip;Matthieu Hornuss;https://www.theatre-michel.fr/Spectacles/conspirations/;18/10/2026;27/12/2026;;théâtre;;oui
+theatre-michodiere;La Jalousie;Sacha Guitry;Michel Fau;https://www.michodiere.com/evenement/la-jalousie-1/;05/11/2026;31/12/2026;;théâtre;;oui
+theatre-montparnasse;ON NE JOUAIT PAS A LA PÉTANQUE DANS LE GHETTO DE VARSOVIE;Éric Feldman;Olivier Veillon, Joël Pommerat;https://www.theatremontparnasse.com/spectacle/on-ne-jouait-pas-a-la-petanque-dans-le-ghetto-de-varsovie;31/08/2026;27/10/2026;;théâtre;;
+theatre-montparnasse;Côte à côte;Fred Proust;Philippe Lelièvre;https://www.theatremontparnasse.com/spectacle/cote-a-cote/;04/09/2026;20/12/2026;;théâtre;;oui
+theatre-montparnasse;Looking for Beethoven;Pascal Amoyel;Christian Fromont;https://www.theatremontparnasse.com/spectacle/looking-for-beethoven/;20/09/2026;20/12/2026;;théâtre;;oui
+theatre-montparnasse;Suzanne;Corinne Samama, Jean-Benoît Patricot;Dan Jemmett;https://www.theatremontparnasse.com/spectacle/suzanne/;25/09/2026;20/12/2026;;théâtre;;oui
+theatre-montparnasse;Ancien malade des hôpitaux de Paris;Daniel Pennac;Benjamin Guillard;https://www.theatremontparnasse.com/spectacle/ancien-malade-des-hopitaux-de-paris-reprise/;05/01/2027;14/02/2027;;théâtre;;oui
+theatre-montparnasse;ART - TRIOMPHE / REPRISE EN 2027;Yasmina Reza;François Morel;https://www.theatremontparnasse.com/spectacle/art-triomphe-reprise;10/09/2027;30/10/2027;;théâtre;;
+theatre-petit-montparnasse;Le Plancher;Perrine Le Querrec, Nicolas Dégremont;Frédéric Cherboeuf;https://www.theatremontparnasse.com/spectacle/le-plancher/;27/08/2026;25/10/2026;;théâtre;;oui
+theatre-petit-montparnasse;La Femme qui n'aimait pas Rabbi Jacob;Jean-Philippe Daguerre;Jean-Philippe Daguerre;https://www.theatremontparnasse.com/spectacle/la-femme-qui-naimait-pas-rabbi-jacob-3/;29/08/2026;31/03/2027;;théâtre;;oui
+theatre-petit-montparnasse;Le Porteur d'Histoire;Alexis Michalik;Alexis Michalik;https://www.theatremontparnasse.com/spectacle/le-porteur-dhistoire-copier/;01/09/2026;30/03/2027;;théâtre;;oui
+theatre-petit-montparnasse;Le Fauteuil à oreilles;Thomas Bernhard, Jean-Louis Thamin;Jean-Louis Thamin;https://www.theatremontparnasse.com/spectacle/le-fauteuil-a-oreilles/;04/11/2026;20/12/2026;;théâtre;;oui
+theatre-nouveautes;Berlin Berlin;Patrick Haudecœur, Gérald Sibleyras;José Paul;https://www.theatredesnouveautes.fr/spectacles/berlin-berlin;17/09/2026;03/01/2027;;théâtre;;oui
+theatre-nouveautes;Divorce à la française;Eliette Abécassis;;https://www.theatredesnouveautes.fr/spectacles/divorce-la-francaise;24/09/2026;15/01/2027;;théâtre;;oui
+theatre-nouveautes;Winnie et le coffre aux merveilles;A.A. Milne, Nicolas Nebot;Nicolas Nebot;https://www.theatredesnouveautes.fr/spectacles/winnie-et-le-coffre-aux-merveilles;03/10/2026;03/01/2027;;théâtre;;oui
+theatre-oeuvre;Hitchcock et Mary Rose;Michael Sadler;Christophe Lidon;https://www.theatredeloeuvre.com/spectacles/hitchcock-et-mary-rose/;03/09/2026;20/12/2026;;théâtre;;oui
+theatre-oeuvre;Les Chatouilles;Andréa Bescond;Eric Métayer;https://www.theatredeloeuvre.com/spectacles/les-chatouilles/;14/09/2026;21/12/2026;;théâtre;;oui
+theatre-oeuvre;Les Deux Frères et les Lions;Hédi Tillette de Clermont-Tonnerre;Vincent Debost, Hédi Tillette de Clermont-Tonnerre;https://www.theatredeloeuvre.com/spectacles/les-2-freres-et-les-lions/;16/09/2026;23/12/2026;;théâtre;;oui
+theatre-oeuvre;Toutes les choses géniales;Duncan Macmillan, Jonny Donahoe;Laurence Gray, Bénédicte Bailby;https://www.theatredeloeuvre.com/spectacles/toutes-les-choses-geniales/;05/10/2026;22/12/2026;;théâtre;;oui
+theatre-oeuvre;En attendant Bojangles;Olivier Bourdeaut;Victoire Berger-Perrin;https://www.theatredeloeuvre.com/spectacles/en-attendant-bojangles/;14/10/2026;10/01/2027;;théâtre;;oui
+theatre-oeuvre;Histoires filantes;Guillaume Camous;;https://www.theatredeloeuvre.com/spectacles/histoires-filantes/;18/11/2026;31/03/2027;;théâtre;;oui
+theatre-palais-des-glaces;Les Oubliées de Londres;Alexandra Bialy;Alexandra Bialy;https://www.palaisdesglaces.com/programme/457-les-oubliees-de-londres;22/09/2026;30/12/2026;Le Grand Palais;théâtre;;oui
+theatre-palais-des-glaces;La Maison hantée;Nicolas Nebot, Dominique Mattei;Nicolas Nebot;https://www.palaisdesglaces.com/programme/448-la-maison-hantee;03/10/2026;10/01/2027;Le Grand Palais;théâtre;;oui
+theatre-palais-des-glaces;PULS, danse la nuit;Jordan Mouillerac;Jordan Mouillerac, Jessica Senetaire;https://www.palaisdesglaces.com/programme/465-puls;06/12/2026;06/12/2026;Le Grand Palais;danse;;oui
+theatre-palais-des-glaces;Team Buildingue, la comédie musicale;;;https://www.palaisdesglaces.com/programme/462-team-buildingue;08/12/2026;08/12/2026;Le Grand Palais;théâtre;;oui
+theatre-palais-royal;Edmond;Alexis Michalik;Alexis Michalik;https://www.theatrepalaisroyal.com/Spectacles/edmond/;15/09/2016;03/01/2027;;théâtre;;oui
+theatre-palais-royal;Le guide du parfait gentleman assassin;Roy Horniman;Virginie Lemoine;https://www.theatrepalaisroyal.com/Spectacles/le-guide-du-parfait-gentleman-assassin/aff-gentleman-ok-32;21/08/2026;03/01/2027;;théâtre;;modifié
+theatre-de-paris;Déni;Sophie Cottin;Raphaëlle Cambray;https://www.theatredeparis.com/evenement/deni/;18/09/2026;10/01/2027;Théâtre de Paris;théâtre;;oui
+theatre-de-paris;Ta mère et moi;Guillaume de Tonquédec;Djanis Bouzyani;https://www.theatredeparis.com/evenement/ta-mere-et-moi/;26/10/2026;29/12/2026;Salle Réjane;théâtre;;oui
+theatre-de-paris;Lily et Lily;Pierre Barillet, Jean-Pierre Grédy;Marie-Pascale Osterrieth;https://www.theatredeparis.com/evenement/lily-et-lily/;12/11/2026;03/01/2027;Théâtre de Paris;théâtre;;oui
+theatre-de-passy;J'ai mangé ma fourchette;Gilles Bugeaud;Gilles Bugeaud;https://theatredepassy.fr/spectacle/jai-mange-ma-fourchette/;14/09/2026;28/12/2026;;théâtre;;oui
+theatre-de-passy;Un pur chef-d'œuvre;Alain Sachs;Alain Sachs;https://theatredepassy.fr/spectacle/un-pur-chef-doeuvre/;22/09/2026;02/01/2027;;théâtre;;oui
+theatre-de-passy;J'ai trois amours;;;https://theatredepassy.fr/spectacle/jai-trois-amours/;29/09/2026;29/12/2026;;théâtre;;oui
+theatre-de-passy;Le Voleur de mots;Alain Teulié;Anne Bourgeois;https://theatredepassy.fr/spectacle/le-voleur-de-mots/;01/10/2026;03/01/2027;;théâtre;;oui
+theatre-de-passy;La P'tite Débrouille;Franck Le Hen;Coralie Baroux;https://theatredepassy.fr/spectacle/la-ptite-debrouille/;10/10/2026;03/01/2027;;théâtre;;oui
+theatre-de-passy;Da Ponte, le bouffon de Mozart;Dominique Tirone-Fernandez;Corinne Jahier;https://theatredepassy.fr/spectacle/da-ponte-le-bouffon-de-mozart/;26/10/2026;04/01/2027;;théâtre;;oui
+theatre-de-la-pepiniere;Intra muros;Alexis Michalik;Alexis Michalik;https://theatrelapepiniere.com/intra_muros.html;28/08/2025;09/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Les Gros patinent bien;Pierre Guillois, Olivier Martin-Salvan;;https://theatrelapepiniere.com/les_gros_patinent_bien.html;29/08/2025;03/01/2027;;théâtre;;oui
+theatre-de-la-pepiniere;J'espère que nos enfants iront mieux que nous;Rudy Milstein;Rudy Milstein;https://theatrelapepiniere.com/j-espere-que-nos-enfants-iront-mieux-que-nous.html;02/09/2026;12/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Tout le bleu du ciel;Mélissa Da Costa;Mikael Chirinian;https://theatrelapepiniere.com/tout_le_bleu_du_ciel.html;03/09/2026;05/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Huit rois - Génération Mitterrand;Léo Cohen-Paperman, Emilien Diard-Detoeuf;Léo Cohen-Paperman;https://theatrelapepiniere.com/huit_rois_generation_mitterand.html;13/09/2026;20/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Huit rois - La vie et la mort de J. Chirac, roi des Français;Julien Campani, Léo Cohen-Paperman;Léo Cohen-Paperman;https://theatrelapepiniere.com/huit_rois_jacques_chirac.html;13/09/2026;06/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Huit rois - Sarkhollande (comédie identitaire);Julien Campani, Léo Cohen-Paperman, Clovis Fouin;Léo Cohen-Paperman;https://theatrelapepiniere.com/huit_rois_sarkhollande.html;20/09/2026;22/11/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Huit rois - La Thérapie d'Emmanuel Macron;;;https://theatrelapepiniere.com/huit_rois.html;29/11/2026;13/12/2026;;théâtre;;oui
+theatre-de-la-pepiniere;Huit rois - Le Dîner chez les Français de V. Giscard d'Estaing;;;https://theatrelapepiniere.com/huit_rois.html;20/12/2026;20/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Bouvard et Pécuchet;Gustave Flaubert, Marc Chouppart, Géraud Bénech;Géraud Bénech;https://www.theatredepoche-montparnasse.com/spectacle/bouvard-et-pecuchet-2/;27/08/2026;08/11/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Quatrevingt-treize;Victor Hugo, Marion Bierry;Marion Bierry;https://www.theatredepoche-montparnasse.com/spectacle/quatrevingt-treize/;27/08/2026;10/01/2027;;théâtre;;oui
+theatre-de-poche-montparnasse;Satie en liberté;Erik Satie;François Marthouret;https://www.theatredepoche-montparnasse.com/spectacle/satie-en-liberte-2/;30/08/2026;01/11/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Napoléon;Victor Hugo, Chateaubriand, Léon Tolstoï, Jean d'Ormesson, Maxime d'Aboville;;https://www.theatredepoche-montparnasse.com/spectacle/napoleon/;31/08/2026;25/01/2027;;théâtre;;oui
+theatre-de-poche-montparnasse;Prélude de Pan;Jean Giono;;https://www.theatredepoche-montparnasse.com/spectacle/prelude-de-pan/;31/08/2026;02/11/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Petites Misères de la vie conjugale;Honoré de Balzac, Pierre-Olivier Mornas;Pierre-Olivier Mornas;https://www.theatredepoche-montparnasse.com/spectacle/petites-miseres-de-la-vie-conjugale-2/;01/09/2026;01/10/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Le Poisson-Scorpion;Nicolas Bouvier;Catherine Schaub;https://www.theatredepoche-montparnasse.com/spectacle/le-poisson-scorpion/;02/09/2026;06/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Sand Chopin;George Sand, Bruno Villien;;https://www.theatredepoche-montparnasse.com/spectacle/sand-chopin-2/;04/09/2026;10/01/2027;;théâtre;;oui
+theatre-de-poche-montparnasse;Judith Magre et Éric Naulleau évoquent Ionesco;;;https://www.theatredepoche-montparnasse.com/spectacle/judith-magre-et-eric-naulleau-evoquent-ionesco/;07/09/2026;21/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Qu'est-ce que le temps ?;Saint Augustin;Denis Guénoun;https://www.theatredepoche-montparnasse.com/spectacle/quest-ce-que-le-temps-2/;06/10/2026;03/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Andromaque;Jean Racine;Sava Lolov;https://www.theatredepoche-montparnasse.com/spectacle/andromaque/;12/10/2026;30/11/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Pour un oui ou pour un non;Nathalie Sarraute;Tristan Le Doze;https://www.theatredepoche-montparnasse.com/spectacle/pour-un-oui-ou-pour-un-non-3/;03/11/2026;03/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Le Plaisir de rompre;Jules Renard, Pierre-Olivier Mornas;Pierre-Olivier Mornas;https://www.theatredepoche-montparnasse.com/spectacle/le-plaisir-de-rompre/;10/11/2026;07/01/2027;;théâtre;;oui
+theatre-de-poche-montparnasse;On ne badine pas avec l'amour;Alfred de Musset;Stéphane Douret;https://www.theatredepoche-montparnasse.com/spectacle/on-ne-badine-pas-avec-lamour-2/;13/11/2026;10/12/2026;;théâtre;;oui
+theatre-de-poche-montparnasse;Go West !;Sylvain Tesson;;https://www.theatredepoche-montparnasse.com/spectacle/go-west/;11/12/2026;20/12/2026;;théâtre;;oui
+theatre-ranelagh;Arsène Lupin;Maurice Leblanc;Delphine Piard;https://www.theatre-ranelagh.com/spectacle/arsene-lupin/;17/09/2026;17/01/2027;;théâtre;;oui
+theatre-ranelagh;Les Enfants du Paradis;Jacques Prévert;Jean-Philippe Daguerre;https://www.theatre-ranelagh.com/spectacle/les-enfants-du-paradis/;18/09/2026;17/01/2027;;théâtre;;oui
+theatre-ranelagh;Georges le Dragon;Karine Tabet, Geoffroy de Pennart;Vincent Caire;https://www.theatre-ranelagh.com/spectacle/georges-le-dragon-26-27/;10/10/2026;02/01/2027;;théâtre;;oui
+theatre-ranelagh;Le Cid;Pierre Corneille;Jean-Philippe Daguerre;https://www.theatre-ranelagh.com/spectacle/le-cid-26-27/;10/10/2026;09/01/2027;;théâtre;;oui
+theatre-ranelagh;Les Fables de Madame Jeanne;Jean de La Fontaine;Camille Thomas, Thibaut Kizirian;https://www.theatre-ranelagh.com/spectacle/les-fables-de-madame-jeanne/;10/10/2026;05/12/2026;;théâtre;;oui
+theatre-ranelagh;Le Médecin malgré lui;Molière;Charlotte Matzneff;https://www.theatre-ranelagh.com/spectacle/le-medecin-malgre-lui-26-27/;11/10/2026;31/12/2026;;théâtre;;oui
+theatre-ranelagh;Cyrano de Bergerac;Edmond Rostand;Jean-Philippe Daguerre;https://www.theatre-ranelagh.com/spectacle/cyrano-de-bergerac-26-27/;17/10/2026;28/12/2026;;théâtre;;oui
+theatre-ranelagh;L'Avare;Molière;Jean-Philippe Daguerre;https://www.theatre-ranelagh.com/spectacle/lavare-26-27/;18/10/2026;03/01/2027;;théâtre;;oui
+theatre-ranelagh;Le Mariage de Figaro;Beaumarchais;Vincent Caire;https://www.theatre-ranelagh.com/spectacle/le-mariage-de-figaro-ou-la-folle-journee-26-27/;19/10/2026;28/12/2026;;théâtre;;oui
+theatre-ranelagh;Les Fourberies de Scapin;Molière;Jean-Philippe Daguerre;https://www.theatre-ranelagh.com/spectacle/les-fourberies-de-scapin/;19/10/2026;29/12/2026;;théâtre;;oui
+theatre-ranelagh;Octopus;Frédéric Texier;Nicolas Vial;https://www.theatre-ranelagh.com/spectacle/octopus/;21/10/2026;28/02/2027;;théâtre;;oui
+theatre-ranelagh;La Seconde Surprise de l'amour;Marivaux;Ronan Rivière;https://www.theatre-ranelagh.com/spectacle/la-seconde-surprise-de-lamour/;25/10/2026;30/12/2026;;théâtre;;oui
+theatre-ranelagh;T.C.H.E.K.H.O.V.;Anton Tchekhov;Etienne Luneau;https://www.theatre-ranelagh.com/spectacle/t-c-h-e-k-h-o-v/;27/10/2026;27/10/2026;;théâtre;;oui
+theatre-ranelagh;Scaramouche;Evariste Gherardi;;https://www.theatre-ranelagh.com/spectacle/scaramouche/;29/11/2026;13/12/2026;;théâtre;;oui
+theatre-ranelagh;Chien Pourri;Colas Gutman, Marc Boutavant;Benjamin Dumas;https://www.theatre-ranelagh.com/spectacle/chien-pourri/;12/12/2026;19/02/2027;;marionnettes;;oui
+reine-blanche;Violences conjuguées;Karine Sahler, Bryan Polach;Karine Sahler;https://www.reineblanche.com/calendrier/theatre/violences-conjuguees;16/09/2026;11/10/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Hystory;Kristín Eiríksdóttir;Andréa El Azan, Raka Asgeirsdottir;https://www.reineblanche.com/calendrier/theatre/hystory;17/09/2026;10/10/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Giordano;Denis Lavalou;David Gauchard;https://www.reineblanche.com/calendrier/theatre/giordano;08/10/2026;07/11/2026;Grande Salle;théâtre;;oui
+reine-blanche;Chroniques de chair;Jacques Mateu;Macha Makeïeff;https://www.reineblanche.com/calendrier/theatre/chroniques-de-chair;09/10/2026;06/11/2026;Grande Salle;théâtre;;oui
+reine-blanche;Riveraines;Delphine Biard, Mia Delmaë, Flore Grimaud, Caroline Sahuquet;Delphine Biard, Flore Grimaud, Caroline Sahuquet;https://www.reineblanche.com/calendrier/theatre/riveraines;14/10/2026;17/10/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;La Permanence des rêves;Catherine Morlot;Catherine Morlot;https://www.reineblanche.com/calendrier/theatre/la-permanence-des-reves;21/10/2026;14/11/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Martine au viol, spectacle réel non-documenté;Mélodie Fourmeaux, Célia Jaillet;Mélodie Fourmeaux, Célia Jaillet;https://www.reineblanche.com/calendrier/theatre/martine-au-viol;23/10/2026;15/11/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Je bronze avec la marque du maillot;Célia Jaillet;Célia Jaillet;https://www.reineblanche.com/calendrier/theatre/je-bronze-avec-la-marque-du-maillot;06/11/2026;06/11/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;La Découvreuse oubliée;Élisabeth Bouchaud;Julie Timmerman;https://www.reineblanche.com/calendrier/theatre/la-decouvreuse-oubliee;12/11/2026;06/12/2026;Grande Salle;théâtre;;oui
+reine-blanche;No more tragédie, my love;Alexandre Cordier;Alexandre Cordier;https://www.reineblanche.com/calendrier/theatre/no-more-tragedy-my-love;18/11/2026;22/11/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Mémoire de fille;Annie Ernaux;Pauline Ribat;https://www.reineblanche.com/calendrier/theatre/memoire-de-fille;25/11/2026;13/12/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;Suzanne, d'une gueule à l'autre;Judith Policar;Judith Policar;https://www.reineblanche.com/calendrier/theatre/suzanne-d-une-gueule-a-l-autre;26/11/2026;12/12/2026;Salle Marie Curie;théâtre;;oui
+reine-blanche;L'Affaire Rosalind Franklin;Élisabeth Bouchaud;Julie Timmerman;https://www.reineblanche.com/calendrier/theatre/l-affaire-rosalind-franklin;09/12/2026;13/12/2026;Grande Salle;théâtre;;oui
+reine-blanche;Exil intérieur;Élisabeth Bouchaud;Marie Steen;https://www.reineblanche.com/calendrier/theatre/exil-interieur;16/12/2026;19/12/2026;Grande Salle;théâtre;;oui
+reine-blanche;Prix No'Bell;Élisabeth Bouchaud;Marie Steen;https://www.reineblanche.com/calendrier/theatre/prix-no-bell;16/12/2026;19/12/2026;Grande Salle;théâtre;;oui
+reine-blanche;Le Couteau ou j'aurais voulu appeler mon solo « Vous êtes tous des fils de pute » mais c'était déjà pris par Rodrigo García;Zoé Belloche;Alix Lavignasse, Zoé Belloche;https://www.reineblanche.com/calendrier/theatre/le-couteau-ou-jaurais-voulu-appeler-mon-solo-vous-etes-tous-des-fils-de-pute-mais-c-etait-deja-pris-par-rodrigo-garcia;06/01/2027;10/01/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Quelque chose a disparu mais quoi ?;Michel Bellier;Joëlle Cattino;https://www.reineblanche.com/calendrier/theatre/quelque-chose-a-disparu-mais-quoi;13/01/2027;31/01/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;9'29'';Manon Rony;Manon Rony;https://www.reineblanche.com/calendrier/theatre/29;14/01/2027;30/01/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Spiritueux;Laurent Cazanave;Audrey Bertrand, Laurent Cazanave;https://www.reineblanche.com/calendrier/theatre/spiritueux;03/02/2027;28/02/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Le Garçon le plus triste du monde;Martin Nadal;Martin Nadal;https://www.reineblanche.com/calendrier/theatre/le-garcon-le-plus-triste-du-monde;04/02/2027;27/02/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;La Loi du désir;Esteban Hupé, Barnabé Lambert;Esteban Hupé;https://www.reineblanche.com/calendrier/theatre/la-loi-du-desir;10/03/2027;25/03/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;We just wanted you to love us;Magali Mougel;Philippe Baronnet;https://www.reineblanche.com/calendrier/theatre/we-just-wanted-you-to-love-us;12/03/2027;14/03/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Sens la foudre sous ma peau;Catherine Verlaguet;Philippe Baronnet;https://www.reineblanche.com/calendrier/theatre/sens-la-foudre-sous-ma-peau;19/03/2027;21/03/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Si tu t'en vas;Kelly Rivière;Philippe Baronnet;https://www.reineblanche.com/calendrier/theatre/si-tu-t-en-vas;26/03/2027;28/03/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;La Vieille Fille, le chat et la révolution;Alice Vannier, Isabelle Ernoult;Alice Vannier, Isabelle Ernoult;https://www.reineblanche.com/calendrier/theatre/la-vieille-fille-le-chat-et-la-revolution;31/03/2027;25/04/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Bleu;Vladimir Perrin, Mickaël Délis;Vladimir Perrin, Mickaël Délis;https://www.reineblanche.com/calendrier/theatre/bleu;01/04/2027;24/04/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Qui gardera nos enfants ?;Maïa Laiter;Vincent Arfa, Maïa Laiter;https://www.reineblanche.com/calendrier/theatre/qui-gardera-nos-enfants;28/04/2027;14/05/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Romance;Catherine Benhamou;Heidi-Éva Clavier;https://www.reineblanche.com/calendrier/theatre/romance;29/04/2027;15/05/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;Tristes en été;Adèle Choubard;;https://www.reineblanche.com/calendrier/theatre/tristes-en-ete;19/05/2027;30/05/2027;Salle Marie Curie;théâtre;;oui
+reine-blanche;My loneliness is killing me;Céline Ohrel, Wandrille Sauvage, Flavien Beaudron, Stephen Bouteiller;Céline Ohrel, Wandrille Sauvage, Flavien Beaudron, Stephen Bouteiller;https://www.reineblanche.com/calendrier/theatre/my-loneliness-is-killing-me;03/06/2027;13/06/2027;Salle Marie Curie;théâtre;;oui
+theatre-renaissance;Laponie;Marc Angelet, Cristina Clemente;Alexandre de la Patelliere, Matthieu Delaporte;https://www.theatredelarenaissance.com/project/laponie;18/09/2026;10/01/2027;;théâtre;;
+theatre-renaissance;La Tresse;Laetitia Colombani;Johanna Boyé;https://www.theatredelarenaissance.com/project/la-tresse/;29/10/2026;10/01/2027;;théâtre;;oui
+theatre-renaissance;Passeport;Alexis Michalik;Alexis Michalik;https://www.theatredelarenaissance.com/project/passeport-alexis-michalik/;01/11/2026;04/01/2027;;théâtre;;oui
+theatre-renaissance;De vie ou de mort;Alexandre Amiel;Philippe Lefebvre;https://www.theatredelarenaissance.com/project/de-vie-ou-de-mort/;16/09/2027;02/01/2028;;théâtre;;oui
+theatre-saint-georges;The Loop;Robin Goupil;Robin Goupil;https://theatre-saint-georges.com/the-loop/;13/01/2026;03/01/2027;;théâtre;;oui
+theatre-saint-georges;Du charbon dans les veines;Jean-Philippe Daguerre;Jean-Philippe Daguerre;https://theatre-saint-georges.com/charbon-dans-les-veines/;10/09/2026;03/01/2027;;théâtre;;oui
+theatre-saint-georges;Téléphone-moi;;Clotilde Morgiève, Jean-Christophe Dollé;https://theatre-saint-georges.com/telephone-moi/;21/09/2026;29/12/2026;;théâtre;;oui
+theatre-saint-georges;Pompon, Pompon;Pascal Parisot;Patrice Thibaud;https://theatre-saint-georges.com/pompon-pompon/;10/10/2026;26/12/2026;;théâtre;;oui
+theatre-saint-georges;Les Odyssées de Jules Verne;Jules Verne, Laure Grandbesançon;Cirque Le Roux, Charlotte Saliou;https://theatre-saint-georges.com/odyssees-jules-verne/;05/12/2026;11/02/2027;;théâtre;;oui
+scene-parisienne;Flemme;Pascal Grégoire;;https://www.lasceneparisienne.com/spectacle/flemme-2/;27/09/2025;03/01/2027;;théâtre;;oui
+scene-parisienne;Le Tour du monde en 80 jours;Sébastien Azzopardi, Sacha Danino;Daphné de Quatrebarbes, Giuseppe Pedone;https://www.lasceneparisienne.com/spectacle/le-tour-du-monde-en-80-jours/;15/09/2026;08/12/2026;;théâtre;;oui
+scene-parisienne;Ah ! Si tu savais, Harap Alb;;Monica Tracke;https://www.lasceneparisienne.com/spectacle/ah-si-tu-savais-harap-alb/;19/09/2026;03/01/2027;;théâtre;;oui
+scene-parisienne;L'Invité surprise;Romaric Poirier;Romaric Poirier;https://www.lasceneparisienne.com/spectacle/linvite-surprise/;20/09/2026;04/01/2027;;théâtre;;oui
+scene-parisienne;Macbeth;William Shakespeare;Adam Alexander;https://www.lasceneparisienne.com/spectacle/macbeth/;21/09/2026;16/11/2026;;théâtre;;oui
+scene-parisienne;La Fleur au fusil;Lionel Cecilio;Jean-Philippe Daguerre;https://www.lasceneparisienne.com/spectacle/la-fleur-au-fusil/;22/09/2026;02/01/2027;;théâtre;;oui
+scene-parisienne;Monsieur Konass;Laurent Firode;Laurent Firode;https://www.lasceneparisienne.com/spectacle/monsieur-konass/;23/09/2026;09/01/2027;;théâtre;;oui
+scene-parisienne;Les Mémoires de Paul Palandin;;Christophe Canard, Constance Carrelet;https://www.lasceneparisienne.com/spectacle/les-memoires-de-paul-palandin/;25/09/2026;02/01/2027;;théâtre;;oui
+scene-parisienne;Team Buildingue, la comédie musicale;Julie Ladousse, Caroline Le Franc;Violette Kaci;https://www.lasceneparisienne.com/spectacle/team-buildingue-la-comedie-musicale/;29/09/2026;24/11/2026;;théâtre;;oui
+scene-parisienne;Opéra Miaou;;Batuhan Baygın;https://www.lasceneparisienne.com/spectacle/opera-miaou/;03/10/2026;03/04/2027;;théâtre;;oui
+scene-parisienne;L'Improbable Histoire d'un potentiel tueur à gages;Eric Tarral;;https://www.lasceneparisienne.com/spectacle/limprobable-histoire-dun-potentiel-tueur-a-gages/;06/10/2026;17/11/2026;;théâtre;;oui
+scene-parisienne;Fanny contre les vampires;Fanny Spinetta;Agathe Jolivet;https://www.lasceneparisienne.com/spectacle/fanny-contre-les-vampires/;09/10/2026;11/12/2026;;théâtre;;oui
+scene-parisienne;Le loup est revenu !;Karine Tabet, Geoffroy de Pennart;Vincent Caire;https://www.lasceneparisienne.com/spectacle/le-loup-est-revenu/;10/10/2026;21/03/2027;;théâtre;;oui
+scene-parisienne;Le Clan des poétesses;;Bruno Romier;https://www.lasceneparisienne.com/spectacle/le-clan-des-poetesses/;14/10/2026;03/12/2026;;théâtre;;oui
+scene-parisienne;Le Lac des cygnes;;Çağdan Büyük;https://www.lasceneparisienne.com/spectacle/le-lac-des-cygnes/;17/10/2026;24/04/2027;;danse;;oui
+scene-parisienne;Nos dimanches;;;https://www.lasceneparisienne.com/spectacle/nos-dimanches/;21/10/2026;30/12/2026;;théâtre;;oui
+scene-parisienne;La Belle Hélène et les garçons;Martin Loizillon;Nicolas Rigas;https://www.lasceneparisienne.com/spectacle/la-belle-helene-et-les-garcons/;22/10/2026;27/12/2026;;théâtre;;oui
+scene-parisienne;À mon étoile;Franck Le Hen;;https://www.lasceneparisienne.com/spectacle/a-mon-etoile/;25/10/2026;13/12/2026;;théâtre;;oui
+scene-parisienne;Les Folies d'Offenbach;Emmanuel Marfoglia;Emmanuel Marfoglia;https://www.lasceneparisienne.com/spectacle/les-folies-doffenbach/;10/11/2026;24/11/2026;;théâtre;;oui
+scene-parisienne;Le Rêve enchanté de Clara;;;https://www.lasceneparisienne.com/spectacle/le-reve-enchante-de-clara/;21/11/2026;12/12/2026;;danse;;oui
+scene-parisienne;A Christmas Carol;Charles Dickens;Adam Alexander;https://www.lasceneparisienne.com/spectacle/a-christmas-carol/;23/11/2026;21/12/2026;;théâtre;;oui
+scene-parisienne;Casse-Noisette;;Batuhan Baygın;https://www.lasceneparisienne.com/spectacle/casse-noisette/;05/12/2026;20/02/2027;;danse;;oui
+scene-parisienne;Boléro;;;https://www.lasceneparisienne.com/spectacle/bolero/;17/04/2027;17/04/2027;;danse;;oui
+scene-parisienne;Durga & The Life of Krishna;;;https://www.lasceneparisienne.com/spectacle/durga-the-life-of-krishna/;22/05/2027;22/05/2027;;danse;;oui
+scene-parisienne;Ramayana;;;https://www.lasceneparisienne.com/spectacle/ramayana/;26/06/2027;26/06/2027;;danse;;oui
+theatre-splendid;Les Marchands d'étoiles;Anthony Michineau;Julien Alluguette;https://www.lesplendid.com/project/les-marchands-detoiles/;23/08/2024;03/01/2027;;théâtre;;oui
+theatre-splendid;Le Procès d'une vie;Barbara Lamballais, Karina Testa;Barbara Lamballais;https://www.lesplendid.com/project/le-proces-dune-vie/;28/05/2026;03/01/2027;;théâtre;;oui
+theatre-splendid;Colors;;Esteban Perroy;https://www.lesplendid.com/project/colors-le-spectacle-culte/;20/09/2026;27/12/2026;;théâtre;;oui
+theatre-tour-eiffel;Les Desperate Housemen se marient !;Stéphane Murat, Alexis Macquart;;https://theatredelatoureiffel.com/spectacle/les-desperate-housemen-se-marient/;13/11/2026;02/01/2027;;théâtre;;oui
+theatre-tour-eiffel;Lilly, le musical;Nicolas Garry, Oscar Sisto;Mau;https://theatredelatoureiffel.com/spectacle/lilly-le-musical-2026/;14/11/2026;02/01/2027;;théâtre;;oui
+theatre-tristan-bernard;L'Art d'avoir toujours raison;Logan de Carvalho, Sébastien Valignat;Sébastien Valignat;https://www.theatretristanbernard.fr/lart-davoir-toujours-raison/;20/08/2026;19/12/2026;;théâtre;;oui
+theatre-tristan-bernard;Fallait pas les inviter;Fanny Gurunlian;Nicolas Briançon;https://www.theatretristanbernard.fr/fallait-pas-les-inviter/;10/09/2026;19/12/2026;;théâtre;;oui
+theatre-tristan-bernard;Cessez d'être gentil, soyez vrai ! (dans le couple);Thomas d'Ansembourg, Danielle Proulx, Guy Corneau, Camille Bardery, Ivan Calbérac;Ivan Calbérac;https://www.theatretristanbernard.fr/cessez-detre-gentil/;18/11/2026;23/12/2026;;théâtre;;oui
+theatre-des-varietes;Un succès fou;Sébastien Castro;José Paul;https://www.theatredesvarietes.fr/spectacles/un-succes-fou;27/08/2026;03/01/2027;;théâtre;;
+theatre-des-varietes;Radicale;David Friszman;;https://www.theatredesvarietes.fr/spectacles/radicale/;14/10/2026;19/12/2026;Petite salle;théâtre;;oui
+theatre-des-varietes;Arsène Lupin, gentleman illusionniste;Ely Grimaldi, Igor de Chaillé;Nicolas Nebot;https://www.theatredesvarietes.fr/spectacles/arsene-lupin-gentleman-illusionniste-2/;18/10/2026;17/04/2027;Grande salle;théâtre;;oui
+theatre-mogador;Le Roi Lion;Roger Allers, Irene Mecchi;Julie Taymor;https://www.stage-entertainment.fr/musicals-shows/le-roi-lion-le-musical-site-officiel;06/11/2021;31/07/2027;;théâtre;;oui
+theatre-mogador;Les Aventures de Tom Sawyer – Le Musical;Ludovic-Alexandre Vidal;David Rozen;https://agence-billetterie.tickandlive.com/evenement/les-aventures-de-tom-sawyer-le-musical?idwl=22;21/12/2026;31/01/2027;;théâtre;;oui

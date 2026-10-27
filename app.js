@@ -80,7 +80,7 @@ async function loadData() {
   const [publicsText, privesText, publicsPlaysText, privesPlaysText] = await Promise.all([
     fetch("data/theatres-publics.csv").then(r => r.text()),
     fetch("data/theatres-prives.csv").then(r => r.text()),
-    fetch("data/theatres-publics-pieces-2026-2027.csv").then(r => r.text()),
+    fetch("data/theatres-publics-pieces-2026-2027-v2.csv").then(r => r.text()),
     fetchOptionalCSV("data/theatres-prives-pieces-2026-2027.csv"),
   ]);
 
