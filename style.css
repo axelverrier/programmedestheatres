@@ -3,37 +3,43 @@
 :root {
   --name-w: 220px;
   --radius: 4px;
-  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'Space Mono', ui-monospace, 'Courier New', monospace;
 
-  --header-bg:            #1a2540;
-  --header-bg-hover:      #253560;
-  --bg:                   #fef8f0;
-  --row-bg:               #fffdf8;
-  --row-alt:              #faf4ea;
-  --border:               #e8d8c4;
-  --month-line:           #f0e4d4;
-  --today-col:            #d06010;
-  --muted:                #9a806a;
-  --text:                 #2a1a10;
-  --text-2:               #5a3e2e;
-  --play-bg:              #f0c890;
-  --filter-btn-bg:        #f5e8d8;
-  --filter-btn-color:     #3a2418;
-  --filter-active-bg:     #fffdf8;
-  --link-hover:           #a03010;
-  --scrollbar-track:      #f0e4d4;
-  --scrollbar-thumb:      #c8a880;
-  --scrollbar-hover:      #a88860;
+  /* "Carnet" theme: risograph notebook. --ink is the line/text colour. */
+  --ink:                  #1f2430;
+  --riso-pink:            #ff5c8a;
+  --riso-blue:            #2c5cff;
+  --header-bg:            var(--ink);
+  --header-bg-hover:      #333a4a;
+  --bg:                   #fbfaf6;
+  --row-bg:               #fbfaf6;
+  --row-alt:              #f6f4ee;
+  --border:               var(--ink);
+  --month-line:           rgba(31,36,48,.18);
+  --today-col:            var(--riso-pink);
+  --muted:                #6b7080;
+  --text:                 var(--ink);
+  --text-2:               #3e4454;
+  --play-bg:              #ffb3c7;
+  --play-shadow:          var(--riso-pink);
+  --filter-btn-bg:        #fbfaf6;
+  --filter-btn-color:     var(--ink);
+  --filter-active-bg:     #fbfaf6;
+  --link-hover:           var(--riso-blue);
+  --scrollbar-track:      #f0eee6;
+  --scrollbar-thumb:      var(--ink);
+  --scrollbar-hover:      #3e4454;
 
-  --badge-national-bg:    #f5e4c0;
-  --badge-national-color: #4a2e08;
-  --badge-national-border:#d4aa60;
-  --badge-public-bg:      #d8eee8;
-  --badge-public-color:   #1a4838;
-  --badge-public-border:  #88c0b0;
-  --badge-prive-bg:       #fce8d8;
-  --badge-prive-color:    #7a2e08;
-  --badge-prive-border:   #e0a070;
+  --badge-national-bg:    var(--ink);
+  --badge-national-color: #fbfaf6;
+  --badge-national-border:var(--ink);
+  --badge-public-bg:      transparent;
+  --badge-public-color:   var(--ink);
+  --badge-public-border:  var(--ink);
+  --badge-prive-bg:       transparent;
+  --badge-prive-color:    var(--ink);
+  --badge-prive-border:   var(--ink);
 }
 
 
@@ -139,24 +145,27 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   position: sticky; left: 0; z-index: 6;
   background: var(--bg);
 }
-.months-track { position: relative; height: 26px; margin-left: 0; }
+.months-track { position: relative; height: 34px; margin-left: 0; }
 .month-label {
-  position: absolute; top: 0;
-  transform: translateX(-50%);
+  position: absolute; top: 0; height: 100%;
   font-size: .68rem; font-weight: 700; color: var(--muted);
   text-transform: uppercase; letter-spacing: .06em;
   white-space: nowrap; user-select: none;
 }
+.month-label span {
+  position: sticky; left: calc(var(--name-w) + 6px);
+  display: inline-block; padding-left: 5px;
+}
 
 /* Today marker in months header */
 .months-today {
-  position: absolute; top: 0; bottom: 0;
+  position: absolute; top: 16px; bottom: -3px; /* -3px bridges the gap to the first row */
   width: 2px; background: var(--today-col); opacity: .8;
   border-radius: 1px;
 }
 .months-today::after {
   content: 'auj.';
-  position: absolute; top: 6px; left: 50%;
+  position: absolute; top: 2px; left: 50%;
   transform: translateX(-50%);
   font-size: .62rem; font-weight: 700;
   color: var(--today-col); white-space: nowrap;
@@ -223,8 +232,8 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   width: 1px; background: var(--month-line); pointer-events: none;
 }
 .today-line {
-  position: absolute; top: 0; bottom: 0;
-  width: 2px; background: var(--today-col); opacity: .55;
+  position: absolute; top: 0; bottom: -1.5px; /* cover the row border */
+  width: 2px; background: var(--today-col); opacity: .9;
   pointer-events: none; z-index: 4;
 }
 
@@ -242,6 +251,12 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   .play-block:hover { filter: brightness(1.06); transform: scaleY(1.04); z-index: 10; }
 }
 .play-block.dimmed { opacity: .15; pointer-events: none; }
+/* Riso ink per main type: pale fill + offset "stamp" shadow in the full ink */
+.play-block { box-shadow: 3px 2px 0 var(--play-shadow); border: 1.5px solid var(--ink); }
+.play-block.t-theatre      { --play-bg: #ffb3c7; --play-shadow: #ff5c8a; }
+.play-block.t-danse        { --play-bg: #a9e5c8; --play-shadow: #1fae72; }
+.play-block.t-marionnettes { --play-bg: #ffc9a3; --play-shadow: #ff7a2f; }
+.play-block.t-performance  { --play-bg: #b9c6ff; --play-shadow: #2c5cff; }
 
 .play-block-inner {
   display: flex; flex-direction: column; justify-content: center;
@@ -451,3 +466,102 @@ footer {
   .theatre-name a { font-size: .75rem; }
   .theatre-name .arr { display: none; }
 }
+
+/* ── Carnet theme overrides ────────────────────────────────────────── */
+body {
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(rgba(31,36,48,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31,36,48,.055) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+header { background: transparent; color: var(--ink); padding: 20px 28px 14px; }
+header h1 {
+  display: inline-block; font-weight: 700; letter-spacing: -.03em;
+  background: var(--riso-pink); color: #fbfaf6; padding: 2px 12px;
+  transform: rotate(-1.2deg); box-shadow: 4px 4px 0 var(--riso-blue);
+}
+header .subtitle { font-family: var(--mono); font-size: .74rem; opacity: 1; color: var(--text-2); margin-top: 10px; }
+.tab-switcher { background: transparent; gap: 6px; padding: 0; }
+.tab-opt {
+  font-family: var(--mono); text-transform: none; letter-spacing: 0; font-weight: 400;
+  color: var(--ink); border: 1.5px solid var(--ink); border-radius: 6px; background: var(--bg);
+}
+.tab-opt:hover { color: var(--ink); background: #ffe0ea; }
+.tab-opt.active { background: var(--ink); color: var(--bg); }
+.today-btn { background: var(--ink); font-family: var(--mono); border: 1.5px solid var(--ink); }
+.today-btn-fab { box-shadow: 3px 3px 0 var(--riso-pink); }
+.controls { background: rgba(251,250,246,.94); border-bottom: 1.5px solid var(--ink); box-shadow: none; }
+.filter-label { font-family: var(--mono); font-weight: 400; text-transform: lowercase; letter-spacing: 0; color: var(--ink); }
+.filter-btn, .filters-toggle { font-family: var(--mono); border: 1.5px solid var(--ink); }
+.filter-btn .dot { width: 9px; height: 9px; border: 1.5px solid var(--ink); }
+.filter-btn.active { border-color: var(--ink); color: var(--ink); box-shadow: 2px 2px 0 var(--ink); background: #ffe0ea; }
+.control-sep { background: rgba(31,36,48,.25); }
+.vision-btn { font-family: var(--mono); border: 1.5px solid var(--ink); color: var(--ink); background: #e3e9ff; }
+.vision-btn:hover { background: #cdd8ff; }
+.vision-btn.active { background: var(--riso-blue); color: #fff; border-color: var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+.vision-btn::after { font-family: var(--mono); }
+.month-label { font-family: var(--mono); font-weight: 400; text-transform: lowercase; letter-spacing: 0; color: var(--ink); }
+.months-today::after {
+  font-family: var(--mono); color: #fff; background: var(--riso-pink);
+  padding: 0 5px; border-radius: 3px; font-weight: 700;
+}
+.theatre-row { border-bottom: 0; border-top: 1.5px solid var(--ink); }
+.theatre-row:nth-child(odd)  { background: rgba(251,250,246,.86); }
+.theatre-row:nth-child(even) { background: rgba(246,244,238,.86); }
+/* The sticky name column must be opaque so blocks scroll under it unseen */
+.theatre-row:nth-child(odd) .theatre-name  { background: #fbfaf6; }
+.theatre-row:nth-child(even) .theatre-name { background: #f6f4ee; }
+.month-label span { transition: opacity .12s; }
+.month-label span.leaving { opacity: 0; }
+.theatre-name { border-right: 1.5px solid var(--ink); }
+.theatre-name::after { display: none; }
+.theatre-name a { color: var(--ink); font-weight: 700; }
+.theatre-name .arr, .theatre-name .incomplete-marker { font-family: var(--mono); color: var(--text-2); }
+.status-badge { font-family: var(--mono); font-weight: 400; border-style: dashed !important; border-width: 1.5px !important; border-radius: 4px; }
+.badge-national { border-style: solid !important; }
+.play-title, .play-title-link { font-family: var(--mono); color: var(--ink); }
+.tooltip { background: var(--ink); border-radius: 6px; box-shadow: 4px 4px 0 var(--riso-pink); font-family: var(--font); }
+.scroll-mirror { background: var(--bg); border-top: 1.5px solid var(--ink); box-shadow: none; }
+footer { font-family: var(--mono); border-top: 1.5px solid var(--ink); color: var(--text-2); }
+.page-title { font-weight: 700; letter-spacing: -.02em; font-size: 1.2rem; }
+.page-subtitle, .critics-theatre, .critics-source, .critics-meta, .festival-location { font-family: var(--mono); }
+.critics-play-link, .festival-name, .festival-link { color: var(--ink); }
+.festival-card { border: 1.5px solid var(--ink); border-radius: 6px; box-shadow: 3px 3px 0 var(--riso-pink); background: var(--bg); }
+.festival-dates { color: var(--riso-blue); font-family: var(--mono); }
+.critics-list li, .critics-list li:first-child { border-color: rgba(31,36,48,.35); }
+.placeholder { border-color: var(--ink); }
+@media (max-width: 640px) {
+  header { padding: 14px 14px 10px; }
+  .header-inner { flex-wrap: wrap; row-gap: 12px; }
+  header h1 { font-size: 1.1rem; white-space: nowrap; }
+  .tab-switcher { margin-left: 0; gap: 4px; }
+  .tab-opt { padding: 3px 8px; font-size: .68rem; }
+}
+
+/* ── Carnet, minimal pass: fewer lines, lighter rules ─────────────── */
+body {
+  background-image:
+    linear-gradient(rgba(31,36,48,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31,36,48,.03) 1px, transparent 1px);
+}
+.play-block { border: 0; box-shadow: 2px 2px 0 var(--play-shadow); min-height: 0 !important; }
+.play-block-inner { padding: 0 8px 0 10px; }
+.play-title, .play-title-link { font-size: .66rem; }
+.controls { border-bottom: 1px solid rgba(31,36,48,.12); }
+.filter-btn, .filters-toggle { border: 1px solid rgba(31,36,48,.22); }
+.filter-btn.active { border-color: var(--ink); box-shadow: none; }
+.filter-btn .dot { border: 0; }
+.control-sep { background: rgba(31,36,48,.12); }
+.theatre-row { border-top: 1px solid rgba(31,36,48,.1); }
+.theatre-row:nth-child(odd), .theatre-row:nth-child(even) { background: transparent; }
+.theatre-row:nth-child(odd) .theatre-name, .theatre-row:nth-child(even) .theatre-name { background: var(--bg); }
+.theatre-name { border-right: 1px solid rgba(31,36,48,.14); }
+.status-badge, .badge-national {
+  border: 0 !important; background: none !important; padding: 0;
+  color: var(--muted) !important; font-size: .6rem; margin-top: 1px;
+}
+.badge-national { color: var(--ink) !important; font-weight: 700; }
+.month-line { background: rgba(31,36,48,.08); }
+.today-line { width: 1.5px; }
+footer { border-top: 1px solid rgba(31,36,48,.12); }

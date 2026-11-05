@@ -45,6 +45,9 @@ let editorsPick = false;
 // ── Data loaders ─────────────────────────────────────────────────────
 
 // Accepts DD/MM/YYYY or YYYY-MM-DD, returns YYYY-MM-DD
+// Play block height and the vertical step between lanes (px)
+const BLOCK_H = 30, LANE_H = 37;
+
 function parseToISO(str) {
   str = str.trim();
   if (/^\d{2}\/\d{2}\/\d{4}$/.test(str)) {
@@ -147,12 +150,19 @@ function render() {
   const mTrack = document.createElement("div");
   mTrack.className = "months-track";
 
-  months.forEach(d => {
-    const lbl = document.createElement("div");
-    lbl.className = "month-label";
-    lbl.style.left = ((d - RANGE_START) / TOTAL_MS * 100) + "%";
-    lbl.textContent = MONTHS_FR[d.getMonth()] + " " + String(d.getFullYear()).slice(2);
-    mTrack.appendChild(lbl);
+  // Each label spans its whole month and its text is sticky, so the current
+  // month's name stays readable next to the name column instead of being
+  // half-hidden under it.
+  months.forEach((d, i) => {
+    const next = months[i + 1] || RANGE_END;
+    const cell = document.createElement("div");
+    cell.className = "month-label";
+    cell.style.left  = ((d - RANGE_START) / TOTAL_MS * 100) + "%";
+    cell.style.width = ((next - d) / TOTAL_MS * 100) + "%";
+    const txt = document.createElement("span");
+    txt.textContent = MONTHS_FR[d.getMonth()] + " " + String(d.getFullYear()).slice(2);
+    cell.appendChild(txt);
+    mTrack.appendChild(cell);
   });
 
   // Today tick in header
@@ -179,7 +189,7 @@ function render() {
   visibleTheatres.forEach(theatre => {
     const renderedPlays = theatre.plays.filter(p => pct(p.endDate) - pct(p.startDate) > 0);
     const numLanes  = assignLanes(renderedPlays);
-    const trackH    = numLanes * 51 + 8;
+    const trackH    = numLanes * LANE_H + 8;
 
     const row = document.createElement("div");
     row.className = "theatre-row";
@@ -197,7 +207,7 @@ function render() {
     // Track
     const track = document.createElement("div");
     track.className = "theatre-track";
-    track.style.height = trackH + "px";
+    track.style.minHeight = trackH + "px"; // min, so the track (and today line) stretches to a taller name column
 
     // Month grid lines
     months.forEach(d => {
@@ -225,11 +235,12 @@ function render() {
       const isOn = activeFilters.size === 0 || play.tags.some(t => activeFilters.has(t.label));
 
       const block = document.createElement("div");
-      block.className = "play-block" + (isOn ? "" : " dimmed");
+      const mainType = play.tags[0] ? play.tags[0].label.normalize("NFD").replace(/[̀-ͯ]/g, "") : "";
+      block.className = "play-block" + (mainType ? " t-" + mainType : "") + (isOn ? "" : " dimmed");
       block.style.left   = left + "%";
       block.style.width  = w + "%";
-      block.style.top    = (play._lane * 51 + 4) + "px";
-      block.style.height = "44px";
+      block.style.top    = (play._lane * LANE_H + 5) + "px";
+      block.style.height = BLOCK_H + "px";
 
       const inner = document.createElement("div");
       inner.className = "play-block-inner";
@@ -319,6 +330,21 @@ function syncMirrorWidth() {
   mirrorInner.style.width = sc.scrollWidth + "px";
 }
 
+// A sticky month label gets pushed out by the next month; hide it once it
+// starts sliding under the name column so no half-cut fragment shows.
+function updateMonthLabels() {
+  const minX = sc.getBoundingClientRect().left + getNameWidth() + 6;
+  document.querySelectorAll(".month-label span").forEach(s => {
+    s.classList.toggle("leaving", s.getBoundingClientRect().left < minX - 1);
+  });
+}
+let monthRaf = false;
+sc.addEventListener("scroll", () => {
+  if (monthRaf) return;
+  monthRaf = true;
+  requestAnimationFrame(() => { updateMonthLabels(); monthRaf = false; });
+}, { passive: true });
+
 // Scroll events fire asynchronously, so a flag can't catch the echo of our own
 // write; compare positions instead. Writing back into a container mid-swipe
 // kills touch momentum, which is what made mobile scrolling jerky.
@@ -351,6 +377,7 @@ function renderStatusFilters() {
       btn.classList.add("active");
       render();
       syncMirrorWidth();
+  updateMonthLabels();
     });
     c.appendChild(btn);
   });
@@ -370,6 +397,7 @@ function renderRegionFilters() {
       btn.classList.add("active");
       render();
       syncMirrorWidth();
+  updateMonthLabels();
     });
     c.appendChild(btn);
   });
@@ -388,6 +416,7 @@ function renderFilterGroup(containerId, colorMap) {
       else                          { activeFilters.add(label);    btn.classList.add("active");    }
       render();
       syncMirrorWidth();
+  updateMonthLabels();
     });
     c.appendChild(btn);
   });
@@ -443,6 +472,7 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
   renderEditorsPick();
   render();
   syncMirrorWidth();
+  updateMonthLabels();
 });
 
 // ── Init ─────────────────────────────────────────────────────────────
@@ -463,4 +493,5 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
   render();
   setInitialView();
   syncMirrorWidth();
+  updateMonthLabels();
 })();
