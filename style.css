@@ -128,6 +128,7 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 .timeline-scroll-container {
   overflow-x: scroll; padding-bottom: 24px;
   scrollbar-width: none;
+  overscroll-behavior-x: contain;
 }
 .timeline-scroll-container::-webkit-scrollbar { display: none; }
 .timeline-wrapper { min-width: 860px; padding: 12px 28px 0 0; }
@@ -233,15 +234,21 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
   border-radius: var(--radius);
   background: var(--play-bg);
   cursor: pointer; overflow: hidden;
+  overflow: clip; /* clip (not hidden) so the sticky title below follows the timeline scroll */
   transition: filter .1s, transform .1s;
   z-index: 2;
 }
-.play-block:hover { filter: brightness(1.06); transform: scaleY(1.04); z-index: 10; }
+@media (hover: hover) {
+  .play-block:hover { filter: brightness(1.06); transform: scaleY(1.04); z-index: 10; }
+}
 .play-block.dimmed { opacity: .15; pointer-events: none; }
 
 .play-block-inner {
   display: flex; flex-direction: column; justify-content: center;
   gap: 2px; padding: 0 8px 0 12px; height: 100%; overflow: hidden;
+  /* Keep the title visible when the block's left edge scrolls under the name column */
+  position: sticky; left: calc(var(--name-w) + 8px);
+  width: fit-content; max-width: 100%; box-sizing: border-box;
 }
 
 .play-title {
@@ -320,6 +327,7 @@ header .subtitle { font-size: .8rem; opacity: .55; margin-top: 3px; }
 .scroll-mirror::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
 .scroll-mirror::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-hover); }
 #scrollMirrorInner { height: 1px; }
+@media (pointer: coarse) { .scroll-mirror { display: none; } }
 
 /* Tab switcher (in header) */
 .tab-switcher {

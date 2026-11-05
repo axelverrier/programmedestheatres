@@ -309,23 +309,6 @@ function hideTip() { tip.classList.remove("visible"); }
 // Close mobile tooltip on tap outside
 document.addEventListener("click", hideTip);
 
-// ── Sticky labels ─────────────────────────────────────────────────────
-// When a block's left edge is scrolled off-screen, push its title into view.
-
-function updateLabels() {
-  const sc   = document.getElementById("scrollContainer");
-  const minX = sc.getBoundingClientRect().left + getNameWidth() + 8;
-  document.querySelectorAll(".play-block").forEach(block => {
-    const rect  = block.getBoundingClientRect();
-    const inner = block.querySelector(".play-block-inner");
-    if (rect.left < minX && rect.right > minX) {
-      inner.style.transform = `translateX(${minX - rect.left}px)`;
-    } else {
-      inner.style.transform = "";
-    }
-  });
-}
-
 // ── Mirror scrollbar ─────────────────────────────────────────────────
 
 const sc     = document.getElementById("scrollContainer");
@@ -336,24 +319,15 @@ function syncMirrorWidth() {
   mirrorInner.style.width = sc.scrollWidth + "px";
 }
 
-let syncingFromSc = false, syncingFromMirror = false;
-let labelRafPending = false;
+// Scroll events fire asynchronously, so a flag can't catch the echo of our own
+// write; compare positions instead. Writing back into a container mid-swipe
+// kills touch momentum, which is what made mobile scrolling jerky.
 sc.addEventListener("scroll", () => {
-  if (!labelRafPending) {
-    labelRafPending = true;
-    requestAnimationFrame(() => { updateLabels(); labelRafPending = false; });
-  }
-  if (syncingFromMirror) return;
-  syncingFromSc = true;
-  mirror.scrollLeft = sc.scrollLeft;
-  syncingFromSc = false;
+  if (Math.abs(mirror.scrollLeft - sc.scrollLeft) > 1) mirror.scrollLeft = sc.scrollLeft;
 }, { passive: true });
 
 mirror.addEventListener("scroll", () => {
-  if (syncingFromSc) return;
-  syncingFromMirror = true;
-  sc.scrollLeft = mirror.scrollLeft;
-  syncingFromMirror = false;
+  if (Math.abs(sc.scrollLeft - mirror.scrollLeft) > 1) sc.scrollLeft = mirror.scrollLeft;
 }, { passive: true });
 
 // ── Filters ──────────────────────────────────────────────────────────
@@ -377,7 +351,6 @@ function renderStatusFilters() {
       btn.classList.add("active");
       render();
       syncMirrorWidth();
-      updateLabels();
     });
     c.appendChild(btn);
   });
@@ -397,7 +370,6 @@ function renderRegionFilters() {
       btn.classList.add("active");
       render();
       syncMirrorWidth();
-      updateLabels();
     });
     c.appendChild(btn);
   });
@@ -416,7 +388,6 @@ function renderFilterGroup(containerId, colorMap) {
       else                          { activeFilters.add(label);    btn.classList.add("active");    }
       render();
       syncMirrorWidth();
-      updateLabels();
     });
     c.appendChild(btn);
   });
@@ -472,7 +443,6 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
   renderEditorsPick();
   render();
   syncMirrorWidth();
-  updateLabels();
 });
 
 // ── Init ─────────────────────────────────────────────────────────────
@@ -493,5 +463,4 @@ document.getElementById("editorsPickBtn").addEventListener("click", () => {
   render();
   setInitialView();
   syncMirrorWidth();
-  updateLabels();
 })();
